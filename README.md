@@ -1,3 +1,16 @@
+
+
+
+
+fonts were checked on [rocketium](https://rocketium.com/academy/20-best-fonts-for-ecommerce-businesses/)
+I chose the Rubik font
+
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome sundeepbassi,
