@@ -1,3 +1,224 @@
+Project Overview
+
+Introduction
+
+Goals
+
+Purpose
+
+Project Future
+
+Future Features
+
+User Experience
+
+UX
+
+Card Testing
+
+User Stories
+
+Agile Methodology
+
+Significance and Complexity
+
+User Testing
+
+Wireframes
+
+PC Wireframes
+
+Laptop Wireframes
+
+Tablet Wireframes
+
+Mobile
+
+Database Models
+
+fsc_users app model structure (UserProfile)
+
+fsc_contact app model structure (Contact)
+
+fsc_checkout app model structure (Order, OrderLineItem)
+
+fsc_products app model structure (Category, Products, Review, FavouritesList)
+
+Database Schema
+
+Project Design
+
+Composition
+
+Fonts
+
+fonts were checked on [rocketium](https://rocketium.com/academy/20-best-fonts-for-ecommerce-businesses/)
+I chose the Rubik font
+
+
+Color Scheme
+
+Color Contrast Grid
+
+Project Features
+
+Home Page
+
+Main navbar
+
+Carousel & filter nav
+
+Featured products
+
+Newsletter
+
+Footer and social links
+
+Products Page
+
+Products view
+
+Products detail
+
+Add product
+
+Edit product
+
+Add review
+
+Reviews
+
+Checkout
+
+Shopping cart
+
+Order summary
+
+Checkout successful
+
+Profiles page
+
+Profile favourites list order history
+
+About Page
+
+Fat stack coffee ethos
+
+Fat stack coffee services
+
+Contact Page
+
+Fat stack coffee google maps location
+
+Fat stack coffee contact form
+
+Fat stack coffee contact details
+
+Allauth
+
+Sign in
+
+Sign out
+
+Sign up
+
+Code Validation
+
+HTML
+
+Beautify
+
+Nu Html Checker
+
+CSS
+
+Jigsaw
+
+Javascript
+
+Jshint
+
+Python
+
+Pep8
+
+Technologies Used
+
+Manual Testing
+
+Sign up
+
+Sign in
+
+Sign out
+
+Checkout
+
+Newsletter
+
+Admin
+
+Product detail
+
+Add product
+
+Edit product
+
+Delete product
+
+Add review/Ratings
+
+Pagination
+
+Contact
+
+SEO Research and Implementation
+
+SEO Research
+
+Marketing research
+
+Keyword Research
+
+SEO Keywords
+
+Web Marketing
+
+Newsletter
+
+Facebook business page
+
+Bug report
+
+Squashed bugs
+
+Remaining bugs
+
+Security
+
+Deployment
+
+Cloning Project with Github
+
+Forking Project Via Github
+
+Deployment via Heroku
+
+Note.
+
+Credits
+
+Media
+
+Product Images
+
+Site-Wide Images
+
+Technology Acknowledgments
+
+Table of contents generated with markdown-toc
+
+
 
 
 
