@@ -208,6 +208,10 @@ Note.
 
 Credits
 
+The layout for the readme is accredited to [Matex600](https://github.com/Matex600/Fat-Stack-Coffee#credits)
+
+The code used in this project is accredited to the Boutique Ado Walkthrough project by the Code insitute.
+
 Media
 
 Product Images
