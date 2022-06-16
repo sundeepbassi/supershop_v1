@@ -191,6 +191,7 @@ Facebook business page
 Bug report
 
 Squashed bugs
+On 16 June 2022 found that shopping bag icon was not working and checked code and found </a> was at the end of code on line 82 of base.html and once this was removedd the icon did work.
 
 Remaining bugs
 
