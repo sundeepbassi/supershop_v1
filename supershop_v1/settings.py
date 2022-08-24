@@ -11,10 +11,11 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 import os
-from pathlib import Path
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# BASE_DIR = path(__file__).resolve().parent.parent
 
 
 # Quick-start development settings - unsuitable for production
@@ -77,7 +78,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',  # required by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -120,13 +121,15 @@ WSGI_APPLICATION = 'supershop_v1.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+   'default': {
+      'ENGINE': 'django.db.backends.sqlite3',        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+      }
+ }
 
-
+# DATABASES = {
+#     'default': dj_database_url.parse('postgres://oixzrersslqrzg:63897e6cfaa133ededb33010e3cc927785cbebf2582f955a2d9e9ca6791c8e2a@ec2-54-246-185-161.eu-west-1.compute.amazonaws.com:5432/de0pl9r3jjq927')
+# }
+# 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
