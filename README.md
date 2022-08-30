@@ -282,6 +282,14 @@ Credits
 
 The layout for the readme is accredited to [Matex600](https://github.com/Matex600/Fat-Stack-Coffee#credits)
 
+[Google search for collars](https://www.google.com/search?q=collar+dog&tbm=isch&ved=2ahUKEwj2xPGpie35AhURRhoKHdNKDCAQ2-cCegQIABAA&oq=collar+dog&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6BAgAEEM6CAgAEIAEELEDOgcIABCxAxBDUNcHWMAMYO4OaABwAHgAgAFSiAGIA5IBATWYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=MToNY7boOJGMadOVsYAC&bih=896&biw=1545#imgrc=u4XpnjmM9ImeHM)
+
+[Google search for harnesses](https://www.google.com/search?q=dog+harnesses+uk&tbm=isch&ved=2ahUKEwi7j9CSn-_5AhWlg84BHX3VAMYQ2-cCegQIABAA&oq=dog+harnesses&gs_lcp=CgNpbWcQARgBMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoECCMQJzoECAAQQzoICAAQgAQQsQM6CwgAEIAEELEDEIMBOgcIABCxAxBDOgcIIxDqAhAnOggIABCxAxCDAVD-CliDYmD0gAFoAnAAeACAAbcBiAHYDpIBBDIzLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABBsABAQ&sclient=img&ei=gl0OY7vGDKWHur4P_aqDsAw&bih=896&biw=1545#imgrc=xpIwkOabIv8zZM&imgdii=so99OeUeb-JESM)
+
+
+[Google search for leads](https://www.google.com/search?q=dog+leads&sxsrf=ALiCzsaEQxA6FV2Y6toCrDo9mFnLtnnI1w:1661898200219&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjxxYGfze_5AhUmS0EAHRUdC5AQ_AUoAnoECAIQBA&biw=1920&bih=880&dpr=1#imgrc=Q9oqvfF-MtKryM)
+
+
 The code used in this project is accredited to the Boutique Ado Walkthrough project by the Code insitute.
 
 Media
