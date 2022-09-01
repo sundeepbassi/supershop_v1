@@ -17,9 +17,10 @@
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=activewear,essentials" class="dropdown-item">Collars</a>
-                <a href="{% url 'products' %}?category=jeans" class="dropdown-item">Harnesses</a>
-                <a href="{% url 'products' %}?category=shirts" class="dropdown-item">Leads</a>
+                <a href="{% url 'products' %}?category=Collars" class="dropdown-item">Collars</a>
+                <a href="{% url 'products' %}?category=Harnesses" class="dropdown-item">Harnesses</a>
+                <a href="{% url 'products' %}?category=Leads" class="dropdown-item">Leads</a>
+                <a href="{% url 'products' %}?category=Toys" class="dropdown-item">Toys</a>
             </div>
         </li>
 
@@ -28,10 +29,9 @@
                 Food
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'products' %}?category=bed_bath" class="dropdown-item">Tinned</a>
-                <a href="{% url 'products' %}?category=kitchen_dining" class="dropdown-item">Biscuits</a>
-                <a href="{% url 'products' %}?category=bed_bath,kitchen_dining" class="dropdown-item">Nutrition</a>
-                <a href="{% url 'products' %}?category=bed_bath,kitchen_dining" class="dropdown-item">Specialist</a>
+                <a href="{% url 'products' %}?category=Tinned" class="dropdown-item">Tinned</a>
+                <a href="{% url 'products' %}?category=Biscuits" class="dropdown-item">Biscuits</a>
+                <a href="{% url 'products' %}?category=Nutrition" class="dropdown-item">Nutrition</a>
             </div>
         </li>
 
@@ -40,22 +40,9 @@
                 Clothes
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">Jackets</a>
-                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Seasonal</a>
-                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Scarves</a>
-                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">Fancy Dress</a>
-            </div>
-        </li>
-        
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="toys-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Toys
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="toys-link">
-                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">Balls</a>
-                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Squeaky</a>
-                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Cuddly</a>
-                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">Rope</a>
+                <a href="{% url 'products' %}?category=Jackets" class="dropdown-item">Jackets</a>
+                <a href="{% url 'products' %}?category=Scarves" class="dropdown-item">Scarves</a>
+                <a href="{% url 'products' %}?category=Fancy Dress" class="dropdown-item">Fancy Dress</a>
             </div>
         </li>
     </ul>

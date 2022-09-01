@@ -295,15 +295,15 @@ The layout for the readme is accredited to [Matex600](https://github.com/Matex60
 
 [Google search for Nutrition ](https://www.google.com/search?q=nutrition+for+dogs&tbm=isch&ved=2ahUKEwjpnam2ivL5AhUW_BoKHesSA-8Q2-cCegQIABAA&oq=nutrition+for+dog&gs_lcp=CgNpbWcQARgAMgUIABCABDIGCAAQHhAFMgYIABAeEAUyBggAEB4QBTIGCAAQHhAIMgYIABAeEAgyBggAEB4QCDIGCAAQHhAIMgYIABAeEAgyBggAEB4QCDoGCAAQHhAHOggIABAeEAgQB1AAWNoJYP4aaABwAHgAgAFbiAGbApIBATSYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=b9oPY6mqCJb4a-uljPgO&bih=880&biw=1920#imgrc=_OeRUkcFmiuxmM&imgdii=8tUKxD2FBa3BOM)
 
-[Google search for ]()
+[Google search for Jackets ](https://www.google.com/search?q=jackets+for+dogs&tbm=isch&ved=2ahUKEwiizsnIivL5AhUKlRoKHXSRARMQ2-cCegQIABAA&oq=Jackets+for+dogs&gs_lcp=CgNpbWcQARgAMgUIABCABDIGCAAQHhAFMgYIABAeEAUyBggAEB4QBTIGCAAQHhAFMgYIABAeEAUyBggAEB4QBTIGCAAQHhAFMgYIABAeEAUyBggAEB4QBToECAAQQzoGCAAQHhAHOgYIABAeEAg6CAgAEB4QBxAFUIQUWIpuYN2HAWgDcAB4AIABYYgB-guSAQIyMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=ldoPY-KvGYqqavSihpgB&bih=880&biw=1920#imgrc=BCbInGvEsaEX3M)
 
-[Google search for ]()
+[Google search for Scarves](https://www.google.com/search?q=scarves+for+dogs&tbm=isch&ved=2ahUKEwiAkcH0n_L5AhXU0YUKHXWbDjEQ2-cCegQIABAA&oq=scarves+for+dogs&gs_lcp=CgNpbWcQAzIFCAAQgAQ6BAgAEEM6BggAEB4QBzoGCAAQHhAFOggIABAeEAcQBVCeFFiqM2CiWmgAcAB4AIABbogB2AiSAQQxNC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=9vAPY4C-KtSjlwT1trqIAw&bih=880&biw=1920#imgrc=q3mGHB8v4E3TBM)
 
-[Google search for ]()
+[Google search for Fancy Dress ](https://www.google.com/search?q=fancy+dress+for+dogs&tbm=isch&hl=en-GB&sa=X&ved=2ahUKEwjY-PeAivP5AhWQz4UKHWG2DwEQBXoECAEQYw&biw=1903&bih=880#imgrc=yOTMmNhGUHyNRM)
 
-[Google search for ]()
+[Google search for Dog Toy Advisor](https://dogtoysadvisor.com/toys-to-keep-dogs-busy/)
 
-[Google search for ]()
+[Google search for Dog Toys](https://www.google.com/search?q=toys+for+dogs&sxsrf=ALiCzsY9w64A9dErPyifXnm0cD8T5R3e3g:1662019648336&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjkvv7VkfP5AhXbiFwKHQ2eAdAQ_AUoAnoECAEQBA&biw=1920&bih=880&dpr=1#imgrc=rxw4VDCbHoq4WM&imgdii=v9tUlH9kHimLAM)
 
 [Google search for ]()
 
