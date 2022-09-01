@@ -1,7 +1,7 @@
 Project Overview
 
 Introduction
-
+The Supershop for doggy things was inpired by a petblog that was created for a friend Shanti.  Shantis devotion and care for animal welfare and her pet dog amazed me and after doing the petblog we thought about how Shantis experience in purchasing products for her pet dog were the next step in showing her dedication to animal welfare.  Shanti had a welfare of experience in pet care and when we first discussed this e-commerce website Shanti was able to give an extensive list of products that could be considered for selling.
 Goals
 
 Purpose
@@ -53,7 +53,7 @@ Composition
 Fonts
 
 fonts were checked on [rocketium](https://rocketium.com/academy/20-best-fonts-for-ecommerce-businesses/)
-I chose the Rubik font
+I chose the Rubik font.
 
 
 Color Scheme
