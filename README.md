@@ -2,6 +2,23 @@ Project Overview
 
 Introduction
 The Supershop for doggy things was inpired by a petblog that was created for a friend Shanti.  Shantis devotion and care for animal welfare and her pet dog amazed me and after doing the petblog we thought about how Shantis experience in purchasing products for her pet dog were the next step in showing her dedication to animal welfare.  Shanti had a welfare of experience in pet care and when we first discussed this e-commerce website Shanti was able to give an extensive list of products that could be considered for selling.
+It was Shanti's experience in owning a dog for the first time that made us realise that there will be people who will be considering the idea of owning a dog for the first or who already have a dog and want to be able to purchase dog products with ease and support.
+
+We considered the social customer demographic for this E-Commerce site.
+
+- People who are new to dog owning and this is their first pet.
+
+- Existing dog owners
+
+- People interested in rescuing dogs from shelters.
+
+- People who foster dogs.
+
+- People of various ages.
+
+- People that have a passion for dogs.
+
+
 Goals
 
 Purpose
@@ -25,6 +42,10 @@ Significance and Complexity
 User Testing
 
 Wireframes
+
+The paper wireframe below was done as a way to map out to see how the web page would look like and it was a rough sketch for the next lot of wireframes.
+
+[Paper Wireframe](media/paperwireframe16622888764051385744180%20(1).jpg)
 
 PC Wireframes
 
