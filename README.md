@@ -373,22 +373,41 @@ In this unit we’re going to challenge you to use what you have learned and pla
 
 Using the web application idea you chose for the keywords challenge, either:
 Your own project idea (possibly for your final project)
-A pizza restaurant, based in Dublin, that takes online orders for delivery.
+
 Choose one important page from your chosen application. This might be the home page, a single product or service page or another important page in the application. Choose a page that you hope users would first land on when visiting your website.
 
+- The page chosen is the landing page for customers as this includes the main navigation that can be used to access other areas of the site.
+
 Questions to ask yourself:
+
 What do your users need?
 
-My users need dog products to purchase.
+- My users need dog products to purchase. They will have the opportunity to sign up as users. 
 
 What information and features can you provide to meet those needs?
 
+- The ihformation provided to the users will be various dog products that they can purchase from the categories listed.
+
+- There will be a feature to register and log in to the shop as a user.
+
 How can you make the information easy to understand?
 
+- The information will be broken down into various categories of dog products and from there the user will be taken to a specific category and the user will be able to view individual products for sale with the rating and the price.
+
 How can you demonstrate expertise, authoritativeness and trustworthiness in your content?
+
+- The contect will display a description about each product and it will give valauable information to the user about the product.
+
 Would there be other pages within your own site you could link to from your chosen page?
+
+- There will be a link to a blog about pets that will help the user know that this is a genuine site about dogs.
+
+- There will be a link to a facebook page and a newsletter.
+
 Are there opportunities to link back to external websites that already rank highly on Google?
+
 How can you help users discover other relevant parts of your web application?
+
 Tips
 Research other sites that already meet the needs your users have, find examples of how they accomplish that.
 Use the keyword list you created in the Keyword challenge to help prompt further ideas
@@ -403,7 +422,64 @@ SEO Keywords
 
 - As the dog products keywords was very popular the title of the e-commerce shop was changed from The supershop for doggy things to the supershop for dog products, so as to optimise the search engine optimisation.
 
+- The main navigation headings were changed to: 
+
+- All Dog Products
+
+- Dog Accessories
+
+- Dog Food 
+
+- Dog Clothes
+
+The above  were changed as a result of doing the keyword research in google and and wordtracker.com. This was also done with the search engine module in the code institute module.
+
+
+The SEO Implementations in HTML and the alt tags still need to be done,
+
+and Other SEO Implementations
+
+and Content is King
+
 Web Marketing
+Marketing Types Challenge
+In our last videos, we explained some of the pros and cons of each marketing type, and we talked about which businesses they suit.
+
+In this unit we’re going to challenge you to use what you have learned and plan which marketing types to use for an ecommerce business.
+
+Using the ecommerce business idea you chose for the keywords and content challenges:
+Your own project idea (possibly for your final project)
+
+Plan out which marketing types you think would work best for your chosen business. Jot down which ones you think the business would benefit from using, and why.
+
+Questions to ask yourself
+
+Who are your users?
+
+- My users are dog lovers who want to purchase dog products.
+
+Which online platforms would you find lots of your users?
+
+- The online platforms where I would find lots of users would be facebook, youtube, instagram, tiktok and twitter.
+
+Would your users use social media? If yes, which platforms do you think you would find them on?
+
+- Yes my users would use social media and the platforms that I would find them on are facebook, youtube, instagram, tiktok and twitter.
+
+What do your users need? Could you meet that need with useful content? If yes, how could you best deliver that content to them?
+
+Would your business run sales or offer discounts? How do you think your users would most like to hear about these offers?
+
+What are the goals of your business? Which marketing strategies would offer the best ways to meet those goals?
+
+Would your business have a budget to spend on advertising? Or would it need to work with free or low cost options to market itself?
+
+- As this is a start up E-Commerce site there would not be a budget for advertising therefore it would need to work with free and low cost options to market itself.
+
+Tips
+Research other ecommerce businesses that sell similar products or services to your idea. What marketing practices do they employ? Which ones appear to be working best?
+Document your process. If you are planning for your final project, keep this documentation for your README.
+Give yourself around 10 to 15 mins to work on this. By the end of this exercise you should have a list of possible marketing strategies you could use for your chosen business. Remember, if you’re using this exercise to plan for your final project, keep this documentation for your README.
 
 Newsletter
 
