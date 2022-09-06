@@ -352,7 +352,6 @@ dog clothes
 
 
 
-
 Tips
 
 
@@ -379,8 +378,13 @@ Choose one important page from your chosen application. This might be the home p
 
 Questions to ask yourself:
 What do your users need?
+
+My users need dog products to purchase.
+
 What information and features can you provide to meet those needs?
+
 How can you make the information easy to understand?
+
 How can you demonstrate expertise, authoritativeness and trustworthiness in your content?
 Would there be other pages within your own site you could link to from your chosen page?
 Are there opportunities to link back to external websites that already rank highly on Google?
@@ -396,6 +400,8 @@ By the end of this exercise you should have a list of things to include on your 
 
 
 SEO Keywords
+
+- As the dog products keywords was very popular the title of the e-commerce shop was changed from The supershop for doggy things to the supershop for dog products, so as to optimise the search engine optimisation.
 
 Web Marketing
 
