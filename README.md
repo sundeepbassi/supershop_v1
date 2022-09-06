@@ -284,6 +284,11 @@ Short-tail keywords
 
 - Dog Collars
 
+[Google search for Dog Collars 1](media/dc12022-09-06%20(4).png)
+
+[Google search for Dog Collars 2 ](media/dc22022-09-06%20(5).png)
+
+
 - Dog Harnesses
 
 - Dog Leads
@@ -302,6 +307,12 @@ Long-tail Keywords
 
 - The best nutrition for dogs?
 
+[Google search for The best nutrition for dogs? 1](media/bnfdgs12022-09-06%20(7).png)
+
+[Google search for The best nutrition for dogs? 2](media/tbnfdgs22022-09-06%20(8).png)
+
+
+
 - What tinned foods do dogs like?
 
 - What are the best bicuits to give you dog?
@@ -311,6 +322,35 @@ Long-tail Keywords
 
 
 Assess your choices for relevance and authoritativeness, and dig into the data available on keyword volume and competition using wordtracker.com
+
+I found that dog products was a good keyword for relevance and authoritativeness.
+
+The dog products keyword was inputted into wordtracker.com and the results can be seen below in the screenshots.
+
+[Google search for the keyword dog products 1](media/wt12022-09-06%20(9).png)
+
+[Google search for the keyword dog products 2](media/wt22022-09-06%20(10).png)
+
+[Google search for the keyword dog products 3](media/wt32022-09-06%20(11).png)
+
+
+From this list I revised the keywords from the brain storm and brain dump and incorporated the following keywords for the project,
+
+dogfood
+
+dog collars
+
+dog harness
+
+dog toys
+
+best dog foods
+
+dog clothes
+
+
+
+
 
 
 Tips
