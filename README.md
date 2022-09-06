@@ -197,18 +197,11 @@ SEO Reflection, Research and Implementation
 
 SEO Reflections
 
-This reflective process was very important in the research of this project and website as it enabled one to take into consideration the needs of the users and discussing this with Shanti enabled one to clearly understand the needs of a dog owner and what they would would need and expect from an E-Cpmmerce website for dog lovers.  Originally the idea was to include many pet products for various types of pets but it became evident through Shanti's imput that focusing on dog products would aim for a specific market.
+This reflective process was very important in the research of this project and website as it enabled one to take into consideration the needs of the users and discussing this with Shanti enabled one to clearly understand the needs of a dog owner and what they would would need and expect from an E-Cpmmerce website for dog lovers.  Originally the idea was to include many pet products for various types of pets but it became evident through Shanti's imput of focusing on dog products would be aiming for a specific market.
 SEO Research
 
 Marketing research
 
-On the 22nd of August I conducted some market research with Shanti who is the inspiration for this E-Commerce website as it was her passion for dogs and animals that was amazing.  Shanti is a lover of animals amd has a pet dog amd I asked her if she was shopping on the internet what products would she like to buy for her pet.  Shanti gave me a very comprehensive list of products that she would look for. We imagined how Shanti would shop on line and what products would appeal to her and how the process of shopping online would make her feel.
-
-Accessories would include glow in the dark collars, rope leads, harnesses, muzels, pet bowls. 
-
-Grooming and bathing accessories would include nail clippers, pet toothpaste and brush, grooming brushes, conditioner, dog shampoo, 
-
-clothing raincoats, winter coats, 
 
 Keyword Research
 
@@ -220,15 +213,109 @@ In our last video, we walked through a basic process for keyword research. In th
 Your challenge is to walk through these steps we went through in the previous video. Come up with a selection of keywords you think would be important to customers for your chosen business.
 
 Choose a business idea to do your keyword research for.
+
+Dog products 
+
 Your own project idea (possibly for your final project)
-A pizza restaurant, based in Dublin, that takes online orders for delivery.
+
+The idea was to create an E-Commerce website for dog products.
+
 Keyword research steps
+
 Brainstorm your general topics
+
+On the 22nd of August I conducted some market research with Shanti who is the inspiration for this E-Commerce website as it was her passion for dogs and animals that was amazing.  Shanti is a lover of animals amd has a pet dog amd I asked her if she was shopping on the internet what products would she like to buy for her pet.  Shanti gave me a very comprehensive list of products that she would look for. We imagined how Shanti would shop on line and what products would appeal to her and how the process of shopping online would make her feel.
+
+Accessories would include glow in the dark collars, rope leads, harnesses, muzels, pet bowls. 
+
+Grooming and bathing accessories would include nail clippers, pet toothpaste and brush, grooming brushes, conditioner, dog shampoo, 
+
+clothing raincoats, winter coats, 
+
+
 Brain dump possible keywords for each of the general topics
+
+The brain dump of ideas shortlisted 3 possible general ideas with subcategories.
+
+Dog Accesssories would include the following:
+
+- Collars
+
+- Harnesses
+
+- Leads
+
+- Toys
+
+Dog Clothes would include the following:
+
+- Jackets
+
+- Scarves/Bandanas
+
+- Fancy Dress
+
+Dog Food would include the following:
+
+- Tinned 
+
+- Biscuits
+
+- Nutrition
+
 Research your brain dump of ideas in Google Search
+
+The general topics have been listed below with the highest ranking this also took into consideration what potential customers will be looking for to purchase.
+
 Ensure you have a selection of short and long-tail keywords
+
+Short-tail keywords
+
+- Dog Products
+
+[Google search for Dog Products 1](media/dp12022-09-06%20(1).png)
+
+[Google search for Dog Products 2](media/dp22022-09-06%20(2).png)
+
+[Google search for Dog Products 3](media/dp32022-09-06%20(3).png)
+
+
+
+
+- Dog Collars
+
+- Dog Harnesses
+
+- Dog Leads
+
+- Dog Jackets
+
+- Dog Scarves/Bandanas
+
+- Dog Fancy Dress
+
+- Dog Food
+
+
+
+Long-tail Keywords
+
+- The best nutrition for dogs?
+
+- What tinned foods do dogs like?
+
+- What are the best bicuits to give you dog?
+
+- What toys do dogs like to play with?
+
+
+
 Assess your choices for relevance and authoritativeness, and dig into the data available on keyword volume and competition using wordtracker.com
+
+
 Tips
+
+
 Document your process.
 If you’re planning for your final project, keep this documentation for your README
 By the end of this exercise you should have between 10 and 20 keywords, which should be a mix of short-tail keywords and long-tail phrases.
@@ -326,9 +413,9 @@ The layout for the readme is accredited to [Matex600](https://github.com/Matex60
 
 [Google search for Dog Toys](https://www.google.com/search?q=toys+for+dogs&sxsrf=ALiCzsY9w64A9dErPyifXnm0cD8T5R3e3g:1662019648336&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjkvv7VkfP5AhXbiFwKHQ2eAdAQ_AUoAnoECAEQBA&biw=1920&bih=880&dpr=1#imgrc=rxw4VDCbHoq4WM&imgdii=v9tUlH9kHimLAM)
 
-[Google search for ]()
+[Google search for wishlist functionalities](https://www.oberlo.co.uk/ecommerce-wiki/wishlists#:~:text=A%20wishlist%20allows%20shoppers%20to,an%20immediate%20intent%20to%20purchase.)
 
-[Google search for ]()
+[Google search for Amazon Dog Products](https://www.amazon.co.uk/dp/B085111Y2V/ref=sspa_dk_detail_5?pd_rd_i=B085111Y2V&pd_rd_w=iM6BP&content-id=amzn1.sym.ef1fde52-be52-4827-9cf1-c31c9758a641&pf_rd_p=ef1fde52-be52-4827-9cf1-c31c9758a641&pf_rd_r=PKXW95DGCPD62AKJS4VY&pd_rd_wg=xDP99&pd_rd_r=093e1a3f-8793-433c-869d-4e7b563d5be9&s=pet-supplies&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzVDVWQTc3T1VCVVA0JmVuY3J5cHRlZElkPUEwNjUyODY2MzNMWkI1VVo0TkkwOCZlbmNyeXB0ZWRBZElkPUEwODk1OTk2MlQ0WUxONDg3U1A2WiZ3aWRnZXROYW1lPXNwX2RldGFpbF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1)
 
 [Google search for ]()
 
