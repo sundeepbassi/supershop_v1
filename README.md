@@ -1,10 +1,18 @@
-Project Overview
+# Project Overview
 
 Introduction
-The Supershop for doggy things was inpired by a petblog that was created for a friend Shanti.  Shantis devotion and care for animal welfare and her pet dog amazed me and after doing the petblog we thought about how Shantis experience in purchasing products for her pet dog were the next step in showing her dedication to animal welfare.  Shanti had a welfare of experience in pet care and when we first discussed this e-commerce website Shanti was able to give an extensive list of products that could be considered for selling.
+The Supershop for doggy things was inpired by a petblog that was created for a friend Shanti.  Shantis devotion and care for animal welfare and her pet dog amazed me and after doing the petblog we thought about how Shantis experience in purchasing products for her pet dog were the next step in sharing her experince of having a pet dog.  Shanti had a wealth of experience in pet care and when we first discussed this e-commerce website Shanti was able to give an extensive list of products that could be considered for selling.
 It was Shanti's experience in owning a dog for the first time that made us realise that there will be people who will be considering the idea of owning a dog for the first or who already have a dog and want to be able to purchase dog products with ease and support.
 
+[Shanti's Petblog2022 ](https://petstar2022.herokuapp.com/)
+
+
+
+## E-commerce application types:
+
 We considered the social customer demographic for this E-Commerce site.
+
+Who is the customer?
 
 - People who are new to dog owning and this is their first pet.
 
@@ -18,8 +26,29 @@ We considered the social customer demographic for this E-Commerce site.
 
 - People that have a passion for dogs.
 
+What will they buy?
+
+- They will buy products for their dog/s.
+
+How will they pay?
+
+- They will pay online on the site through Stripe.
+
+- The Supershop for dog products is a business to customer b2c website as products will be on sale for individuals to purchase for their dogs.
+
+What is being sold? Deliverables
+
+- Dog Products will be sold to customers with product details. As there will be a name for each product, a price of that product, an image of that product, a description of = - that particular product for the customer to see.
+
+How is the payment made?
+
+- The payment will be made as a single payment as the customer is paying for products that are displayed on the website.
+
+
 
 Goals
+
+
 
 Purpose
 
@@ -27,9 +56,9 @@ Project Future
 
 Future Features
 
-User Experience
+## User Experience
 
-UX
+UI/UX
 
 Card Testing
 
@@ -41,7 +70,7 @@ Significance and Complexity
 
 User Testing
 
-Wireframes
+## Wireframes
 
 The paper wireframe below was done as a way to map out to see how the web page would look like and it was a rough sketch for the next lot of wireframes.
 
@@ -55,7 +84,9 @@ Tablet Wireframes
 
 Mobile
 
-Database Models
+## Database Models
+
+this video is important E-Commerce Application Types  E-Commerce Application Types  Applying what we know
 
 fsc_users app model structure (UserProfile)
 
@@ -67,7 +98,7 @@ fsc_products app model structure (Category, Products, Review, FavouritesList)
 
 Database Schema
 
-Project Design
+## Project Design
 
 Composition
 
@@ -143,7 +174,7 @@ Sign out
 
 Sign up
 
-Code Validation
+## Code Validation
 
 HTML
 
@@ -163,7 +194,7 @@ Python
 
 Pep8
 
-Technologies Used
+## Technologies Used
 
 Manual Testing
 
@@ -193,7 +224,7 @@ Pagination
 
 Contact
 
-SEO Reflection, Research and Implementation
+## SEO Reflection, Research and Implementation
 
 SEO Reflections
 
@@ -533,7 +564,7 @@ Newsletter
 
 Facebook business page
 
-Bug report
+## Bug report
 
 Squashed bugs
 On 16 June 2022 found that shopping bag icon was not working and checked code and found </a> was at the end of code on line 82 of base.html and once this was removedd the icon did work.
@@ -544,9 +575,9 @@ Resolved Issues
 
 On the 21st of August I had to contact tutor support whether the dj_database_url and psycopg2-binary installations would be compatabile versions for the project.  The tutor support informed me that having the incorrect versions may cause errors amd guided me innstalling the correct versions into my requirements.txt file with the migrate command.
 
-Security
+## Security
 
-Deployment
+## Deployment
 
 Cloning Project with Github
 
@@ -556,7 +587,7 @@ Deployment via Heroku
 
 Note.
 
-Credits
+## Credits
 
 The layout for the readme is accredited to [Matex600](https://github.com/Matex600/Fat-Stack-Coffee#credits)
 
@@ -596,12 +627,12 @@ The layout for the readme is accredited to [Matex600](https://github.com/Matex60
 [The code for comments and adding comments is accredited to ](https://github.com/Irishbecky91/TheWaggingTailor)
 
 
-[Google search for ]()
+[Google search for stackoverflow wishlist ](https://stackoverflow.com/questions/56580696/how-to-implement-add-to-wishlist-for-a-product-in-django)
 
 
-[Google search for ]()
+[Google search for wishlist ](https://www.appsloveworld.com/django/100/83/how-to-implement-add-to-wishlist-for-a-product-in-django)
 
-[Google search for ]()
+[Google search for pypi wishlist](https://pypi.org/project/django-wishlist/)
 
 [Google search for ]()
 
