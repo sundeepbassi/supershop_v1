@@ -470,16 +470,64 @@ What do your users need? Could you meet that need with useful content? If yes, h
 
 Would your business run sales or offer discounts? How do you think your users would most like to hear about these offers?
 
+- At the moment the business would not run sales and discounts would need to be looked into once we were better establishe.
+
 What are the goals of your business? Which marketing strategies would offer the best ways to meet those goals?
+
+- The marketing strategies tha were considered for the supper shop were:
+
+- Search Engine Optimization.
+
+- Content marketing and Social Media marketing,
+
+- I decided to rule out email marketing and paid advertising, as this was a start up and we wanted to focus on the social marketing as a way to promote the products on various platforms.
+
 
 Would your business have a budget to spend on advertising? Or would it need to work with free or low cost options to market itself?
 
 - As this is a start up E-Commerce site there would not be a budget for advertising therefore it would need to work with free and low cost options to market itself.
 
+
+The article below considered the social customer demographic for for purchasing dog products online.
+
+ "In the pet food and supplies segment, social media had the biggest purchase influence on Generation Z and Millennials. In a survey conducted in October 2021 in the United Kingdom, 26 percent of Millennials reported being influenced by social media when purchasing pet food and supplies. In contrast, that figure stood at only two percent for Baby Boomers."
+
+[Google search for Dog Products on Statista](https://www.statista.com/statistics/1291512/social-media-influence-on-pet-supplies-purchases-by-generation-uk/)
+
 Tips
 Research other ecommerce businesses that sell similar products or services to your idea. What marketing practices do they employ? Which ones appear to be working best?
+
+[Google search for The 12 Best Online Pet Shops for Pet Supplies and Food ](https://www.makeuseof.com/tag/best-13-online-pet-shops-furry-friends/)
+
+[Google search for Chewy smaller best online store](https://www.chewy.com/?utm_source=partnerize&utm_medium=affiliates&utm_campaign=10l1110&utm_content=0&clickref=1011lwa5xB2z&utm_term=1011lwa5xB2z)
+
+[Google search for Allivet smaller storer](https://www.allivet.com/)
+
+[Google search for dog.com ](https://www.dog.com/)
+
+We considered the content marketing process as quite useful as the website was giving an emotional response to friends that saw the website. Shanti also had very good experience of owning a dog and it was her insight into dog care that was both inspirational and interesting.  Shanti could empathise with fellow dog lovers and knew that good products were important to dog lovers.
+
+Shanti was interested in the organic social media marketing as she used these platforms to connect with family, friends, colleagues and the community.  These platforms would be useful for Shanti to sell her Dog Products.
+
+As Shanti also has an existing blog for pets the supershop for dogs would be considered as an extension of how good quality dog products could be sold to potential customer.
+
+Shanti also dog sits and walks dogs for friends and again it was this social aspect of her involvement with dogs and animals that promoted the idea of having the supershop for dogs promoted on the organic social media marketing contents.
+
+Both Shanti and I discussed the idea of email marketing and paid marketing and Shanti felt that she did not want to come across as forceful in selling her products but wanted the customers to trust the website and the products being sold naturally.
+
+
+
 Document your process. If you are planning for your final project, keep this documentation for your README.
 Give yourself around 10 to 15 mins to work on this. By the end of this exercise you should have a list of possible marketing strategies you could use for your chosen business. Remember, if you’re using this exercise to plan for your final project, keep this documentation for your README.
+
+
+Important to do
+
+Web Marketing  Web Marketing  Creating a Facebook Business Page
+
+Web Marketing  Web Marketing  Newsletter Marketing with Mailchimp
+
+
 
 Newsletter
 
@@ -539,17 +587,17 @@ The layout for the readme is accredited to [Matex600](https://github.com/Matex60
 
 [Google search for Amazon Dog Products](https://www.amazon.co.uk/dp/B085111Y2V/ref=sspa_dk_detail_5?pd_rd_i=B085111Y2V&pd_rd_w=iM6BP&content-id=amzn1.sym.ef1fde52-be52-4827-9cf1-c31c9758a641&pf_rd_p=ef1fde52-be52-4827-9cf1-c31c9758a641&pf_rd_r=PKXW95DGCPD62AKJS4VY&pd_rd_wg=xDP99&pd_rd_r=093e1a3f-8793-433c-869d-4e7b563d5be9&s=pet-supplies&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzVDVWQTc3T1VCVVA0JmVuY3J5cHRlZElkPUEwNjUyODY2MzNMWkI1VVo0TkkwOCZlbmNyeXB0ZWRBZElkPUEwODk1OTk2MlQ0WUxONDg3U1A2WiZ3aWRnZXROYW1lPXNwX2RldGFpbF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1)
 
-[Google search for ]()
+[Google search for Djangocentral creating comments system ith django](https://djangocentral.com/creating-comments-system-with-django/)
+
+[Google search for codementor for reviews in a site](https://www.codementor.io/@jadianes/get-started-with-django-building-recommendation-review-app-du107yb1a)
+
+[The code for comments and adding comments is accredited to ](https://djangocentral.com/creating-comments-system-with-django/)
+
+[The code for comments and adding comments is accredited to ](https://github.com/Irishbecky91/TheWaggingTailor)
+
 
 [Google search for ]()
 
-[Google search for ]()
-
-[Google search for ]()
-
-[Google search for ]()
-
-[Google search for ]()
 
 [Google search for ]()
 
@@ -962,6 +1010,10 @@ The content if this website aims to invoke an emotional response with customers 
 Social Media marketing
 
 Shanti already has a blog post for animal lovers so as to spread her passion about animals and caring for them.  Shanti wants to also promote her e-commerce site and products on social media and specifically Facebook.  Shanti realised that this was a good method to create awareness about animal welfare and also promote her e-commerce site.
+
+
+Research on social media dog product purchases.
+
 
 Newsletter
 

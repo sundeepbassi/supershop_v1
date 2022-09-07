@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load crispy_forms_tags %}
 {% load static %}
 
 {% block page_header %}
@@ -110,6 +111,62 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div>
+                <h3>Comments</h3>
+
+                {# If there are no comments... #}
+                {% if not product.comments.all %}
+
+                {# then tell the user there are no comments. #}
+                <div>
+                    <p>No comments. To add a comment please use the 'Add Comment' button</p>
+                </div>
+
+                {% else %}
+
+                    {# Otherwise, display all comments. #}
+
+                    {% for current_comment in product.comments.all %}
+                    <div>
+                        <p><h4>{{ current_comment.title }}</h4></p>
+                        <p>{{ current_comment.body }}</p>
+                        <h5>Comment by {{ current_comment.author|title }} on {{ current_comment.date_created }}</h5>
+                    </div>
+                    {% endfor %}
+
+                {% endif %}
+            </div>
+            <div>
+                <h3>Add Comment</h3>
+
+                {# If user is logged in #}
+                {% if request.user.is_authenticated %}
+
+                {# Display 'add comment' button #}
+                <form action="." method="POST">
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <input type="submit" value="Add Comment" class="btn btn-custom">
+                </form>
+
+                {# Otherwise, tell user they must login first to add a comment #}
+                {# and display a 'Log in' button. #}
+
+                {% else %}
+
+                <p>Please sign in before adding a comment.</p>
+                <a href="{% url 'account_login' %}" class="btn btn-custom">
+                    <span>Log In</span>
+                </a>
+
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
 {% endblock %}
 
 {% block postloadjs %}
