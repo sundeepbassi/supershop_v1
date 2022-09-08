@@ -62,9 +62,70 @@ UI/UX
 
 Card Testing
 
-User Stories
+### User Stories
 
-Agile Methodology
+#### Navigation & Viewing
+
+As a shopper I want to view a list of products about dog food as I want to  select some to purchase.
+
+As a shopper I want to view product details individually, quickly identify deals, clearance items and special offers. As I want to take advantage of special savings on products I would like to purchase.
+
+As a shopper I want to see the total cost of what I have bought  at any time so that I can be in control of my spending.
+
+#### Registration & User Accounts
+
+
+As a site user I want to be able to register for an account without any difficulties so that I can have my own personal account and I want to be able to view my profile easily.
+
+As a site user I want to be able to  login or logout without any difficulties so that I can gain entrance to my personal account information.
+
+As a site user I want to be able to easily recover my password if I forget it so that I can gain entrance to my account.
+
+As a site user I want to be able to receive an email confirmation after registering so that I can verify that my account registration was successful.
+
+As a site user I want to be able to have my own personalised user profile so that I can view my personal order history and order confirmation, and save my payment information.
+
+
+#### Sorting & Searching
+
+As a shopper I want to be able to sort the list of available products so that I can simply identify the best rated, best priced and categorically sorted products.
+
+As a shopper I want to be able to sort a specific category of product  so that I can find the best priced or best rated product in a specific category or sort the products in that category by name.
+
+As a shopper I want to be able  sort multiple categories of products simultaneously so that I can find the best-priced or best-rated products across broad categories, such as “dog food” or “dog clothing”
+
+As a shopper I want to be able  search for a product by name or description so that I can find a specific product that I would like to buy.
+
+As a shopper I want to be able  easily see what I have searched for and the number of results  so that I can quickly decide whether the product I want is available.
+
+
+
+#### Purchasing & Checkout
+
+As a shopper I want to be able to easily select the size and quantity of a product when purchasing it  so that I can ensure I don’t accidentally select the wrong product quantity or size.
+
+As a shopper I want to be able to  see items in my bag I want to buy so that I can identify the total cost of my purchase and all the items I will receive.
+
+As a shopper I want to be able  to adjust the quantity of individual items in my bag so that I can easily make changes to my purchase before checkout.
+
+As a shopper I want to be able to  easily enter my payment information so that I can checkout quickly and with no hassles.
+
+As a shopper I want to be able  to feel my personal and payment information is safe and secure so that I can confidently provide the needed information to make a purchase.
+
+As a shopper I want to be able  to view an order confirmation after checkout so that I can verify that I have not made any mistakes.
+
+As a shopper I want to be able  to  receive an email confirmation after checking out so that I can keep the confirmation of what I have purchased for my records.
+
+Admin & Store Management 
+
+As a store owner I want to be able  add a product   so that I can add new items to my store,
+
+As a store owner I want to be able Edit/update a product  so that I can change product prices,descriptions,images and other product criteria.
+
+As a store owner I want to be able Delete a product so that I can remove items that are no longer for sale.
+
+
+## Agile Methodology
 
 Significance and Complexity
 
@@ -86,7 +147,7 @@ Mobile
 
 ## Database Models
 
-this video is important E-Commerce Application Types  E-Commerce Application Types  Applying what we know
+this video is important for databases E-Commerce Application Types  E-Commerce Application Types  Applying what we know
 
 fsc_users app model structure (UserProfile)
 
