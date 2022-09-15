@@ -64,11 +64,31 @@ How is the payment made?
 
 Goals
 
+- To promote good dog and animal welfare.
+
+- To grow a sense of community for dog lovers.
+
+- To enable dog owners to have a good experience in visiting the site returning to it.
+
+- To enable dog owners to buy good quality products for their pets.
+
+- To enable dog owners to become registerd users for the site.
+
 
 
 Purpose
 
+- The purpose for this site is to allow visitors, potential customers and registered users to be able to see various dog products that are for sale. 
+
+- To enable customers and registered users to purchase a variety of dog products.
+
 Project Future
+
+- To continue to promote  the site for dog lovers and animal welfare.
+
+- To incorporate relevant new technologies that will enhance the site.
+
+- To work in partnership with other animal organisations and comopanies that promote animal welfare.
 
 Future Features
 
