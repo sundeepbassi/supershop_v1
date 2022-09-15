@@ -1,7 +1,7 @@
 # Project Overview
 
 Introduction
-The Supershop for dog products was inpired by a petblog that was created for a friend Shanti.  Shantis devotion and care for animal welfare and her pet dog amazed me and after doing the petblog we thought about how Shantis experience in purchasing products for her pet dog were the next step in sharing her experince of having a pet dog.  Shanti had a wealth of experience in pet care and when we first discussed this e-commerce website Shanti was able to give an extensive list of products that could be considered for selling.
+Bubba the Supershop for dog products was inpired by a petblog that was created for a friend Shanti.  Shantis devotion and care for animal welfare and her pet dog amazed me and after doing the petblog we thought about how Shantis experience in purchasing products for her pet dog were the next step in sharing her experince of caring about her pet dog.  Shanti had a wealth of experience in pet care and when we first discussed this e-commerce website Shanti was able to give an extensive list of products that could be considered for selling.
 It was Shanti's experience in owning a dog for the first time that made us realise that there will be people who will be considering the idea of owning a dog for the first or who already have a dog and want to be able to purchase dog products from someone who has good experince in dog ownership.
 
 [Shanti's Petblog2022 ](https://petstar2022.herokuapp.com/)
@@ -70,9 +70,9 @@ Purpose
 
 Project Future
 
-In the future we would like to let each registered user be able to submit only one review.
-
 Future Features
+
+In the future we would like to let each registered user be able to submit only one review.
 
 ## User Experience
 
@@ -1171,6 +1171,84 @@ Remaining bugs
 Resolved Issues
 
 On the 21st of August I had to contact tutor support whether the dj_database_url and psycopg2-binary installations would be compatabile versions for the project.  The tutor support informed me that having the incorrect versions may cause errors amd guided me innstalling the correct versions into my requirements.txt file with the migrate command.
+
+
+
+Hi tutors I am receiving this error in my terminal when I try to do a git push
+Tutoring at Code Institute profile
+What steps have you taken so far to resolve the issue, or to address current gaps in your knowledge?
+Vague answers like "searched on Slack and Google" are not sufficient here. What specific steps have you taken? What code and debugging steps have you tried? What resources have you used (e.g. provide links to StackOverflow questions you have read)?
+
+
+Scott profile
+Hi, Sunny 😀 You will have changes on your remote GitHub branch that you don't have in your workspace - that's where this particular issue comes from. If you're lucky, you'll just be able to run the git pull command and it will balance the two versions out. I expect it will moan at you when you try though. If that happens, there are some steps we can take to get around it, but let's try the git pull first
+Good to hear from you Scott how are you doing buddy
+do I just type git pull in my terminal
+
+
+I typed git pull in my terminal and got this
+Scott profile
+I'm alright 😀 Yourself? That's what I was expecting it would come back with. In that case, let's try one of the options it gives you there:
+git config pull.rebase false
+That won't appear to do anything by itself, by try the git pull again afterwards and it may all be alright after that. Works about 7/10 times
+Thanks Scott I am good mate I will give it a go
+Hi Scott I tried that and it gave me this in the terminal and it seemed to have stalled
+
+Scott profile
+Ah, that's a good sign! It has opened a tab in your workspace to type a merge message. It gives you a default one that will be fine, so just close that tab and it will save and continue:
+
+
+Hi Scott sorry I think I might have exited the merge to early by typing cntrl c
+
+Scott profile
+That has just made things more difficult
+sorry Scott
+Scott profile
+You can try the git pull again, but I think it will moan at you
+ok
+
+I tried to a lot of times in the terminal and it keeps on giiving me this message
+Scott profile
+Try this:
+git merge --abort
+That should hopefully take us out of the merging state and then the previous commands should work again
+thanks scoot I will give it a go
+
+I think the merge has stopped in the terminal
+after the command you sent me
+Perfect!
+Scott profile
+Try the git pull again now - it should open that tab back up with the merge message
+
+It has brought this up
+Scott profile
+Perfect, just close that tab with the X and it will save the merge message it has generated
+
+
+Scott profile
+Excellent, that has pulled correctly now 😀 You should be able to push again at this point!
+
+Brilliant Scott I just did a git push it is working good Thankyou Buddy
+🌟
+You are a star and thank you for all of your kind support and help hope you have a peaceful evening
+😄
+Scott profile
+Woop! Glad it's all up and running again :D Have a good night! 😁
+Help Scott understand how they’re doing:
+Tutoring at Code Institute profile
+You rated the conversation 
+Thanks for letting us know
+Scott is a great tutor and he has been very supportive and empowered me to resolve the git push issues effectively. Scott helped to gain a lot of confidence in being able to work out how to resolve the problem, Scott is a brilliant tutor one of the best
+Thanks Scott you are always the best tutor and I have come across other students who feel the exactly the same Your a great tutor mate
+Scott profile
+Ooh very good to hear, thanks for sharing that :D Makes it all worth it 😀
+We need brilliant tutors like you mate, you get us through our projects successfully 👍
+I think you all deserve a pay rise for your ongoing support and encouragement all the tutors are the backbone of this company and keep it going
+🌟
+Just now. Not seen yet
+
+Write a reply…
+
 
 Security
 
