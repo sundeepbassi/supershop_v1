@@ -102,8 +102,7 @@ class StripeWHHandler:
         if order_exists:
             self._send_confirmation_email(order)
             return HttpResponse(
-                content=f'''Webhook received: {event["type"]} |
- SUCCESS: Verified order already in database''',
+                content=f'Webhook received: {event["type"]} | SUCCESS: Verified order already in database',
                 status=200)
         else:
             order = None
@@ -145,13 +144,11 @@ class StripeWHHandler:
                 if order:
                     order.delete()
                 return HttpResponse(
-                    content=f'''Webhook received:
- {event["type"]} | ERROR: {exception}''',
+                    content=f'Webhook received: {event["type"]} | ERROR: {exception}',
                     status=500)
         self._send_confirmation_email(order)
         return HttpResponse(
-            content=f'''Webhook received: {event["type"]} |
- SUCCESS: Created order in webhook''',
+            content=f'Webhook received: {event["type"]} | SUCCESS: Created order in webhook',
             status=200)
 
     def handle_payment_intent_payment_failed(self, event):

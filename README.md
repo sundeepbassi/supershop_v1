@@ -1,8 +1,8 @@
 # Project Overview
 
 Introduction
-The Supershop for doggy things was inpired by a petblog that was created for a friend Shanti.  Shantis devotion and care for animal welfare and her pet dog amazed me and after doing the petblog we thought about how Shantis experience in purchasing products for her pet dog were the next step in sharing her experince of having a pet dog.  Shanti had a wealth of experience in pet care and when we first discussed this e-commerce website Shanti was able to give an extensive list of products that could be considered for selling.
-It was Shanti's experience in owning a dog for the first time that made us realise that there will be people who will be considering the idea of owning a dog for the first or who already have a dog and want to be able to purchase dog products with ease and support.
+The Supershop for dog products was inpired by a petblog that was created for a friend Shanti.  Shantis devotion and care for animal welfare and her pet dog amazed me and after doing the petblog we thought about how Shantis experience in purchasing products for her pet dog were the next step in sharing her experince of having a pet dog.  Shanti had a wealth of experience in pet care and when we first discussed this e-commerce website Shanti was able to give an extensive list of products that could be considered for selling.
+It was Shanti's experience in owning a dog for the first time that made us realise that there will be people who will be considering the idea of owning a dog for the first or who already have a dog and want to be able to purchase dog products from someone who has good experince in dog ownership.
 
 [Shanti's Petblog2022 ](https://petstar2022.herokuapp.com/)
 
@@ -30,19 +30,35 @@ What will they buy?
 
 - They will buy products for their dog/s.
 
+- Dog Accessories
+ - collars
+ - Harnesseses
+ - Leads
+ - Toys
+
+- Dog Food
+ - Tinned
+ - Biscuits
+ - Nutrition
+
+- Dog Clothes
+ - Jackets
+ - Scarves/Bandanas
+ - Fancy Dress
+
 How will they pay?
 
 - They will pay online on the site through Stripe.
 
-- The Supershop for dog products is a business to customer b2c website as products will be on sale for individuals to purchase for their dogs.
+- The Supershop for dog products is a business to customer B2C website as products will be on sale for individuals to purchase for their dogs.
 
 What is being sold? Deliverables
 
-- Dog Products will be sold to customers with product details. As there will be a name for each product, a price of that product, an image of that product, a description of = - that particular product for the customer to see.
+- Dog Products will be sold to customers with product details. As there will be a name for each product, a price of that product, an image of that product, a description of that particular - - product for the customer to see.
 
 How is the payment made?
 
-- The payment will be made as a single payment as the customer is paying for products that are displayed on the website.
+- The payment will be made as a single payment as the customer is paying for products that are displayed on the website. This will not be a subscription payment site.
 
 
 
@@ -53,6 +69,8 @@ Goals
 Purpose
 
 Project Future
+
+In the future we would like to let each registered user be able to submit only one review.
 
 Future Features
 
@@ -127,7 +145,38 @@ As a store owner I want to be able Delete a product so that I can remove items t
 
 ## Agile Methodology
 
-Significance and Complexity
+The agile methodology used in this project was a kanban board on github.  
+
+Steps taken for the Set up a user story template on github.
+
+- click on settings in main bar.
+
+- Scroll down to features heading and click on Set up templates.
+
+- Then click on add template and select custom template.
+
+- template name add user story and in about and this is our default user story template.
+
+- In template content add As a **role** I can **capability** so that **received benefit**
+
+[User Story Template created for the project](media/template2022-09-12%20(3).png)
+
+- Go to projects from repository and click create project.
+
+[Setting Up Project for Agile development ](media/agile2022-09-15%20(1).png)
+
+The user stories were inserted into the issues template.
+
+[Inerting User Stories in Issues Template ](media/CreatingUS2022-09-15%20(14).png)
+
+Kanban board used for agile development for Bubba the supershop for dog products.
+
+[Screenshot of Kanban Board ](media/kanban2022-09-15%20(16).png)
+
+
+
+
+
 
 User Testing
 
@@ -695,11 +744,12 @@ The layout for the readme is accredited to [Matex600](https://github.com/Matex60
 
 [Google search for pypi wishlist](https://pypi.org/project/django-wishlist/)
 
-[Google search for ]()
+To set up the agile development for the kanban board was shown by the code institute.
 
-[Google search for ]()
+[Google search for break-down-agile-user-stories](https://www.pluralsight.com/guides/break-down-agile-user-stories-into-tasks-and-estimate-level-of-effort)
 
-[Google search for ]()
+[Google search for creating contact form](https://www.youtube.com/watch?v=dnhEnF7_RyM)
+
 
 [Google search for ]()
 

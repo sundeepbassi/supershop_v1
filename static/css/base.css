@@ -291,3 +291,10 @@ input[name='q']::placeholder {
         height: calc(100vh - 116px);
     }
 }
+
+/* Styling for product reviews */
+.product-review {
+    background-color: rgb(160, 198, 255);
+    margin: 20px;
+    padding: 10px
+}

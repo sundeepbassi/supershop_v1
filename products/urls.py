@@ -1,6 +1,10 @@
 from django.urls import path
 from . import views
 
+
+# Specify all the URL pattern logic, i.e. for each different URL
+# specify the action we want to take, e.g. if the URL is /about
+# then we should display the about page.
 urlpatterns = [
     path('', views.all_products, name='products'),
     path('<int:product_id>/', views.product_detail, name='product_detail'),

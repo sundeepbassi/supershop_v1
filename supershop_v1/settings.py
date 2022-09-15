@@ -22,8 +22,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '''django-insecure-rurnka^f^$kpt(@
-r+tf2u5s!(v3h48dqejd8-a(2e^)8uihfxo'''
+SECRET_KEY = ('django-insecure-rurnka^f^$kpt(@'
+              'r+tf2u5s!(v3h48dqejd8-a(2e^)8uihfxo')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -130,9 +130,13 @@ DATABASES = {
  }
 
 # DATABASES = {
-#     'default': dj_database_url.parse('''postgres://oixzrersslqrzg:
-# 63897e6cfaa133ededb33010e3cc927785cbebf2582f955a2d9e9ca6791c8e2a@
-# ec2-54-246-185-161.eu-west-1.compute.amazonaws.com:5432/de0pl9r3jjq927''')
+#     'default': dj_database_url.parse(('postgres://oixzrersslqrzg:'
+#                                       '63897e6cfaa133ededb33010e3'
+#                                       'cc927785cbebf2582f955a2d9e'
+#                                       '9ca6791c8e2a@ec2-54-246-18'
+#                                       '5-161.eu-west-1.compute.am'
+#                                       'azonaws.com:5432/de0pl9r3j'
+#                                       'jq927'))
 # }
 #
 # Password validation
@@ -140,8 +144,8 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': '''django.contrib.
-auth.password_validation.UserAttributeSimilarityValidator''',
+        'NAME': ('django.contrib.auth.password_validation.'
+                 'UserAttributeSimilarityValidator')
     },
     {
         'NAME':

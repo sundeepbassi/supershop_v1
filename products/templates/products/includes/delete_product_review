@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "Delete Comment" %}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 mt-3 offset-md-2">
+            <h3>{% trans "Delete Comment" %}</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 mt-3 offset-md-2">
+        {% if user.is_authenticated %}
+            {% if user.username == comment.name %}
+            Comment Author: <strong>{{ comment.name }}</strong>
+                <div class="comment-body">
+                    {{ comment.body }}
+                </div>
+        
+                <div class="form-group">
+                    <form method="POST">
+                        {% csrf_token %}
+                        <button class="btn btn-primary" title="Delete comment">Delete</button>
+                        <a href="{{ request.GET.nexturl }}" class="btn btn-secondary" title="Abort deleting comment">Cancel</a>
+                    </form>
+                </div>
+            {% else %}
+                <div class="alert alert-danger">WARNING: You are not authorised to delete other user's comments!</div>
+            {% endif %}
+        {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
