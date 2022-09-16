@@ -68,7 +68,8 @@ With the Code Institute module on E-commerce Applicationn types and the article 
 [Google search for Document the e-commerce business model underlying your application
  ](https://www.bigcommerce.co.uk/articles/ecommerce/types-of-business-models/)
 
-Goals
+
+## Goals
 
 - To promote good dog and animal welfare.
 
@@ -82,13 +83,13 @@ Goals
 
 
 
-Purpose
+## Purpose
 
 - The purpose for this site is to allow visitors, potential customers and registered users to be able to see various dog products that are for sale. 
 
 - To enable customers and registered users to purchase a variety of dog products.
 
-Project Future
+## Project Future
 
 - To continue to promote  the site for dog lovers and animal welfare.
 
@@ -251,12 +252,32 @@ PC Wireframes
 
 [Wireframe 3 for the basic layout of the products](media/prodwire2.png)
 
+[Wireframe 4 for the layout of the registration form](media/regwire1.png)
 
-Laptop Wireframes
-
-Tablet Wireframes
 
 Mobile
+
+The mobile wireframe has:
+
+- A burger bar and when opened contains a navigation menu with:
+
+ - Dog Products
+
+ -  Accessories
+
+ -  Dog Food
+
+ - Dog Clothes
+
+- Then at the top we also have:
+
+ - A Search bar
+
+ - A User Profile
+
+ - A Shopping bag
+
+- Then on the main page we have the products.
 
 [Wireframe 4 for the basic layout for a mobile](media/wiremob1.png)
 
@@ -331,17 +352,14 @@ Profile favourites list order history
 
 About Page
 
-Fat stack coffee ethos
-
-Fat stack coffee services
 
 Contact Page
 
-Fat stack coffee google maps location
 
-Fat stack coffee contact form
 
-Fat stack coffee contact details
+contact form
+
+contact details
 
 Allauth
 
