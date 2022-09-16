@@ -5,6 +5,8 @@ Introduction
 Bubba the Supershop for dog products was inpired by a petblog that was created for a friend Shanti.  Shantis devotion and care for animal welfare and her pet dog amazed me and after doing the petblog we thought about how Shantis experience in purchasing products for her pet dog were the next step in sharing her experince of caring about her pet dog.  Shanti had a wealth of experience in pet care and when we first discussed this e-commerce website Shanti was able to give an extensive list of products that could be considered for selling.
 It was Shanti's experience in owning a dog for the first time that made us realise that there will be people who will be considering the idea of owning a dog for the first or who already have a dog and want to be able to purchase dog products from someone who has good experince in dog ownership.
 
+In her own words Shanti said "life is better with a dog"
+
 [Shanti's Petblog2022 ](https://petstar2022.herokuapp.com/)
 
 
@@ -204,19 +206,50 @@ Kanban board used for agile development for Bubba the supershop for dog products
 
 User Testing
 
+## Skeleton
+
 ## Wireframes
 
-Both Shanti and I went through a number of wireframes to see how the site could be designed to her liking.
+- Both Shanti and I went through a number of wireframes to see how the site could be designed to her liking.
 
-The paper wireframe below was done as a way to map out to see how the web page would look like and it was a rough sketch for the next lot of wireframes.
+- The paper wireframe below was done as a way to map out to see how the web page would look like and it was a rough sketch for the next lot of wireframes.
+
+- As Shanti is an artist we found that using paper sketches and using Balsamiq helped with the design of the wireframes.  
+
+- [Balsamiq Website](https://balsamiq.com/)
+
+- In the wireframe below we considered implementing the following:
+
+- Main heading Bubba The Supershop For Dog Products
+
+- The search bar.
+
+- A shopping bag.
+
+- A user profile.
+
+- The main navigation bar.
+
+- Social media links.
+
+The aim was to have these implemented consistently throughout the website so that the user would be able to access any of the functions.
+
+- Whislt doing the design process with Shanti, Shanti had an inspiration to incorporate a dog paw logo on the Website.
+
+PC Wireframes
 
 [Paper Wireframe](media/paperwireframe16622888764051385744180%20(1).jpg)
 
 
+[Wireframe 1 for the basic layout of the site](media/wire1a.png)
 
-PC Wireframes
+- The wireframe below display's the categories listed for the products under the naviagtion bar.
 
-[Wireframe 1 for basic layout of the site](media/wire1a.png)
+[Wireframe 2 for the basic layout of the site](media/wirecat1.png)
+
+- The wireframe below displays how the products will be displayed on the screen.
+
+[Wireframe 3 for the basic layout of the products](media/prodwire2.png)
 
 
 Laptop Wireframes
@@ -224,6 +257,9 @@ Laptop Wireframes
 Tablet Wireframes
 
 Mobile
+
+[Wireframe 4 for the basic layout for a mobile](media/wiremob1.png)
+
 
 ## Database Models
 
