@@ -23,8 +23,12 @@ body {
     text-transform: uppercase;
 }
 
-.main-logo-link {
-    width: fit-content;
+.main-logo-font {
+    text-transform: uppercase;
+    color: #004ea3
+}
+.main-logo-font:hover {
+    color: #003166
 }
 
 .shop-now-button {
@@ -86,6 +90,12 @@ body {
 a.category-badge > span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
+}
+.category-badge .badge {
+    font-size: 1em
+}
+.badge-colour {
+    background-color: #ffd351;
 }
 
 .btt-button {
@@ -276,16 +286,16 @@ input[name='q']::placeholder {
         z-index: 1030;
     }
 
-    .header-container {
+    /*.header-container {
         padding-top: 164px;
-    }
+    }*/
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
-    .header-container {
+    /*.header-container {
         padding-top: 116px;
-    }
+    }*/
 
     body {
         height: calc(100vh - 116px);
@@ -293,8 +303,86 @@ input[name='q']::placeholder {
 }
 
 /* Styling for product reviews */
-.product-review {
-    background-color: rgb(160, 198, 255);
-    margin: 20px;
-    padding: 10px
+.product-review-box {
+    background-color: #dae9ff;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.product-review-upper-section {
+    padding: 20px
+}
+.product-review-button-section {
+    padding: 20px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: white;
+}
+.product-review-body {
+    font-size: 20px;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+.product-review-author-text {
+    font-size: 18px;
+    font-style: italic;
+}
+.product-review-delete-button {
+    margin-left: 10px
+}
+.add-product-review-box {
+    margin-left: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #e9e9e9;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e3e3e3;
+}
+
+/* Styling for testimonials */
+.testimonial-box {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #e9e9e9;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e3e3e3;
+}
+.testimonial-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.testimonial-submit-box {
+    background-color: #cee6ff;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Styling for Contact Us */
+.contact-us-box {
+    background-color: #cee6ff;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.paw-print-logo {
+    height: 75px;
+    width: auto;
+    float: left;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+.logo-tagline {
+    font-size: 24px
+}
+
+.product-image {
+    width: auto;
+    height: 250px
+}
+
+#delivery-banner div {
+    background-color: #7a2424 !important
 }

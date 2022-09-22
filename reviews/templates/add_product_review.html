@@ -1,0 +1,32 @@
+{# This displays the add product review form and other relevant items. #}
+{# Included from product_detail.html #}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<div class="add-product-review-box rounded-lg">
+    <h3>Add Product Review</h3>
+
+    {# If user is logged in #}
+    {% if request.user.is_authenticated %}
+
+    {# Display 'add product review' button #}
+    <form action="." method="POST">
+        {% csrf_token %}
+        {{ product_review_form|crispy }}
+        <input type="submit" value="Add Product Review" class="btn btn-primary">
+    </form>
+
+    {# Otherwise, tell user they must login first to add a product review #}
+    {# and display a 'Log in' button. #}
+
+    {% else %}
+
+    <p>Please sign in before adding a product review.</p>
+    <a href="{% url 'account_login' %}" class="btn btn-custom">
+        <span>Log In</span>
+    </a>
+
+    {% endif %}
+</div>
+{% endblock %}

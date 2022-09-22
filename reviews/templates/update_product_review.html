@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "Edit Review" %}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 mt-3 offset-md-2">
+            <h3>{% trans "Edit Product Review" %}</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 mt-3 offset-md-2">
+        {% if user.is_authenticated %}
+            {% if user == product_review.author %}
+                <div class="product-review-body">
+                    Edit product review '{{ product_review.title}}' by {{ product_review.author }}:
+                </div>
+                <div class="form-group mt-4">
+                    <form method="POST">
+                        {% csrf_token %}
+                        {{ form|crispy }}
+                        <button class="btn btn-primary" title="Save changes to updated review">Update</button>
+                        <a href="{{ request.GET.nexturl }}" class="btn btn-secondary" title="Abort editing review">Cancel</a>
+                    </form>
+                </div>
+            {% else %}
+                <div class="alert alert-danger">WARNING: You are not authorised to edit other user's reviews!</div>
+            {% endif %}
+        {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

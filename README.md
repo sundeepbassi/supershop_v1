@@ -1,6 +1,6 @@
 # Project Overview
 
-Introduction
+## Introduction
 
 Bubba the Supershop for dog products was inpired by a petblog that was created for a friend Shanti.  Shantis devotion and care for animal welfare and her pet dog amazed me and after doing the petblog we thought about how Shantis experience in purchasing products for her pet dog were the next step in sharing her experince of caring about her pet dog.  Shanti had a wealth of experience in pet care and when we first discussed this e-commerce website Shanti was able to give an extensive list of products that could be considered for selling.
 It was Shanti's experience in owning a dog for the first time that made us realise that there will be people who will be considering the idea of owning a dog for the first or who already have a dog and want to be able to purchase dog products from someone who has good experince in dog ownership.
@@ -9,6 +9,27 @@ In her own words Shanti said "life is better with a dog"
 
 [Shanti's Petblog2022 ](https://petstar2022.herokuapp.com/)
 
+
+## Evolving The name of the company to Pawpals 
+
+## Pawpals
+
+During the design and implementation process of this project, Shanti decided that she would like to call the company PawPals a dog's best friend.  The logo of the Paw inspired Moke and Shanti to have an emotional response of how dog's were best friends of humans and the Pawpals would be the best friends for dogs. This process happened during a design meeting with Shanti and Mike in their kitchen and both of them felt very inspired to rename the title of the company with its motto.  They felt the love for dogs gave them an insight into what would be appealing on this website for dog lovers.
+
+After considering this idea for Pawpals I checked on the internet to see if the name was already in use, and we found that it was being used.
+
+[Search for Pawpals on the web ](https://pawpalsshop.com/)
+
+
+What I like about this project is that the ideas are being produced organically and Shanti and Mike have shown what is important to be a dog owner and what fellow dog owners may expect from an e-commerce website. 
+
+The aim is to:
+
+- To promote good dog and animal welfare.
+
+- To grow a sense of community for dog lovers.
+
+- To allow good quality products to be sold.
 
 
 ## E-commerce application types:
@@ -71,9 +92,7 @@ With the Code Institute module on E-commerce Applicationn types and the article 
 
 ## Goals
 
-- To promote good dog and animal welfare.
 
-- To grow a sense of community for dog lovers.
 
 - To enable dog owners to have a good experience in visiting the site and in returning to it.
 
@@ -96,6 +115,8 @@ With the Code Institute module on E-commerce Applicationn types and the article 
 - To incorporate relevant new technologies that will enhance the site.
 
 - To work in partnership with other animal organisations and comopanies that promote animal welfare.
+
+- As this is a shop for dog lovers and we want to create a sense of community about dog ownership posting pictures of pet dogs by customers on a board would be good.
 
 Future Features
 
@@ -286,6 +307,42 @@ The mobile wireframe has:
 
 this video is important for databases E-Commerce Application Types  E-Commerce Application Types  Applying what we know
 
+Which e-commerce application types apply to this online business?
+
+- Business to Customer.
+
+- Sells Dog Products.
+
+- There is a single method of payment.
+
+With the e-commerce applications in mind, what kind of features might be included within the business model?
+
+- A contact us form.
+
+- A good authentication system.
+
+- High quality images.
+
+- Easy payment gateway system.
+
+- Search and filter functionality.
+
+- Clear Product Descriptions.
+
+- Shopping cart and payment system.
+
+- A ratings or reviews system.
+
+- Testimonials 
+
+
+
+
+
+What tables of data would your database need, and what data might be included in these tables?
+
+
+
 fsc_users app model structure (UserProfile)
 
 fsc_contact app model structure (Contact)
@@ -305,10 +362,17 @@ Fonts
 fonts were checked on [rocketium](https://rocketium.com/academy/20-best-fonts-for-ecommerce-businesses/)
 I chose the Rubik font.
 
+Logo
 
-Color Scheme
+- The logo for this site was designed by Mike as they wanted tohave a paw print logo and in Shantis words she wanted to keep things looking simple. 
+- The green background clour was included on the logo because it reminded Mike of walking his dog in a grren graassed park.
 
-Color Contrast Grid
+
+Colour Scheme
+
+- The delivery-banner colour was set to #7a2424 !important as we felt it contrasted well with the green and blue of the logo background and the Pawapals name.
+
+Colour Contrast Grid
 
 Project Features
 
@@ -420,6 +484,17 @@ Pagination
 Contact
 
 ## SEO Reflection, Research and Implementation
+
+Market research
+
+On the 22nd of August I conducted some market research with some friends.  Shanti is a lover of animals amd has a pet dog amd I asked her if she was shopping on the internet what products would she like to buy for her pet.  Shanti gave me a very comprehensive list of products that she would look for. We imagined how Shanti would shop on line and what products would appeal to her and how the process of shopping online would make her feel.
+
+Accessories would include glow in the dark collars, rope leads, harnesses, muzels, pet bowls. 
+
+Grooming and bathing accessories would include nail clippers, pet toothpaste and brush, grooming brushes, conditioner, dog shampoo, 
+
+clothing raincoats, winter coats, 
+
 
 SEO Reflections
 
@@ -762,7 +837,7 @@ Facebook business page
 ## Bug report
 
 Squashed bugs
-On 16 June 2022 found that shopping bag icon was not working and checked code and found </a> was at the end of code on line 82 of base.html and once this was removedd the icon did work.
+On 16 June 2022 found that shopping bag icon was not working and checked code and found was at the end of code on line 82 of base.html and once this was removedd the icon did work.
 
 Remaining bugs
 
@@ -836,7 +911,23 @@ To set up the agile development for the kanban board was shown by the code insti
 [Google search for creating contact form](https://www.youtube.com/watch?v=dnhEnF7_RyM)
 
 
+[Whilst I was designing the site I came acress this online store that inspired me ](https://www.petshop.co.uk/)
 
+[Google search for installing apps ](https://www.nickmccullum.com/how-to-use-django-migrations/)
+
+[Google search for Contact](https://www.twilio.com/blog/build-contact-form-python-django-twilio-sendgrid)
+
+[Google search for full name](https://blog.prototypr.io/full-name-vs-first-last-name-ux-best-practice-8c2db7178fd1)
+
+[Google search for reviews](https://medium.com/django-rest/lets-build-a-basic-product-review-backend-with-drf-part-1-652dd9b95485)
+
+[Google search for Imposter Syndrome](https://www.youtube.com/watch?v=gPDk7_l_7WE&t=641s)
+
+[Google search for ]()
+
+[Google search for ]()
+
+[Google search for ]()
 
 [Google search for ]()
 
@@ -851,6 +942,7 @@ The code used in this project is accredited to the Boutique Ado Walkthrough proj
 Media
 
 Product Images
+Most pf the product images for the products were taken from Amazon.
 
 Site-Wide Images
 
@@ -862,319 +954,10 @@ Table of contents generated with markdown-toc
 
 
 
-
-
-
-fonts were checked on [rocketium](https://rocketium.com/academy/20-best-fonts-for-ecommerce-businesses/)
-I chose the Rubik font
-
-
-
-
-
-
-
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome sundeepbassi,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
-
-
-
-
-
-
-Project Overview
-
-Introduction
-
-Goals
-
-Purpose
-
-Project Future
-
-Future Features
-
-User Experience
-
-UX
-
-Card Testing
-
-User Stories
-
-Agile Methodology
-
-Significance and Complexity
-
-User Testing
-
-Wireframes
-
-PC Wireframes
-
-Laptop Wireframes
-
-Tablet Wireframes
-
-Mobile
-
-Database Models
-
-fsc_users app model structure (UserProfile)
-
-fsc_contact app model structure (Contact)
-
-fsc_checkout app model structure (Order, OrderLineItem)
-
-fsc_products app model structure (Category, Products, Review, FavouritesList)
-
-Database Schema
-
-Project Design
-
-Composition
-
-Fonts
-
-fonts were checked on [rocketium](https://rocketium.com/academy/20-best-fonts-for-ecommerce-businesses/)
-I chose the Rubik font
-
-
-Color Scheme
-
-Color Contrast Grid
-
-Project Features
-
-Home Page
-
-Main navbar
-
-Carousel & filter nav
-
-Featured products
-
-Newsletter
-
-Footer and social links
-
-Products Page
-
-Products view
-
-Products detail
-
-Add product
-
-Edit product
-
-Add review
-
-Reviews
-
-Checkout
-
-Shopping cart
-
-Order summary
-
-Checkout successful
-
-Profiles page
-
-Profile favourites list order history
-
-About Page
-
-Fat stack coffee ethos
-
-Fat stack coffee services
-
-Contact Page
-
-Fat stack coffee google maps location
-
-Fat stack coffee contact form
-
-Fat stack coffee contact details
-
-Allauth
-
-Sign in
-
-Sign out
-
-Sign up
-
-Code Validation
-
-HTML
-
-Beautify
-
-Nu Html Checker
-
-CSS
-
-Jigsaw
-
-Javascript
-
-Jshint
-
-Python
-
-Pep8
-
-Technologies Used
-
-Manual Testing
-
-Sign up
-
-Sign in
-
-Sign out
-
-Checkout
-
-Newsletter
-
-Admin
-
-Product detail
-
-Add product
-
-Edit product
-
-Delete product
-
-Add review/Ratings
-
-Pagination
-
-Contact
-
 SEO Research and Implementation
 
 SEO Research
 
-Marketing research
-
-On the 22nd of August I conducted some market research with some friends.  Shanti is a lover of animals amd has a pet dog amd I asked her if she was shopping on the internet what products would she like to buy for her pet.  Shanti gave me a very comprehensive list of products that she would look for. We imagined how Shanti would shop on line and what products would appeal to her and how the process of shopping online would make her feel.
-
-Accessories would include glow in the dark collars, rope leads, harnesses, muzels, pet bowls. 
-
-Grooming and bathing accessories would include nail clippers, pet toothpaste and brush, grooming brushes, conditioner, dog shampoo, 
-
-clothing raincoats, winter coats, 
 
 Keyword Research
 Keywords Challenge
@@ -1254,6 +1037,8 @@ On 16 June 2022 found that shopping bag icon was not working and checked code an
 Remaining bugs
 
 Resolved Issues
+
+During the implementation of the custom model for reviews I realised that putting it in a app was the best method for having this function work more effectively.
 
 On the 21st of August I had to contact tutor support whether the dj_database_url and psycopg2-binary installations would be compatabile versions for the project.  The tutor support informed me that having the incorrect versions may cause errors amd guided me innstalling the correct versions into my requirements.txt file with the migrate command.
 
@@ -1339,6 +1124,326 @@ Security
 
 Deployment
 
+Hi tutors,
+I am doing the boutique ado Creating a Heroku App and on the top of the video there is this message. Important!
+Error fix
+If you get the error below during the steps to deployment:
+django.db.utils.OperationalError: FATAL: role "somerandomletters" does not exist
+Please run the following command in the terminal to fix it:
+unset PGHOSTADDR
+A note for creating your database if you didn't use fixtures
+When you come to follow this process for your milestone project, you may not have used a fixtures file to populate your database like the instructor did.
+If this is the case, manually re-creating your database when you come to deploy can take a considerable amount of time. Thankfully, there is a short process you can follow to download your local mysql database and then upload it to postgres:
+Make sure your settings.py file is connected to your sqlite3 database
+Use this command to backup your current database and load it into a db.json file:
+./manage.py dumpdata --exclude auth.permission --exclude contenttypes > db.json
+Connect your settings.py file to your postgres database
+Then use this command to load your data from the db.json file into postgres:
+./manage.py loaddata db.json
+
+Your database DATABASE_URL on supershop-2022 requires maintenance. During this period, your database will become read-only. Once maintenance has completed, your database credentials and hostname will have changed, but we will update your app's config variables accordingly to reflect the new database connection string.
+This automated maintenance is a necessary part of our Hobby tier plans, Dev and Basic. Should you need more control over maintenance windows, a production database (Standard tier or higher) offers more control over database maintenance, as we are able to schedule them in advance and provide better tools for self-served maintenance.
+We expect maintenance to last just a few moments depending on the size of your database. We will notify you when maintenance begins, and again once it's complete.
+
+Tutoring at Code Institute profile
+What steps have you taken so far to resolve the issue, or to address current gaps in your knowledge?
+Vague answers like "searched on Slack and Google" are not sufficient here. What specific steps have you taken? What code and debugging steps have you tried? What resources have you used (e.g. provide links to StackOverflow questions you have read)?
+I have looked at the steps on dev tips in slack and found it difficult to understand them
+Tutoring at Code Institute profile
+One final thing. Please share your code with us. 
+If you are working on Gitpod, please set your workspace to shared, and send us the link to it. If you are working on a course challenge, please send the name of the challenge.
+https://sundeepbass-supershopv1-6tuyxyxoq9v.ws-eu64.gitpod.io/
+Tutoring at Code Institute profile
+Thank you. We will get back to you as soon as possible. You can see how busy tutoring currently is on this page: https://code-institute-org.github.io/tutoring-info/status/
+Note that if you have failed to sufficiently answer any of the above questions, tutors will have to re-ask you for the information, which will use up part of your weekly tutoring time allowance.
+Hi Sunny, John here
+I hope you are well
+Looks like an email from Heroku about database maintenance
+John profile
+There's nothing wrong. Heroku need to run maintenance on their servers from time to time.
+All that will happen is, your database credentials will rotate.
+
+﻿What this means is that your database will have a new Postgres URI (DATABASE_URL)
+Hi John good to hear from you hope you are well
+Thank you, I am well :)
+Your heroku app config vars will update automatically
+John profile
+You'll simply need to update your local DATABASE_URL with the new Postgres URI
+
+
+Hi John I added the new link from Heroku
+I added my products manually into my admin django and I tried to follow the dev tips on slack and was getting confused with it
+
+John profile
+You will fail the project if you push the code to the repo with this line exposed in settings.py
+
+SORRY jOHN i DID NOT UNDERSTAND DO i UNCOMMENT IT
+sorry my caps lock was on
+would it be best to uncomment lines 133 to 138
+John profile
+That line there is your postgres URI string. It should be hidden, and never pushed to the Repo. But this is covered in the course materials.
+Even there in the PDF that you are walking through, it is using the DATABASE_URL variable
+
+I remember when I watched the video they told us to comment it out and then they put it back in
+what would the best thing to do
+John profile
+They told you to comment it out for a short while, then they stored the variable in DATABASE_URL and used that instead, so that the variable would not be exposed.
+Do you have an env.py file in your project?
+I have had a look and I can not find one
+John profile
+Alright, so you should probably set that up.
+For setting env vars locally, we recommend setting them like this:
+Create a file named env.py in the root directory of your project. This is the file you will use to define your environment variables.
+If you don't have one already, create a file named .gitignore  in the root directory of your project.
+ Next we need to stop git from pushing this file to github, and so keep your environment variables secret. To do this, open your .gitignore  file add the following text to it: env.py 
+At the top of your env.py  file, you need to import os so that you can set the environment variables in the operating system. Once you have added the line “import os” underneath you can assign your environment variables using the following syntax: 
+os.environ["Variable Name Here"] = "Value of Variable Goes Here" 
+Example: os.environ["SECRET_KEY"] = "ohsosecret" 
+Then the following code imports this new env.py file where you need to use your environment variables. For example your app.py file for flask project or settings.py file for Django project. Add this under your other imports at the top of the file. 
+import os
+if os.path.exists("env.py"):
+  import env 
+The if statement here is so that the env.py file is only pulled when working on your code in your workspace, not when it is deployed on heroku. For deployment you can set your environment variables in the heroku dashboard in settings > config vars.
+Now that your environment variables have been set in your env.py file, and the file has been imported into your project, you can use them as needed using the following syntax: 
+SECRET_KEY = os.environ.get('SECRET_KEY')
+﻿Make sure you save all your files before testing if it works.
+how do i set up the env.py in the root directory
+
+I have a gitignore file
+sorry john it is confusing
+
+i created my env.py file there
+
+I put that info into the env.py file
+John profile
+Okay, follow the steps to declare your variables.
+Hi john i am still confused wit the steps
+John profile
+Hey Sunny, unfortunately you need to follow the steps, step by step. Exactly as they are laid out there.
+Your on the right path, but you need to put in your actual variables.
+In this case DATABASE_URL, and then you need paste the value of the postgres URI where the value of the variable goes
+os.environ["Variable Name Here"] = "Value of Variable Goes Here"
+Example: os.environ["SECRET_KEY"] = "ohsosecret"
+Then the following code imports this new env.py file where you need to use your environment variables. For example your app.py file for flask project or settings.py file for Django project. Add this under your other imports at the top of the file.
+import os
+if os.path.exists("env.py"):
+  import env 
+The if statement here is so that the env.py file is only pulled when working on your code in your workspace, not when it is deployed on heroku. For deployment you can set your environment variables in the heroku dashboard in settings > config vars.
+Now that your environment variables have been set in your env.py file, and the file has been imported into your project, you can use them as needed using the following syntax:
+SECRET_KEY = os.environ.get('SECRET_KEY')
+﻿Make sure you save all your files before testing if it works.
+
+I have managed to do that
+The if statement here is so that the env.py file is only pulled when working on your code in your workspace, not when it is deployed on heroku. For deployment you can set your environment variables in the heroku dashboard in settings > config vars.
+Now that your environment variables have been set in your env.py file, and the file has been imported into your project, you can use them as needed using the following syntax:
+SECRET_KEY = os.environ.get('SECRET_KEY')
+﻿Make sure you save all your files before testing if it works.
+This part is meant to be in settings.py
+
+John profile
+take it out of env.py and place it in settings.py, here's the instruction :)
+
+
+I added it to settings file
+John profile
+Excellent, now go back to the DATABASES code in your settings.py and make sure it looks like this
+
+Thanks John I will work on that and will get bgck to you once it is done, I appreciate your kindness and support it takes me time to understand the steps
+John profile
+You're welcome Sunny.
+I'm actually due for my break now, but I'll set this conversation aside and leave notes for my fellow tutors.
+You can simply reply to re-activate it and someone will be with you as soon as available
+Thanks John have a good break 😄
+John profile
+Thanks Sunny 😀
+Hi I have added the new line of coded in my settings,py file from line 138 to line 148 do I take out the oldcode from line 131 to 136
+Ed profile
+Hi Sunny, Ed here 👋
+Hope you're well. Sorry for the delay we've got a few tutors off sick today. How are you getting on with John's suggestion?
+Hi Ed good to hear from you, I am good thank you How are you doing, sorry to hear that some of the tutors are off sicj
+
+I managed to do that Ed
+Ed profile
+I'm good thanks! Hopefully they will all be on the mend soon - it's the season for getting poorly!
+I know I cannot believe we are in september
+Ed profile
+OK, so you shouldn't need the first DATABASES = .... part
+You can remove lines 131-136
+great
+I managed to do that Ed
+Ed profile
+I'm just trying to load up your workspace, but from John's last message it sounds like you were trying to create an env.py to get your local server up and running. Are you now able to load your app through Gitpod?
+https://sundeepbass-supershopv1-6tuyxyxoq9v.ws-eu64.gitpod.io/
+John helped me to set up the env.py file
+Ed profile
+Awesome, and has that allowed you to load your site?
+I am not sure on how to load it Ed the extra bank holiday has made my brain run slower
+Haha, they'll do that :)
+Just the regular old python3 manage.py runserver should get you going :)
+Ed profile
+Looking at your env.py, there will be a couple more environment variables you need to add. The most obviously missing one is SECRET_KEY
+
+that was the message I got when I tried to open my server
+Ed profile
+OK, that means you need to apply your migrations. Just follow the advice it gives 👍
+sorry Ed how do i set up a secret key in env.py
+Ed profile
+You already have one written in your settings.py, so you'll need to change that so that it's pointing to os.environ['SECRET_KEY']
+SECRET_KEY = os.getenv('SECRET_KEY', '')
+Then in your env.py:
+os.environ['SECRET_KEY'] = 'my_superseCRETkey1497149014091470'
+or whatever you want it to be :)
+Thanks I will give it a go
+Ed profile
+
+You don't want to expose your secret key in your settings.py like this. Replace with what I posted above. That means it will get your SECRET_KEY from your environment, which is env.py in this case. In Heroku it will be your Heroku config vars.
+
+Ed profile
+Have another check of what I put in my last message Sunny:
+one change in settings.py
+one addition in env.py
+thanks ed
+i will have another go
+Ed profile
+👍
+We make a variable in settings.py which points to the environment using the dictionary key 'SECRET_KEY'
+We then make an entry in env.py using that dict key and give it the secret value.
+If you're wanting to make use of these other environment variables in your LOCAL project, then you'll need to do the same thing. See how these three variables are set to the values it finds in your environment:
+
+That will mean you need dictionary entries, and their values, for STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY AND STRIPE_WH_SECRET too.
+
+Ed profile
+In settings.py:
+SECRET_KEY = os.getenv('SECRET_KEY', '')
+This means, make a variable called 'SECRET_KEY' and get the value from the environment (env.py). If you can't find 'SECRET_KEY' in the environment, use a blank string.
+In env.py:
+os.environ["SECRET_KEY"] = "some_secret_string"
+This is what the SECRET_KEY variable in settings.py is pointing to. In effect, in settings.py your app will see:
+SECRET_KEY = 'some_secret_string'
+Except 'some_secret_string' is coming from a hidden file that only your app can see. This means noone else in the world can see your secret key.
+The same applies to all secret things you want to do - just stick them in your environment and refer to the value found for that dictionary item.
+Thanks Ed I will give it a go
+Ed profile
+OK fab! I need to head to lunch, Sunny so will pop you back in the queue for the next tutor to pick up with.
+If you can let them know where you get to that would be very helpful. From what I can see your app is working locally, but you will need to understand what role the env.py (environment) is playing so that you can add any necessary keys here, and when you come to deploy your app. In your Heroku app, the 'Heroku config vars' act as your local environment, rather than env.py, so you'll need to make sure all the required keys and values are stored there too 👍
+Thank you Ed for all of your kind support Have a good lunch buddy
+Ed profile
+Great, will do. You too Sunny! 👋
+👍
+
+
+Hi I followed the steps shown by Ed wanted to check if they are correct
+Oisin profile
+Hi Sunny, Oisin here 👋
+﻿Yep that looks good. Just having a look through the chat now. What was the specific issue that you wanted to address in this conversation?
+Hi oisin good to hear from you hope you are well I am trying start off the deployment process for Heroku and I have been following the devtips sheet from slack and I could not uderstand it and both John and Ed were helping me
+I added my products manually in the Django Admin and we were told to follow a certain format for this
+Oisin profile
+Ok perfect, which part of the deployment process were you having trouble with?
+https://code-institute-room.slack.com/files/UPDFEU62U/F02SZ5T16HG/transferring_database_data_from_sqlite_to_heroku_postgres.pdf?origin_team=T0L30B202&origin_channel=C01C4AU8ULA
+I was working on that sheet and found it difficult to follow
+Important!
+Error fix
+If you get the error below during the steps to deployment:
+django.db.utils.OperationalError: FATAL: role "somerandomletters" does not exist
+Please run the following command in the terminal to fix it:
+unset PGHOSTADDR
+A note for creating your database if you didn't use fixtures
+When you come to follow this process for your milestone project, you may not have used a fixtures file to populate your database like the instructor did.
+If this is the case, manually re-creating your database when you come to deploy can take a considerable amount of time. Thankfully, there is a short process you can follow to download your local mysql database and then upload it to postgres:
+Make sure your settings.py file is connected to your sqlite3 database
+Use this command to backup your current database and load it into a db.json file:
+./manage.py dumpdata --exclude auth.permission --exclude contenttypes > db.json
+Connect your settings.py file to your postgres database
+Then use this command to load your data from the db.json file into postgres:
+./manage.py loaddata db.json
+If you would like more information on this process along with a few handy tips, have a look at this DevTip on Slack.
+That is the informaiton they gave us at the start of the video
+Oisin profile
+Ok, if you run your server in gitpod now, are your products there?
+
+they are not displaying
+
+it wont let me log into my admin now
+Oisin profile
+Ok, so your products are stored in the sqlite database. Do you want to transfer them to the heroku postgres database?
+I added my products to django admin manually
+Yes I think I have to transfer to the heroku postgres database
+Oisin profile
+Ok, you will need to comment out the DATABASE_URL variable in your env.py, so that your settings will use the sqlite database which contains your products.
+
+
+is that what i do
+Oisin profile
+Ok perfect, make sure to save the file, then run your server to confirm that the products are there.
+Hi Oisin the products are there
+Oisin profile
+Ok perfect now we're going to run this command to save your data to a json file:
+﻿Make sure to type the command instead of copy/paste
+python3 manage.py dumpdata --exclude auth.permission --exclude contenttypes > db.json
+i will have a go
+
+Hi oisin I typed it in like that is tha tok
+Yep that's perfect, you can hit enter
+Oisin profile
+That will create a db.json file containing your data
+
+it gave me an error
+I think there was a space before the second 'exclude'
+Oisin profile
+You can use the up arrow to go to a previous command and remove the space, then hit enter
+ok
+Make sure to remove the space before the second exclude
+You can use the right and left arrows to move the cursor in the terminal
+Oisin profile
+
+
+Oisin profile
+Make sure to type the command exactly as it is here:
+﻿
+
+
+is that correct Oisin
+Oisin profile
+Ok perfect, now you can uncomment the DATABASE_URL in your env.py, then save the file
+I did that
+Oisin profile
+Ok now lets load the data into your postgres database:
+﻿
+python3 manage.py loaddata db.json
+
+Oisin profile
+I'm not sure if the previous commands ran correctly, do you mind if I try running them again?
+Please oisin that will be good
+do you want me to put them in the terminal
+Oisin profile
+I've run them so lets run your server now to confirm if the data has been transferred to your postgres database
+do i do python3 manage.py runserver
+yep exactly 🙂
+Oisin profile
+Looks like the products haven't been transferred, I'm going to try to transfer only data from specific apps ok?
+
+thanklyou
+Oisin profile
+Ok, looks like that has transferred successfully 🙂
+thankyou Oisin you are a star
+Oisin profile
+Glad to help! 🙂 Now you can continue with the rest of the deployment steps as outlined in the course materials.
+Thank you Oisin I will follow the video now you have been a great help have a great day
+😄
+Oisin profile
+You too! 😄
+Help Oisin understand how they’re doing:
+Tutoring at Code Institute profile
+You rated the conversation 
+Thanks for letting us know
+The turors Oisin, Ed and John have all helped me today and made me understand how the env.py file works. They have been very supportive and empowered me to learn a lot with perserverance.
+👍
+😄
+Oisin a big thank you to you and to Ed and John I am very grateful to you all
+2:43 pm
+
+
 Cloning Project with Github
 
 Forking Project Via Github
@@ -1349,7 +1454,7 @@ Note.
 
 Credits
 
-The layout for the readme is accredited to [Matex600](https://github.com/Matex600/Fat-Stack-Coffee#credits)
+The layout for the readme is accredited to [Matex600](https://github.com/Matex600/Fat-Stack-Coffee#credits) and [IrishBecky](https://github.com/Irishbecky91/TheWaggingTailor)
 
 The code used in this project is accredited to the Boutique Ado Walkthrough project by the Code insitute.
 
@@ -1365,13 +1470,15 @@ Technology Acknowledgments
 
 Table of contents generated with markdown-toc
 
+## Disclaimer
+
+The contents of this project are solely for the purposes of education and research.
+All of the information and code that has been used from outside resources has be accredited to that person or organisation.
 
 
 
 
 
-fonts were checked on [rocketium](https://rocketium.com/academy/20-best-fonts-for-ecommerce-businesses/)
-I chose the Rubik font
 
 
 
@@ -1379,111 +1486,5 @@ I chose the Rubik font
 
 
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome sundeepbassi,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!

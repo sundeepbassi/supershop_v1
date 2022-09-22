@@ -1,10 +1,12 @@
+""" Models for products """
 from django.db import models
-from django.contrib.auth.models import User
 
 
 class Category(models.Model):
+    """ Category model """
 
     class Meta:
+        """ Meta class """
         verbose_name_plural = 'Categories'
 
     name = models.CharField(max_length=254)
@@ -14,10 +16,12 @@ class Category(models.Model):
         return str(self.name)
 
     def get_friendly_name(self):
+        """ Get friendly name """
         return self.friendly_name
 
 
 class Product(models.Model):
+    """ Product model """
     category = models.ForeignKey('Category', null=True,
                                  blank=True, on_delete=models.SET_NULL)
     sku = models.CharField(max_length=254, null=True, blank=True)
@@ -32,42 +36,6 @@ class Product(models.Model):
 
     def __str__(self):
         return str(self.name)
-
-
-class ProductReview(models.Model):
-    # Product review class
-    product = models.ForeignKey(Product, on_delete=models.CASCADE,
-                                related_name='product_reviews')
-    author = models.ForeignKey(User, blank=False, null=False,
-                               on_delete=models.CASCADE)
-    title = models.CharField(max_length=250)
-    body = models.TextField()
-    approved = models.BooleanField(default=False)
-    created_on = models.DateTimeField(auto_now_add=True)
-    product_review_image = models.ImageField(null=True, blank=True)
-
-    class Meta:
-        """
-        Ordering our posts in created order,
-        the lack of '-' means in ascending order.
-        """
-        ordering = ['-created_on']
-
-    def __str__(self):
-        """
-        Returns a string showing the author's name
-        and the content of the product review.
-        """
-        return f"Product review of {self.product.name} by {self.author}"
-
-class NumberOfProductReviewsForCurrentUser(models.Model):
-        price = models.FloatField("Price", blank=True, null=True)
-        voucher_id = models.CharField(max_length=255,blank=True, null=True)
-        voucher_amount = models.IntegerField(blank=True, null=True)
-
-        @property
-        def number_of_product_reviews_for_current_user(self):
-             return (self.voucher_amount/100)*self.price
 
 
 # course = Course.objects.get(id=1)

@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% load i18n %}
+
+{% block head_title %}{% trans "Delete Product Review" %}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 mt-3 offset-md-2">
+            <h3>{% trans "Delete Product Review" %}</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 mt-3 offset-md-2">
+        {% if user.is_authenticated %}
+            {% if user == product_review.author %}
+                <div class="product-review-body">
+                    Confirm deleting review '{{ product_review.title}}' by {{ product_review.author }}:
+                </div>
+
+                <div class="form-group">
+                    <form method="POST">
+                        {% csrf_token %}
+                        <button class="btn btn-primary" title="Delete review">Delete</button>
+                        <a href="{{ request.GET.nexturl }}" class="btn btn-secondary" title="Abort deleting review">Cancel</a>
+                    </form>
+                </div>
+            {% else %}
+                <div class="alert alert-danger">WARNING: You are not authorised to delete other user's reviews!</div>
+            {% endif %}
+        {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

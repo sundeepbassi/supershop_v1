@@ -1,12 +1,11 @@
+""" Views for products """
+
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 # from django.contrib.auth.models import User
-from django.contrib.messages.views import SuccessMessageMixin
 from django.db.models import Q
 from django.db.models.functions import Lower
-
-from django.views.generic.edit import UpdateView, DeleteView
 
 
 # from django.views import generic
@@ -14,8 +13,12 @@ from django.views.generic.edit import UpdateView, DeleteView
 
 # from django.contrib.auth.models import Group
 
-from .models import Product, Category, ProductReview
-from .forms import ProductForm, ProductReviewForm
+from reviews.views import get_approved_product_reviews
+
+from reviews.forms import ProductReviewForm
+from .models import Product, Category
+from .forms import ProductForm
+
 
 # Create your views here.
 
@@ -73,9 +76,12 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-    # A view to show individual product details
+    """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
+
+    approved_reviews_for_this_product = get_approved_product_reviews(product_id)
+
     if request.user:
         if request.method == 'POST':
             form = ProductReviewForm(request.POST)
@@ -89,6 +95,7 @@ def product_detail(request, product_id):
             form = ProductReviewForm()
     context = {
         'product': product,
+        'approved_reviews': approved_reviews_for_this_product,
         'product_review_form': form,
     }
 
@@ -166,45 +173,3 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
-
-
-class UpdateProductReview(SuccessMessageMixin, UpdateView):
-    # Update a product review
-    model = ProductReview
-    template_name = 'update_product_review.html'
-    success_message = "Your protuct review was successfully updated."
-    fields = ['body']
-
-    # After updating a product review, go to the url specified in this
-    # function.
-    #
-    # Note that this URL, is the page on which we clicked the Edit link,
-    # this makes more sense to the user, i.e. they edit (update) a product
-    # review on a page then return to that same page, to see the product
-    # review updated.
-    def get_success_url(self):
-        next_url = self.request.GET['nexturl']
-        return next_url
-
-
-class DeleteProductReview(DeleteView):
-    # Delete a product review
-    model = ProductReview
-    template_name = 'delete_product_review.html'
-    success_message = "Your product review was successfully deleted."
-
-    def delete(self, request, *args, **kwargs):
-        messages.success(self.request, self.success_message)
-        return super(DeleteProductReview,
-                     self).delete(request, *args, **kwargs)
-
-    # After deleting a product review, go to the url specified in this
-    # function.
-    #
-    # Note that this URL, is the page on which we clicked the Delete link,
-    # this makes more sense to the user, i.e. they delete a product review
-    # on a page then return to that same page, to see the product review
-    # deleted.
-    def get_success_url(self):
-        next_url = self.request.GET['nexturl']
-        return next_url

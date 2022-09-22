@@ -34,14 +34,18 @@
     {% block extra_js %}
     {% endblock %}
 
-    <title>Supershop {% block extra_title %}{% endblock %}</title>
+    <title>PawPals {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
-    <header class="container-fluid fixed-top">
+    <header class="container-fluid">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-blue my-0"><strong>The Super Shop</strong><br/>for Dog Products</h2>
+                    <p>
+                        {% load static %} <img class="paw-print-logo" src="{% static 'images/paw-print-logo.png' %}" alt="home" />
+                    </p>
+                    <h2 class="main-logo-font my-0"><strong>PawPals</strong></h2>
+                    <div class="logo-tagline">A Dog's Best Friend</div>
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
@@ -145,7 +149,7 @@
 
 <!-- Footer -->
 <footer class="footer mt-auto py-3">
-    <p class="m-0 text-center text-black">The Bubba Company Created by Dog Lovers for Dog Lovers</p>
+    <p class="m-0 text-center text-black">PawPals Created by Dog Lovers for Dog Lovers</p>
     <p class="m-0 text-center text-black">Follow us:
         <a href="https://www.facebook.com/"><i class="fab fa-facebook-square ms-3"></i></a>
         <a href="https://www.twitter.com/"><i class="fab fa-twitter-square ms-3"></i></a>

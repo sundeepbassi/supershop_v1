@@ -18,7 +18,7 @@
                 <div class="image-container my-5">
                     {% if product.image %}
                         <a href="{{ product.image.url }}" target="_blank">
-                            <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                            <img class="rounded-lg card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
                         </a>
                         {% else %}
                         <a href="">
@@ -114,74 +114,15 @@
 
     <div class="container">
         <div class="row">
-            <div>
-                <h3>Product Reviews</h3>
 
-                {# If there are no product reviews... #}
-                {% if not product.product_reviews.all %}
+            {% include 'display_product_reviews.html' %}
 
-                {# then tell the user there are no product reviews. #}
-                <div>
-                    <p>No product reviews.</p>
+            {% include 'add_product_review.html' %}
 
-                    {# If user is logged in #}
-                    {% if request.user.is_authenticated %}
-                    <p>To add a product review please use the 'Add Product Review' button</p>
-                    {% endif %}
-                </div>
+        </div> <!-- end class="row" -->
+    </div> <!-- end class="container" -->
 
-                {% else %}
-
-                    {# Otherwise, display all product reviews. #}
-
-                    {% for current_product_review in product.product_reviews.all %}
-                        {% if current_product_review.approved %}
-
-                        <div class="product-review rounded-lg">
-                            <p><h4>{{ current_product_review.title }}</h4></p>
-                            <p>{{ current_product_review.body }}</p>
-                            <h5>Product Review by {{ current_product_review.author|title }} on {{ current_product_review.created_on }}</h5>
-
-                            {% if current_product_review.author == request.user %}
-                                <div class="btn btn-primary">Edit</div><div class="btn btn-secondary">Delete</div>
-                            {% endif %}
-                        </div>
-                        {% endif %}
-                    {% endfor %}
-                {% endif %}
-            </div>
-
-            <div>current user product reviews count = {{ current_user_product_review_count }}</div>
-
-            {% endblock %}
-            <div>
-                <h3>Add Product Review</h3>
-
-                {# If user is logged in #}
-                {% if request.user.is_authenticated %}
-
-                {# Display 'add product review' button #}
-                <form action="." method="POST">
-                    {% csrf_token %}
-                    {{ product_review_form|crispy }}
-                    <input type="submit" value="Add Product Review" class="btn btn-primary">
-                </form>
-
-                {# Otherwise, tell user they must login first to add a product review #}
-                {# and display a 'Log in' button. #}
-
-                {% else %}
-
-                <p>Please sign in before adding a product review.</p>
-                <a href="{% url 'account_login' %}" class="btn btn-custom">
-                    <span>Log In</span>
-                </a>
-
-                {% endif %}
-            </div>
-        </div>
-    </div>
-
+{% endblock %}
 
 
 {% block postloadjs %}
