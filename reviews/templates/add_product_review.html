@@ -23,8 +23,12 @@
     {% else %}
 
     <p>Please sign in before adding a product review.</p>
-    <a href="{% url 'account_login' %}" class="btn btn-custom">
+    <a href="{% url 'account_login' %}" class="btn btn-primary">
         <span>Log In</span>
+    </a>
+    <p class="padding-top-small">Or if you don't have an account, please sign up.</p>
+    <a href="{% url 'account_signup' %}" class="btn btn-primary">
+        <span>Sign Up</span>
     </a>
 
     {% endif %}
