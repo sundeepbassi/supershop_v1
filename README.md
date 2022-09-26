@@ -380,6 +380,21 @@ Home Page
 
 Main navbar
 
+The main navbar was set underneath the search bar so that a user could easily find what they were looking for. The Main navbar includes:
+
+- All Dog Products
+
+- Dog Accessories
+
+- Dog Food
+
+- Dog Clothes
+
+- Contact Us 
+
+- Testimonials
+
+
 Carousel & filter nav
 
 Featured products
@@ -1038,410 +1053,24 @@ Remaining bugs
 
 Resolved Issues
 
-During the implementation of the custom model for reviews I realised that putting it in a app was the best method for having this function work more effectively.
-
-On the 21st of August I had to contact tutor support whether the dj_database_url and psycopg2-binary installations would be compatabile versions for the project.  The tutor support informed me that having the incorrect versions may cause errors amd guided me innstalling the correct versions into my requirements.txt file with the migrate command.
+[Git push Issues](media/gitpushissues.png)
 
 
-
-Hi tutors I am receiving this error in my terminal when I try to do a git push
-Tutoring at Code Institute profile
-What steps have you taken so far to resolve the issue, or to address current gaps in your knowledge?
-Vague answers like "searched on Slack and Google" are not sufficient here. What specific steps have you taken? What code and debugging steps have you tried? What resources have you used (e.g. provide links to StackOverflow questions you have read)?
-
-
-Scott profile
-Hi, Sunny 😀 You will have changes on your remote GitHub branch that you don't have in your workspace - that's where this particular issue comes from. If you're lucky, you'll just be able to run the git pull command and it will balance the two versions out. I expect it will moan at you when you try though. If that happens, there are some steps we can take to get around it, but let's try the git pull first
-Good to hear from you Scott how are you doing buddy
-do I just type git pull in my terminal
-
-
-I typed git pull in my terminal and got this
-Scott profile
-I'm alright 😀 Yourself? That's what I was expecting it would come back with. In that case, let's try one of the options it gives you there:
-git config pull.rebase false
-That won't appear to do anything by itself, by try the git pull again afterwards and it may all be alright after that. Works about 7/10 times
-Thanks Scott I am good mate I will give it a go
-Hi Scott I tried that and it gave me this in the terminal and it seemed to have stalled
-
-Scott profile
-Ah, that's a good sign! It has opened a tab in your workspace to type a merge message. It gives you a default one that will be fine, so just close that tab and it will save and continue:
-
-
-Hi Scott sorry I think I might have exited the merge to early by typing cntrl c
-
-Scott profile
-That has just made things more difficult
-sorry Scott
-Scott profile
-You can try the git pull again, but I think it will moan at you
-ok
-
-I tried to a lot of times in the terminal and it keeps on giiving me this message
-Scott profile
-Try this:
-git merge --abort
-That should hopefully take us out of the merging state and then the previous commands should work again
-thanks scoot I will give it a go
-
-I think the merge has stopped in the terminal
-after the command you sent me
-Perfect!
-Scott profile
-Try the git pull again now - it should open that tab back up with the merge message
-
-It has brought this up
-Scott profile
-Perfect, just close that tab with the X and it will save the merge message it has generated
-
-
-Scott profile
-Excellent, that has pulled correctly now 😀 You should be able to push again at this point!
-
-Brilliant Scott I just did a git push it is working good Thankyou Buddy
-🌟
-You are a star and thank you for all of your kind support and help hope you have a peaceful evening
-😄
-Scott profile
-Woop! Glad it's all up and running again :D Have a good night! 😁
-Help Scott understand how they’re doing:
-Tutoring at Code Institute profile
-You rated the conversation 
-Thanks for letting us know
-Scott is a great tutor and he has been very supportive and empowered me to resolve the git push issues effectively. Scott helped to gain a lot of confidence in being able to work out how to resolve the problem, Scott is a brilliant tutor one of the best
-Thanks Scott you are always the best tutor and I have come across other students who feel the exactly the same Your a great tutor mate
-Scott profile
-Ooh very good to hear, thanks for sharing that :D Makes it all worth it 😀
-We need brilliant tutors like you mate, you get us through our projects successfully 👍
-I think you all deserve a pay rise for your ongoing support and encouragement all the tutors are the backbone of this company and keep it going
-🌟
-Just now. Not seen yet
-
-Write a reply…
 
 
 Security
 
 Deployment
 
-Hi tutors,
-I am doing the boutique ado Creating a Heroku App and on the top of the video there is this message. Important!
-Error fix
-If you get the error below during the steps to deployment:
-django.db.utils.OperationalError: FATAL: role "somerandomletters" does not exist
-Please run the following command in the terminal to fix it:
-unset PGHOSTADDR
-A note for creating your database if you didn't use fixtures
-When you come to follow this process for your milestone project, you may not have used a fixtures file to populate your database like the instructor did.
-If this is the case, manually re-creating your database when you come to deploy can take a considerable amount of time. Thankfully, there is a short process you can follow to download your local mysql database and then upload it to postgres:
-Make sure your settings.py file is connected to your sqlite3 database
-Use this command to backup your current database and load it into a db.json file:
-./manage.py dumpdata --exclude auth.permission --exclude contenttypes > db.json
-Connect your settings.py file to your postgres database
-Then use this command to load your data from the db.json file into postgres:
-./manage.py loaddata db.json
+[Deployment Issues](media/deployissues1.png)
 
-Your database DATABASE_URL on supershop-2022 requires maintenance. During this period, your database will become read-only. Once maintenance has completed, your database credentials and hostname will have changed, but we will update your app's config variables accordingly to reflect the new database connection string.
-This automated maintenance is a necessary part of our Hobby tier plans, Dev and Basic. Should you need more control over maintenance windows, a production database (Standard tier or higher) offers more control over database maintenance, as we are able to schedule them in advance and provide better tools for self-served maintenance.
-We expect maintenance to last just a few moments depending on the size of your database. We will notify you when maintenance begins, and again once it's complete.
+[Deployment Issues 2 continued](media/deploymentissues2.png)
 
-Tutoring at Code Institute profile
-What steps have you taken so far to resolve the issue, or to address current gaps in your knowledge?
-Vague answers like "searched on Slack and Google" are not sufficient here. What specific steps have you taken? What code and debugging steps have you tried? What resources have you used (e.g. provide links to StackOverflow questions you have read)?
-I have looked at the steps on dev tips in slack and found it difficult to understand them
-Tutoring at Code Institute profile
-One final thing. Please share your code with us. 
-If you are working on Gitpod, please set your workspace to shared, and send us the link to it. If you are working on a course challenge, please send the name of the challenge.
-https://sundeepbass-supershopv1-6tuyxyxoq9v.ws-eu64.gitpod.io/
-Tutoring at Code Institute profile
-Thank you. We will get back to you as soon as possible. You can see how busy tutoring currently is on this page: https://code-institute-org.github.io/tutoring-info/status/
-Note that if you have failed to sufficiently answer any of the above questions, tutors will have to re-ask you for the information, which will use up part of your weekly tutoring time allowance.
-Hi Sunny, John here
-I hope you are well
-Looks like an email from Heroku about database maintenance
-John profile
-There's nothing wrong. Heroku need to run maintenance on their servers from time to time.
-All that will happen is, your database credentials will rotate.
+[Deployment Issues 3 continued](media/deployissues3.png)
 
-﻿What this means is that your database will have a new Postgres URI (DATABASE_URL)
-Hi John good to hear from you hope you are well
-Thank you, I am well :)
-Your heroku app config vars will update automatically
-John profile
-You'll simply need to update your local DATABASE_URL with the new Postgres URI
+[Deployment Issues 4 continued](media/deployissues4.png)
 
 
-Hi John I added the new link from Heroku
-I added my products manually into my admin django and I tried to follow the dev tips on slack and was getting confused with it
-
-John profile
-You will fail the project if you push the code to the repo with this line exposed in settings.py
-
-SORRY jOHN i DID NOT UNDERSTAND DO i UNCOMMENT IT
-sorry my caps lock was on
-would it be best to uncomment lines 133 to 138
-John profile
-That line there is your postgres URI string. It should be hidden, and never pushed to the Repo. But this is covered in the course materials.
-Even there in the PDF that you are walking through, it is using the DATABASE_URL variable
-
-I remember when I watched the video they told us to comment it out and then they put it back in
-what would the best thing to do
-John profile
-They told you to comment it out for a short while, then they stored the variable in DATABASE_URL and used that instead, so that the variable would not be exposed.
-Do you have an env.py file in your project?
-I have had a look and I can not find one
-John profile
-Alright, so you should probably set that up.
-For setting env vars locally, we recommend setting them like this:
-Create a file named env.py in the root directory of your project. This is the file you will use to define your environment variables.
-If you don't have one already, create a file named .gitignore  in the root directory of your project.
- Next we need to stop git from pushing this file to github, and so keep your environment variables secret. To do this, open your .gitignore  file add the following text to it: env.py 
-At the top of your env.py  file, you need to import os so that you can set the environment variables in the operating system. Once you have added the line “import os” underneath you can assign your environment variables using the following syntax: 
-os.environ["Variable Name Here"] = "Value of Variable Goes Here" 
-Example: os.environ["SECRET_KEY"] = "ohsosecret" 
-Then the following code imports this new env.py file where you need to use your environment variables. For example your app.py file for flask project or settings.py file for Django project. Add this under your other imports at the top of the file. 
-import os
-if os.path.exists("env.py"):
-  import env 
-The if statement here is so that the env.py file is only pulled when working on your code in your workspace, not when it is deployed on heroku. For deployment you can set your environment variables in the heroku dashboard in settings > config vars.
-Now that your environment variables have been set in your env.py file, and the file has been imported into your project, you can use them as needed using the following syntax: 
-SECRET_KEY = os.environ.get('SECRET_KEY')
-﻿Make sure you save all your files before testing if it works.
-how do i set up the env.py in the root directory
-
-I have a gitignore file
-sorry john it is confusing
-
-i created my env.py file there
-
-I put that info into the env.py file
-John profile
-Okay, follow the steps to declare your variables.
-Hi john i am still confused wit the steps
-John profile
-Hey Sunny, unfortunately you need to follow the steps, step by step. Exactly as they are laid out there.
-Your on the right path, but you need to put in your actual variables.
-In this case DATABASE_URL, and then you need paste the value of the postgres URI where the value of the variable goes
-os.environ["Variable Name Here"] = "Value of Variable Goes Here"
-Example: os.environ["SECRET_KEY"] = "ohsosecret"
-Then the following code imports this new env.py file where you need to use your environment variables. For example your app.py file for flask project or settings.py file for Django project. Add this under your other imports at the top of the file.
-import os
-if os.path.exists("env.py"):
-  import env 
-The if statement here is so that the env.py file is only pulled when working on your code in your workspace, not when it is deployed on heroku. For deployment you can set your environment variables in the heroku dashboard in settings > config vars.
-Now that your environment variables have been set in your env.py file, and the file has been imported into your project, you can use them as needed using the following syntax:
-SECRET_KEY = os.environ.get('SECRET_KEY')
-﻿Make sure you save all your files before testing if it works.
-
-I have managed to do that
-The if statement here is so that the env.py file is only pulled when working on your code in your workspace, not when it is deployed on heroku. For deployment you can set your environment variables in the heroku dashboard in settings > config vars.
-Now that your environment variables have been set in your env.py file, and the file has been imported into your project, you can use them as needed using the following syntax:
-SECRET_KEY = os.environ.get('SECRET_KEY')
-﻿Make sure you save all your files before testing if it works.
-This part is meant to be in settings.py
-
-John profile
-take it out of env.py and place it in settings.py, here's the instruction :)
-
-
-I added it to settings file
-John profile
-Excellent, now go back to the DATABASES code in your settings.py and make sure it looks like this
-
-Thanks John I will work on that and will get bgck to you once it is done, I appreciate your kindness and support it takes me time to understand the steps
-John profile
-You're welcome Sunny.
-I'm actually due for my break now, but I'll set this conversation aside and leave notes for my fellow tutors.
-You can simply reply to re-activate it and someone will be with you as soon as available
-Thanks John have a good break 😄
-John profile
-Thanks Sunny 😀
-Hi I have added the new line of coded in my settings,py file from line 138 to line 148 do I take out the oldcode from line 131 to 136
-Ed profile
-Hi Sunny, Ed here 👋
-Hope you're well. Sorry for the delay we've got a few tutors off sick today. How are you getting on with John's suggestion?
-Hi Ed good to hear from you, I am good thank you How are you doing, sorry to hear that some of the tutors are off sicj
-
-I managed to do that Ed
-Ed profile
-I'm good thanks! Hopefully they will all be on the mend soon - it's the season for getting poorly!
-I know I cannot believe we are in september
-Ed profile
-OK, so you shouldn't need the first DATABASES = .... part
-You can remove lines 131-136
-great
-I managed to do that Ed
-Ed profile
-I'm just trying to load up your workspace, but from John's last message it sounds like you were trying to create an env.py to get your local server up and running. Are you now able to load your app through Gitpod?
-https://sundeepbass-supershopv1-6tuyxyxoq9v.ws-eu64.gitpod.io/
-John helped me to set up the env.py file
-Ed profile
-Awesome, and has that allowed you to load your site?
-I am not sure on how to load it Ed the extra bank holiday has made my brain run slower
-Haha, they'll do that :)
-Just the regular old python3 manage.py runserver should get you going :)
-Ed profile
-Looking at your env.py, there will be a couple more environment variables you need to add. The most obviously missing one is SECRET_KEY
-
-that was the message I got when I tried to open my server
-Ed profile
-OK, that means you need to apply your migrations. Just follow the advice it gives 👍
-sorry Ed how do i set up a secret key in env.py
-Ed profile
-You already have one written in your settings.py, so you'll need to change that so that it's pointing to os.environ['SECRET_KEY']
-SECRET_KEY = os.getenv('SECRET_KEY', '')
-Then in your env.py:
-os.environ['SECRET_KEY'] = 'my_superseCRETkey1497149014091470'
-or whatever you want it to be :)
-Thanks I will give it a go
-Ed profile
-
-You don't want to expose your secret key in your settings.py like this. Replace with what I posted above. That means it will get your SECRET_KEY from your environment, which is env.py in this case. In Heroku it will be your Heroku config vars.
-
-Ed profile
-Have another check of what I put in my last message Sunny:
-one change in settings.py
-one addition in env.py
-thanks ed
-i will have another go
-Ed profile
-👍
-We make a variable in settings.py which points to the environment using the dictionary key 'SECRET_KEY'
-We then make an entry in env.py using that dict key and give it the secret value.
-If you're wanting to make use of these other environment variables in your LOCAL project, then you'll need to do the same thing. See how these three variables are set to the values it finds in your environment:
-
-That will mean you need dictionary entries, and their values, for STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY AND STRIPE_WH_SECRET too.
-
-Ed profile
-In settings.py:
-SECRET_KEY = os.getenv('SECRET_KEY', '')
-This means, make a variable called 'SECRET_KEY' and get the value from the environment (env.py). If you can't find 'SECRET_KEY' in the environment, use a blank string.
-In env.py:
-os.environ["SECRET_KEY"] = "some_secret_string"
-This is what the SECRET_KEY variable in settings.py is pointing to. In effect, in settings.py your app will see:
-SECRET_KEY = 'some_secret_string'
-Except 'some_secret_string' is coming from a hidden file that only your app can see. This means noone else in the world can see your secret key.
-The same applies to all secret things you want to do - just stick them in your environment and refer to the value found for that dictionary item.
-Thanks Ed I will give it a go
-Ed profile
-OK fab! I need to head to lunch, Sunny so will pop you back in the queue for the next tutor to pick up with.
-If you can let them know where you get to that would be very helpful. From what I can see your app is working locally, but you will need to understand what role the env.py (environment) is playing so that you can add any necessary keys here, and when you come to deploy your app. In your Heroku app, the 'Heroku config vars' act as your local environment, rather than env.py, so you'll need to make sure all the required keys and values are stored there too 👍
-Thank you Ed for all of your kind support Have a good lunch buddy
-Ed profile
-Great, will do. You too Sunny! 👋
-👍
-
-
-Hi I followed the steps shown by Ed wanted to check if they are correct
-Oisin profile
-Hi Sunny, Oisin here 👋
-﻿Yep that looks good. Just having a look through the chat now. What was the specific issue that you wanted to address in this conversation?
-Hi oisin good to hear from you hope you are well I am trying start off the deployment process for Heroku and I have been following the devtips sheet from slack and I could not uderstand it and both John and Ed were helping me
-I added my products manually in the Django Admin and we were told to follow a certain format for this
-Oisin profile
-Ok perfect, which part of the deployment process were you having trouble with?
-https://code-institute-room.slack.com/files/UPDFEU62U/F02SZ5T16HG/transferring_database_data_from_sqlite_to_heroku_postgres.pdf?origin_team=T0L30B202&origin_channel=C01C4AU8ULA
-I was working on that sheet and found it difficult to follow
-Important!
-Error fix
-If you get the error below during the steps to deployment:
-django.db.utils.OperationalError: FATAL: role "somerandomletters" does not exist
-Please run the following command in the terminal to fix it:
-unset PGHOSTADDR
-A note for creating your database if you didn't use fixtures
-When you come to follow this process for your milestone project, you may not have used a fixtures file to populate your database like the instructor did.
-If this is the case, manually re-creating your database when you come to deploy can take a considerable amount of time. Thankfully, there is a short process you can follow to download your local mysql database and then upload it to postgres:
-Make sure your settings.py file is connected to your sqlite3 database
-Use this command to backup your current database and load it into a db.json file:
-./manage.py dumpdata --exclude auth.permission --exclude contenttypes > db.json
-Connect your settings.py file to your postgres database
-Then use this command to load your data from the db.json file into postgres:
-./manage.py loaddata db.json
-If you would like more information on this process along with a few handy tips, have a look at this DevTip on Slack.
-That is the informaiton they gave us at the start of the video
-Oisin profile
-Ok, if you run your server in gitpod now, are your products there?
-
-they are not displaying
-
-it wont let me log into my admin now
-Oisin profile
-Ok, so your products are stored in the sqlite database. Do you want to transfer them to the heroku postgres database?
-I added my products to django admin manually
-Yes I think I have to transfer to the heroku postgres database
-Oisin profile
-Ok, you will need to comment out the DATABASE_URL variable in your env.py, so that your settings will use the sqlite database which contains your products.
-
-
-is that what i do
-Oisin profile
-Ok perfect, make sure to save the file, then run your server to confirm that the products are there.
-Hi Oisin the products are there
-Oisin profile
-Ok perfect now we're going to run this command to save your data to a json file:
-﻿Make sure to type the command instead of copy/paste
-python3 manage.py dumpdata --exclude auth.permission --exclude contenttypes > db.json
-i will have a go
-
-Hi oisin I typed it in like that is tha tok
-Yep that's perfect, you can hit enter
-Oisin profile
-That will create a db.json file containing your data
-
-it gave me an error
-I think there was a space before the second 'exclude'
-Oisin profile
-You can use the up arrow to go to a previous command and remove the space, then hit enter
-ok
-Make sure to remove the space before the second exclude
-You can use the right and left arrows to move the cursor in the terminal
-Oisin profile
-
-
-Oisin profile
-Make sure to type the command exactly as it is here:
-﻿
-
-
-is that correct Oisin
-Oisin profile
-Ok perfect, now you can uncomment the DATABASE_URL in your env.py, then save the file
-I did that
-Oisin profile
-Ok now lets load the data into your postgres database:
-﻿
-python3 manage.py loaddata db.json
-
-Oisin profile
-I'm not sure if the previous commands ran correctly, do you mind if I try running them again?
-Please oisin that will be good
-do you want me to put them in the terminal
-Oisin profile
-I've run them so lets run your server now to confirm if the data has been transferred to your postgres database
-do i do python3 manage.py runserver
-yep exactly 🙂
-Oisin profile
-Looks like the products haven't been transferred, I'm going to try to transfer only data from specific apps ok?
-
-thanklyou
-Oisin profile
-Ok, looks like that has transferred successfully 🙂
-thankyou Oisin you are a star
-Oisin profile
-Glad to help! 🙂 Now you can continue with the rest of the deployment steps as outlined in the course materials.
-Thank you Oisin I will follow the video now you have been a great help have a great day
-😄
-Oisin profile
-You too! 😄
-Help Oisin understand how they’re doing:
-Tutoring at Code Institute profile
-You rated the conversation 
-Thanks for letting us know
-The turors Oisin, Ed and John have all helped me today and made me understand how the env.py file works. They have been very supportive and empowered me to learn a lot with perserverance.
-👍
-😄
-Oisin a big thank you to you and to Ed and John I am very grateful to you all
-2:43 pm
 
 
 Cloning Project with Github
