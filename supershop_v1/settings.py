@@ -59,6 +59,7 @@ INSTALLED_APPS = [
 
     # Other
     'crispy_forms',
+    # Add custom storages
     'custom_storages',
 ]
 
