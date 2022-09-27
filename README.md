@@ -862,6 +862,9 @@ On the 21st of August I had to contact tutor support whether the dj_database_url
 
 ## Security
 
+My tutor Mike informed me that it was not good practise in the coding industry to generate secret keys from unknown websites on the internet and that it was best to generate a secret key in the terminal with the command python3 -c.  
+
+
 ## Deployment
 
 Cloning Project with Github
