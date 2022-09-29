@@ -525,7 +525,6 @@ The main navbar was set underneath the search bar so that a user could easily fi
 - Testimonials
 
 
-Carousel & filter nav
 
 Featured products
 
@@ -1054,7 +1053,6 @@ I clicked on the Settings tab:
 
 in Heroku I added  the SECRET_KEY value to the Config Vars.
 
-need to modify from here
 
 I updated the settings.py file so as to import the env file.
 I added  the SECRETKEY and DATABASE_URL file paths.
@@ -1085,15 +1083,20 @@ There were three directories created in the main directory;
 Then I created a file named "Procfile" in the main directory and add the following:
 - web: gunicorn project-name.wsgi
 
+Deployment via Heroku
 
 in the terminal, log in to Heroku and then enter the following:
 
 heroku config:set DISABLE_COLLECTSTATIC=1 --app (Heroku App Name)
 
-Go to the 'Deploy' tab on Heroku and connect to GitHub, then to the required repository. Click on 'Deploy Branch' and wait for the build to load. When the build is complete, the app can be opened through Heroku.
+I went to the 'Deploy' tab on Heroku and connect to GitHub, then to the required repository. 
+
+I then clicked on 'Deploy Branch' and wait for the build to load. 
+
+I waited for the build to complete, then I opened the app through Heroku for deployment.
 
 
-There were some issues with deploying to Heroku and the tutors informed that this was a common update issue and sent me some more information to follow so as to get the website deployed properly.
+There were some issues with deploying to Heroku and the tutors informed that this was a common version update issue and sent me some more information to follow so as to get the website deployed properly.
 
 The tutors informed that this was because of the versions in python and Heroku and I would have to set up a compatable version. 
 
@@ -1129,7 +1132,6 @@ Cloning Project with Github
 
 Forking Project Via Github
 
-Deployment via Heroku
 
 Note.
 
