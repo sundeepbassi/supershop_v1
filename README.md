@@ -20,6 +20,10 @@ After considering this idea for Pawpals I checked on the internet to see if the 
 
 [Search for Pawpals on the web ](https://pawpalsshop.com/)
 
+Shanti and Mike still liked the name pawpals and wanted to keep it whilst developing the site and were happy to reconsider changing it if they wanted to make the site and official company so as not to break any copyright infringements.
+
+
+
 
 What I like about this project is that the ideas are being produced organically and Shanti and Mike have shown what is important to be a dog owner and what fellow dog owners may expect from an e-commerce website. 
 
@@ -191,6 +195,117 @@ As a store owner I want to be able Edit/update a product  so that I can change p
 As a store owner I want to be able Delete a product so that I can remove items that are no longer for sale.
 
 
+## Develpoment Planes
+
+We wanted a website that would appeal to dog lovers by products for their dogs and any related audience who had an interest in animal welfare. Shanti and Mike were the main inspirations for this site. They both gave me an insight as potential users about what the user stories could be or this site.  As dog lovers they gave me a wealth of knowledge about what dog products could be sold on the site.  I also checked out the following sites for further information.
+
+[Whilst I was designing the site I came acress this online store that inspired me ](https://www.petshop.co.uk/)
+
+[Search for Pawpals on the web ](https://pawpalsshop.com/)
+
+[Pet Planet](https://www.petplanet.co.uk/d2/dog_products)
+
+These sites gave me an idea about how the layout could be worked out for Pawpals and check on how the functionality worked on the sites and what features could work best.
+
+## Strategy
+
+- This was quite a unique site because both Mike and Shanti could both be site users and site owners.  Therefore their perspective was very relevant in developing the site.
+
+- Both Mike and Shanti came from creative backgrounds and wanted the site to be as appealing as possible.
+
+- Shanti is an artist that is a teacher and her knowledge in art and colour matching would help the site to be more attractive.
+
+- Both Mike and Shanti had a clear vision that the target audience aimed at for this site should be anyone who loves dogs.  
+
+- The focus was for it to be for dog owners or potential new dog lovers.
+
+- Any Age group could use this site.
+
+- Their experience with owning a dog had helped them to connect with other dog owners.
+
+- They had taken their dog to cafe nero a dog friendly cafe and they met other like minded dog owners.
+
+- Shanti explained that Dog owners have a lot in common about:
+
+  - Taking care of their dogs.
+
+  - Talking about their experiences about their dogs.
+
+  - Sharing funny or memorable stories about their dogs.
+
+  - Talking about their dogs habits or behaviour.
+
+  - Sharing information about dog products and dog gifts.
+
+- This for Shanti and Mike formed a community of dog owners with their dogs and it created interest.
+
+### Site Owners
+
+As potential site owners for the site we considered what role Shanti and Mike would want.
+
+- To have a secure admin that only they could access.
+
+- To be able to add, edit and delete products on the site.
+
+- To be able to approve product reviews.
+
+- To be able to check and reply to any contact that had been made by potential users throught the admin.
+
+- To Check and authorise any testimonials that had been made to admin.
+
+### Site Users
+
+As site users Shanti and Mike wanted be able to do the following:
+
+- Be able to see a navigation bar with the list of different types of dog product groupings.
+
+ -Dog Accessories 
+
+ -Dog food 
+
+ -Dog clothes
+
+- Be able to check for products by 
+
+ - By price
+
+ - By rating 
+
+ - By catergory
+
+ - All products
+
+ - Deals
+
+- To find products by name or description.
+
+- To have a shooping bag in which they can add products they liked with any amount of quantity so as to purchase.
+
+- To be able to have their own personal profile page that they can log into to leave reviews about products.
+
+## Scope 
+
+- The scope of this project is to take into consideration the functions and features required for this e-commerce website. 
+
+- With defining the user stories it was essential to consider what functions would be important for this project.
+
+The blog will allow the users to:
+
+- The user must be able to navigate around the e=commerce site easily easily on each page.
+
+- The user will be able to select various products on the site.
+
+- There will be access to a profile page for the user to sign up for an account.
+
+- The user will be able to leave a review about any product if they have registered and are logged in.
+
+- The user can view products by checking through the price,category, name and rating of products.
+
+- The user can make contact with the admin if they have any questions or queries.
+
+- The user can leave a testimonial about the site if they have enjoyed their shopping experience.
+
+
 ## Agile Methodology
 
 The agile methodology used in this project was a kanban board on github.  
@@ -222,11 +337,25 @@ Kanban board used for agile development for Bubba the supershop for dog products
 [Screenshot of Kanban Board ](media/kanban2022-09-15%20(16).png)
 
 
+## User Testing
 
+Both Mike and Shanti tested the site from the user perspective. Their initial reaction was very positive as they liked the minimalistic design elements and the easy to use fctionality.
 
+## Admin Testing
 
+Mike gave input about how they wanted to use the admin site to enable them to: 
 
-User Testing
+-  Add, update and delete products.  
+
+- Check products 
+
+- check product reviews submitted by users and how to respond to them via the admin.
+
+- check submitted testimonials from users before displaying them.
+
+Mike felt that the admin process worked well for them.
+
+## Structure
 
 ## Skeleton
 
@@ -365,6 +494,7 @@ I chose the Rubik font.
 Logo
 
 - The logo for this site was designed by Mike as they wanted tohave a paw print logo and in Shantis words she wanted to keep things looking simple. 
+
 - The green background clour was included on the logo because it reminded Mike of walking his dog in a grren graassed park.
 
 
@@ -414,6 +544,10 @@ Add product
 Edit product
 
 Add review
+
+Edit review
+
+Delete review
 
 Reviews
 
@@ -854,6 +988,8 @@ Facebook business page
 Squashed bugs
 On 16 June 2022 found that shopping bag icon was not working and checked code and found was at the end of code on line 82 of base.html and once this was removedd the icon did work.
 
+On the 27th of September whislt doing a test on the deployed Heroku site for the login I noticed that there was a 500 error and on further investigation had to fix string casting bug in models.py in profiles app.
+
 Remaining bugs
 
 Resolved Issues
@@ -864,8 +1000,130 @@ On the 21st of August I had to contact tutor support whether the dj_database_url
 
 My tutor Mike informed me that it was not good practise in the coding industry to generate secret keys from unknown websites on the internet and that it was best to generate a secret key in the terminal with the command python3 -c.  
 
+## Testing 
+
+[Testing](TESTING.md)
 
 ## Deployment
+
+The project was created in gitpod.  
+
+
+I committed the code to Git and used the terminal to push to Github.  The next step was to remotely deploy to Heroku.
+
+
+ Heroku Deployment 
+
+
+- I created an Heroku app
+
+- I clicked  "Create new app" in Heroku.
+
+- Created a new app name 
+
+- Then I selected Europe as the location. 
+
+
+
+
+
+The Postgres database was attached:
+
+I then went to te resources tab and under add-ons typed in Postgres amd selected the Postgres Heroku option.
+
+
+
+Then I had to prepare the environment and settings.py file:
+
+
+
+I clicked on the Settings tab:
+
+ - I clicked  on Reveal Config Vars/ 
+ 
+ - Then next to DATABASE_URL I copied the URL.
+
+- I went to the  GitPod workspace and  created an env.py file in the main directory.
+
+- In the env file I: 
+
+  - Added  the DATABASE_URL value. 
+
+  - and added the chosen SECRET_KEY value. 
+
+
+in Heroku I added  the SECRET_KEY value to the Config Vars.
+
+need to modify from here
+
+I updated the settings.py file so as to import the env file.
+I added  the SECRETKEY and DATABASE_URL file paths.
+
+
+I added the following to the  settings.py:
+
+- STATIC_URL
+
+- STATICFILES_DIRS
+
+- MEDIA_URL
+
+- MEDIA_ROOT
+
+- TEMPLATES_DIR
+
+- Update the DIRS in TEMPLATES with the TEMPLATES_DIR
+
+- Update ALLOWED_HOSTS with ['app_name.herokuapp.com', 'localhost']
+
+- Set DISABLE_COLLECTSTATIC and Deploy to Heroku:
+
+There were three directories created in the main directory; 
+
+- media, storage and templates.
+
+Then I created a file named "Procfile" in the main directory and add the following:
+- web: gunicorn project-name.wsgi
+
+
+in the terminal, log in to Heroku and then enter the following:
+
+heroku config:set DISABLE_COLLECTSTATIC=1 --app (Heroku App Name)
+
+Go to the 'Deploy' tab on Heroku and connect to GitHub, then to the required repository. Click on 'Deploy Branch' and wait for the build to load. When the build is complete, the app can be opened through Heroku.
+
+
+There were some issues with deploying to Heroku and the tutors informed that this was a common update issue and sent me some more information to follow so as to get the website deployed properly.
+
+The tutors informed that this was because of the versions in python and Heroku and I would have to set up a compatable version. 
+
+Please click below about how the issues with Heroku deployment were resolved.
+
+[Heroku Issues](Issuesheroku.md)
+
+
+The step I had to take were.
+
+- Create an runtime.txt and add python-3.9.14
+
+Then add the following in the terminal:
+
+1. touch runtime.txt && echo "python-3.10.7" > runtime.txt
+2. git add . && git commit -m "Add runtime.txt for heroku deployment"
+3. git push origin main
+4. git push heroku main
+
+Deployment 
+
+[Deployment Issues](media/deployissues1.png)
+
+[Deployment Issues 2 continued](media/deploymentissues2.png)
+
+[Deployment Issues 3 continued](media/deployissues3.png)
+
+[Deployment Issues 4 continued](media/deployissues4.png)
+
+
 
 Cloning Project with Github
 
@@ -877,7 +1135,7 @@ Note.
 
 ## Credits
 
-The layout for the readme is accredited to [Matex600](https://github.com/Matex600/Fat-Stack-Coffee#credits)
+The layout for the readme is accredited to [Matex600](https://github.com/Matex600/Fat-Stack-Coffee#credits) and [IrishBecky](https://github.com/Irishbecky91/TheWaggingTailor)
 
 [Google search for collars](https://www.google.com/search?q=collar+dog&tbm=isch&ved=2ahUKEwj2xPGpie35AhURRhoKHdNKDCAQ2-cCegQIABAA&oq=collar+dog&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BAgjECc6BAgAEEM6CAgAEIAEELEDOgcIABCxAxBDUNcHWMAMYO4OaABwAHgAgAFSiAGIA5IBATWYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=MToNY7boOJGMadOVsYAC&bih=896&biw=1545#imgrc=u4XpnjmM9ImeHM)
 
@@ -929,7 +1187,6 @@ To set up the agile development for the kanban board was shown by the code insti
 [Google search for creating contact form](https://www.youtube.com/watch?v=dnhEnF7_RyM)
 
 
-[Whilst I was designing the site I came acress this online store that inspired me ](https://www.petshop.co.uk/)
 
 [Google search for installing apps ](https://www.nickmccullum.com/how-to-use-django-migrations/)
 
@@ -941,7 +1198,7 @@ To set up the agile development for the kanban board was shown by the code insti
 
 [Google search for Imposter Syndrome](https://www.youtube.com/watch?v=gPDk7_l_7WE&t=641s)
 
-[Google search for ]()
+[Google search for contact form](https://www.youtube.com/watch?v=dnhEnF7_RyM)
 
 [Google search for ]()
 
@@ -1063,7 +1320,7 @@ Resolved Issues
 
 Security
 
-Deployment
+Deployment 
 
 [Deployment Issues](media/deployissues1.png)
 
@@ -1086,7 +1343,7 @@ Note.
 
 Credits
 
-The layout for the readme is accredited to [Matex600](https://github.com/Matex600/Fat-Stack-Coffee#credits) and [IrishBecky](https://github.com/Irishbecky91/TheWaggingTailor)
+
 
 The code used in this project is accredited to the Boutique Ado Walkthrough project by the Code insitute.
 
