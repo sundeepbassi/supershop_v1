@@ -11,6 +11,11 @@ body {
     font-family: 'Lato';
 }
 
+/* The minimum height of the content of each page, to ensure the footer is never too clost to the top of the page */
+.min-main-content-height {
+    min-height: 800px;
+}
+
 .footer {
     background-color: white
 }

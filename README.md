@@ -508,6 +508,8 @@ Project Features
 
 Home Page
 
+The home page is also the landing page for anyone visiting the site.  There is the logo and statement and the main navbar. Then there is a photo of a Jack Russell dog with his paw.  There is a Browse Products button to press.
+
 Main navbar
 
 The main navbar was set underneath the search bar so that a user could easily find what they were looking for. The Main navbar includes:
@@ -544,15 +546,26 @@ Edit product
 
 Add review
 
+The user can leave a review on any of the products only if they are a registered user and sighned up and logged in.
+
+Once signed in this will enable them to log into the reviews section.
+
+In the add review form section the user can add a title for a specific product and add a review for that comment.
+
 Edit review
 
+If the user is logged in they can edit there reviw with the Edit button.  This will take them to the edit form and they can edit their review and either press the update button to make changes or press the cancel button if they change their mind.
+
 Delete review
+
+f the user is logged in they can delete there review with the Delete button.  This will take them to the Delete form and they can delete their review and either press the delete button to remove the review or press the cancel button if they change their mind.
+
 
 Reviews
 
 Checkout
 
-Shopping cart
+Shopping bag
 
 Order summary
 
@@ -566,6 +579,7 @@ About Page
 
 
 Contact Page
+
 
 
 
@@ -1105,7 +1119,7 @@ Please click below about how the issues with Heroku deployment were resolved.
 [Heroku Issues](Issuesheroku.md)
 
 
-The step I had to take were.
+The steps I had to take were.
 
 - Create an runtime.txt and add python-3.9.14
 
