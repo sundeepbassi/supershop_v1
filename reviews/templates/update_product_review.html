@@ -23,7 +23,7 @@
                 <div class="product-review-body">
                     Edit product review '{{ product_review.title}}' by {{ product_review.author }}:
                 </div>
-                <div class="form-group mt-4">
+                <div class="product-review-form-edit rounded-lg form-group mt-4">
                     <form method="POST">
                         {% csrf_token %}
                         {{ form|crispy }}

@@ -336,6 +336,11 @@ Kanban board used for agile development for Bubba the supershop for dog products
 
 [Screenshot of Kanban Board ](media/kanban2022-09-15%20(16).png)
 
+With the help of the tutors I was able to set the project to public.
+
+[Screenshot of project in public mode](media/pubproj2022-10-02%20(3).png)
+
+
 
 ## User Testing
 
@@ -563,6 +568,7 @@ f the user is logged in they can delete there review with the Delete button.  Th
 
 Reviews
 
+The reviews made for a product can be viewed under that particular product. There is a title for the review, the review comment, the name of the user with the date and time when it was made.
 Checkout
 
 Shopping bag
@@ -577,13 +583,19 @@ Profile favourites list order history
 
 About Page
 
+The about page was created to enable users to know what Pawpals is about.  We kept this page simple as we did not want to bombard the user with too much information.
 
-Contact Page
+Contact Page & contact form
 
+This page was created to enable users to make contact with the site owners.  There is the same consistent layout with a contact form that users can submit their:
 
+- Full name
 
+- Email
 
-contact form
+- Subject
+
+- Message content
 
 contact details
 
@@ -591,9 +603,48 @@ Allauth
 
 Sign in
 
+The sign in page has a form for registered users to fill in their username and password.
+
 Sign out
 
+The registered user can sign out from the profile icon my account and press logout and then they are redirected to a signout page where they have the option of signing out or cancelling that function.
+
 Sign up
+
+A new user can sign up from the profile icon my account and click register to sign up.  Then the new user is taken to a sign up page with a form where they have to fill in:
+
+- E-mail address
+
+- E-mail address confirmation
+
+- A username
+
+- Password
+
+- Password (again)
+
+Then the user can click back to login or sign up.
+
+Testimonials 
+
+Any user can make a testimonial about the sire by going to the testimonial page and clicking send in your testimonial. This redirects to a testimonial page with a form for the user to fill out.
+On the form there is a request for a :
+
+- Fullname
+
+- Location
+
+- Testimonial
+
+Then there is a send your testinial button for the user to click once they have made a testimonial comment.
+
+
+
+
+
+
+
+
 
 ## Code Validation
 

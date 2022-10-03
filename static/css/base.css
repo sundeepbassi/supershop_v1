@@ -398,6 +398,11 @@ input[name='q']::placeholder {
     border-color: #e3e3e3;
     font-size: 20px
 }
+/* Styling for the form when we're editing a product review */
+.product-review-form-edit {
+    padding: 20px;
+    background-color: #cee6ff;
+}
 
 /* Styling for testimonials */
 .testimonial-box {
