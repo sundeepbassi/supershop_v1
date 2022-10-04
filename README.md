@@ -1047,6 +1047,27 @@ Newsletter
 
 Facebook business page
 
+[Facebook screenshot page for pawpals when clicked from the facebook link in social links](media/facebookdeployedpage2.png)
+
+[Facebook screenshot page for pawpals information](media/facebook-info.png)
+
+[Facebook screenshot page for pawpals information 3](media/facebook3.png)
+
+[Facebook screenshot page for pawpals information 3](media/facebook3.png)
+
+[Creating Facebook screenshot page for pawpals information 1](media/creatingfacebook1.png)
+
+[Creating Facebook screenshot page for pawpals information 2](media/creatingfacebook2.png)
+
+[Created a facebook post 3](media/createdpost.png)
+
+
+
+
+
+
+
+
 ## Bug report
 
 Squashed bugs
