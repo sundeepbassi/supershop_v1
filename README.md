@@ -1045,6 +1045,15 @@ Web Marketing  Web Marketing  Newsletter Marketing with Mailchimp
 
 Newsletter
 
+The newsletter was created on mailchimp and the process was shown by the code institute.
+
+
+[MailChimp success message on site for subscribing](media/mailchimpsuccess.png)
+
+[MailChimp success message on site for subscribing](media/emailsenttomailchimp.png)
+
+
+
 Facebook business page
 
 [Facebook screenshot page for pawpals when clicked from the facebook link in social links](media/facebookdeployedpage2.png)
@@ -1060,6 +1069,8 @@ Facebook business page
 [Creating Facebook screenshot page for pawpals information 2](media/creatingfacebook2.png)
 
 [Created a facebook post 3](media/createdpost.png)
+
+I have put the rel="noopener" in the code for the social media links for facebook as it is an external website and this was suggested to be good practise from code institute.
 
 
 
