@@ -8,6 +8,9 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="We provide a wide variety of products for dogs. Our aim is to provide the highest quality for our customers.">
+        <meta name="keywords" content="all dog products, price, category, rating, deals, dog collars, dog harnesses, dog leads, dog toys, dog food,  tinned dog food, dog biscuits, dog nutrition, dog jackets, dog scarves, dog fancy dress, ">
+
     {% endblock %}
 
     {% block extra_meta %}
@@ -17,7 +20,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
         <link rel="stylesheet" href="{% static 'css/base.css' %}">
-        <link rel="stylesheet" href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" type="text/css">
 
     {% endblock %}
 
@@ -163,20 +166,27 @@
           </div>
        </div>
        <div class="row">
-         <div class="col-12 col-md-6">
+         <div class="footer-information-box rounded-lg col-12 col-md-6">
            <h3>Social</h3>
            <p>Keep up to date with all our latest offers</p>
-           <a href="https://www.facebook.com/100086389274703/professional_dashboard/insights/?ref=" target="_blank" rel="noopener"><i class="fab fa-facebook-square"></i> Follow us on Facebook!</a>
+           <a href="https://www.facebook.com/100086389274703/professional_dashboard/insights/?ref=" rel="noopener"><i class="fab fa-facebook-square"></i> Follow us on Facebook!</a>
+           <h3 style="padding-top: 40px">Testimonials</h3>
+           <p>Please send us your testimonials:</p>
+           <a href="{% url 'display_testimonial_form' %}">Submit Testimonial</a>
+           <p style="padding-top: 20px">See other customer's testimonials:</p>
+           <a href="{% url 'display_all_testimonials' %}">View Testimonials</a>
+           <h3 style="padding-top: 40px">Useful Information</h3>
+           <b>SPONSOR: </b><a style="padding-bottom: 60px" rel="sponsored" href="https://www.rspca.org.uk/adviceandwelfare/pets/dogs">Dog Health Information (RSPCA)</a>
          </div>
          <div class="col-12 col-md-6">
            
            <!-- Mailchimp signup form here -->
            <!-- Begin Mailchimp Signup Form -->
 
-<div id="mc_embed_signup">
+<div class="rounded-lg" id="mc_embed_signup">
     <form action="https://herokuapp.us9.list-manage.com/subscribe/post?u=20f64aebf95bcacc519638e8a&amp;id=2a9f3b3875&amp;f_id=00d00ae1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" rel="noopener" novalidate>
         <div id="mc_embed_signup_scroll">
-        <h2>Subscribe!</h2>
+        <h2>Subscribe to Newsletter</h2>
            <p>Get exclusive offers and discount codes by subscribing to our monthly newsletter</p>
         <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
@@ -192,14 +202,15 @@
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_20f64aebf95bcacc519638e8a_2a9f3b3875" tabindex="-1" value=""></div>
         <div class="optionalParent">
             <div class="clear foot">
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                <p class="brandingLogo"><a href="http://eepurl.com/iawEzv" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary button">
             </div>
+            
+            <p class="brandingLogo"><a href="http://eepurl.com/iawEzv" title="Mailchimp - email marketing made easy and fun"><img alt="Made With MailChimp" src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
         </div>
     </div>
 </form>
 </div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<script src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
          </div>
        </div>
