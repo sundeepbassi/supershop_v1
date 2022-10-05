@@ -24,9 +24,19 @@ class ProductReview(models.Model):
     # it hasn't been declared yet in the file
     author = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
 
+    # Specify a minimum product review title of 5,
+    # to at least enforce a reasonable title!
+    #
+    # Specify a maximum review title of 200,
+    # as that is all the model field can have.
     title = models.CharField(max_length=200,
                              validators=[MinLengthValidator(5)])
 
+    # Specify a minimum product review title of 10,
+    # to at least enforce a reasonable description!
+    #
+    # Specify a maximum review title of 1000,
+    # as that is all the model field can have.
     review = models.TextField(max_length=1000,
                               help_text='Enter a review for this product',
                               validators=[MinLengthValidator(10)])
