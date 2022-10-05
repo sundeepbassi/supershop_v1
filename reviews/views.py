@@ -47,7 +47,7 @@ def write_product_review(request):
         )
 
 
-class UpdateProductReview(SuccessMessageMixin, UpdateView):
+class update_product_review(SuccessMessageMixin, UpdateView):
     """ Update a product review """
     model = ProductReview
     template_name = 'update_product_review.html'
@@ -67,7 +67,7 @@ class UpdateProductReview(SuccessMessageMixin, UpdateView):
         return next_url
 
 
-class DeleteProductReview(DeleteView):
+class delete_product_review(DeleteView):
     """ Delete a product review """
     model = ProductReview
     template_name = 'delete_product_review.html'
@@ -76,7 +76,7 @@ class DeleteProductReview(DeleteView):
 
     def delete(self, request, *args, **kwargs):
         messages.success(self.request, self.success_message)
-        return super(DeleteProductReview,
+        return super(delete_product_review,
                      self).delete(request, *args, **kwargs)
 
     # After deleting a product review, go to the url specified in this

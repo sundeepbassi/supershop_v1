@@ -6,12 +6,12 @@ from . import views
 
 urlpatterns = [
     # Edit a product review (Example URL: /reviews/edit/15)
-    path('edit/<int:pk>',
-         views.UpdateProductReview.as_view(),
+    path('update_product_review/<int:pk>',
+         views.update_product_review.as_view(),
          name='update_product_review'),
 
     # Delete a product review (Example URL: /reviews/delete/15)
-    path('delete/<int:pk>',
-         views.DeleteProductReview.as_view(),
+    path('delete_product_review/<int:pk>',
+         views.delete_product_review.as_view(),
          name='delete_product_review'),
 ]
