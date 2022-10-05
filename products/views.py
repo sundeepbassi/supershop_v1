@@ -97,6 +97,7 @@ def product_detail(request, product_id):
         'product': product,
         'approved_reviews': approved_reviews_for_this_product,
         'product_review_form': form,
+        'extra_title': str('Product Detail'),
     }
 
     return render(

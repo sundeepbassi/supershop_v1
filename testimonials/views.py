@@ -14,7 +14,8 @@ def display_testimonial_form(request):
             form.save()
             return render(request, 'testimonials/success.html')
     form = TestimonialForm()
-    context = {'form': form}
+    context = {'form': form,
+               'extra_title': str('Submit Testimonial'),}
     return render(request, 'testimonials/submit_testimonial.html', context)
 
 
@@ -24,6 +25,7 @@ def display_all_testimonials(request):
 
     context = {
         'testimonials': testimonials,
+        'extra_title': str('Testimonials'),
     }
 
     return render(request, 'testimonials/display_testimonials.html', context)

@@ -39,7 +39,7 @@ def write_product_review(request):
         form = ProductReviewForm()
 
     context = {
-        'product_review_form': form
+        'product_review_form': form,
     }
 
     return render(
