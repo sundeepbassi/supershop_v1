@@ -136,11 +136,15 @@ Card Testing
 
 #### Navigation & Viewing
 
-As a shopper I want to view a list of products about dog food as I want to  select some to purchase.
+As a shopper I want to view a list of dog products as I want to  select some to purchase.
 
 As a shopper I want to view product details individually, quickly identify deals, clearance items and special offers. As I want to take advantage of special savings on products I would like to purchase.
 
 As a shopper I want to see the total cost of what I have bought  at any time so that I can be in control of my spending.
+
+As a Site User I can submit a testimonial so that I can give good positive feedback about the site.
+
+
 
 #### Registration & User Accounts
 
@@ -1052,6 +1056,8 @@ The newsletter was created on mailchimp and the process was shown by the code in
 
 [MailChimp success message on site for subscribing](media/emailsenttomailchimp.png)
 
+I have put the rel="noopener" in the code for the social media links for mailchimp as it is an external website and this was suggested to be good practise from code institute.
+
 
 
 Facebook business page
@@ -1074,6 +1080,9 @@ I have put the rel="noopener" in the code for the social media links for faceboo
 
 
 
+The meta tags were added for meta description and the meta keywords in the base.html file as shown by the code institute.
+
+[Meta tags for description  and the keywords ](media/meta-description-keywords-2022-10-04%20(6).png)
 
 
 
@@ -1092,9 +1101,33 @@ Resolved Issues
 
 On the 21st of August I had to contact tutor support whether the dj_database_url and psycopg2-binary installations would be compatabile versions for the project.  The tutor support informed me that having the incorrect versions may cause errors amd guided me innstalling the correct versions into my requirements.txt file with the migrate command.
 
+Whilst checking the shopping bag checkout we found a bug in signals.py that was giving us an error whilst we were trying to make a transaction.  We fixed it by putting in the code below.
+
+@receiver(post_save, sender=OrderLineItem)
+def update_on_save(sender, instance, created, **__kwargs):
+    """
+    Update order total on lineitem update/create
+    """
+    instance.order.update_total()
+
+The following resources helped us to sort out the bug.
+
+[Stackoverflow](https://stackoverflow.com/questions/1301346/what-is-the-meaning-of-single-and-double-underscore-before-an-object-name)
+
+[Testing for valid credit card numbers](media/valid-credit-card-numbers.PNG)
+
+[Successful Checkout](media/Successful%20Checkout.PNG)
+
+
 ## Security
 
 My tutor Mike informed me that it was not good practise in the coding industry to generate secret keys from unknown websites on the internet and that it was best to generate a secret key in the terminal with the command python3 -c.  
+
+We had to remove all target="_blank" except MailChimp because it breaks the back button in the web browser, which is considered bad user interface design:
+Source: https://www.digital.ink/blog/website-links-new-tab/
+
+My tutor Mike informed me this was bad practise for both User Iterface design and a security issue.
+
 
 ## Testing 
 
@@ -1299,11 +1332,11 @@ To set up the agile development for the kanban board was shown by the code insti
 
 [Google search for contact form](https://www.youtube.com/watch?v=dnhEnF7_RyM)
 
-[Google search for ]()
+[Google search for email in django](https://stackoverflow.com/questions/54467321/how-to-tell-if-users-email-address-has-been-verified-using-django-allauth-res)
 
-[Google search for ]()
+[Google search for clean code](https://garywoodfine.com/what-is-clean-code/)
 
-[Google search for ]()
+[Google search for nofollow](https://www.searchenginejournal.com/using-nofollow-sponsored-ugc-links/389902/#close)
 
 [Google search for ]()
 
