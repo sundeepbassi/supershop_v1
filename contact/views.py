@@ -9,6 +9,6 @@ def contact(request):
             form.save()
             return render(request, 'contact/success.html')
     form = ContactForm()
-    context = {'form': form, 
-               'extra_title': str('Contact Us'),}
+    context = {'form': form,
+               'extra_title': str('Contact Us')}
     return render(request, 'contact/contact.html', context)

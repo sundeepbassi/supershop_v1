@@ -310,11 +310,7 @@ HTML Pages - HTML Validation
 -  []()
 
 
--  []()
 
-
-
--  []()
 
 
 CSS stylesheets
@@ -356,15 +352,34 @@ JavaScript Files - JS Validation
 
 
 
+Python Files
+
+My personal tutor informed that the best thing to do with the python validation testing was to do it in the terminal for larger files.  He explained that the pep8 install would check all the files. The following files were checked and any errors were corrected.
+
+-  [pep8 1.7.1 pip install pep8](https://pypi.org/project/pep8/)
+
+
+
 -  []()
 
 
+-  [media/workspace-supershop_v1](media/workspace-supershop_v1.PNG)
 
-Python Files
+
+
+
 Checkout
 
 
+-  [media/workspace-supershop_v1-checkout](media/workspace-supershop_v1-checkout.PNG)
+
+
+
 -  []()
+
+Contact
+
+-  [media/workspace-supershop_v1-contact](media/workspace-supershop_v1-contact.PNG)
 
 
 
@@ -374,15 +389,19 @@ Checkout
 Checkout Files - Python Validation
 Home
 
--  []()
+-  [media/workspace-supershop_v1-home](media/workspace-supershop_v1-home.PNG)
 
 
 
--  []()
+
 
 
 Home Files - Python Validation
 Products
+
+-  [media/workspace-supershop_v1-products](media/workspace-supershop_v1-products.PNG)
+
+
 
 -  []()
 
@@ -394,48 +413,63 @@ Products
 Product Files - Python Validation
 Profile
 
--  []()
+-  [media/workspace-supershop_v1-profiles](media/workspace-supershop_v1-profiles.PNG)
 
 
 
 -  []()
 
 
-Profile Files - Python Validation
-Queries
-
--  []()
-
 
 
 -  []()
 
 
-Queries Files - Python Validation
+Bag Files - Python Validation
 Shopping Bag
 
--  []()
+-  [media/workspace-supershop_v1-bag](media/workspace-supershop_v1-bag.PNG)
 
 
 
 -  []()
 
 
-Shopping Bag Files - Python Validation
-The Wagging Tailor
-
--  []()
 
 
 
--  []()
-
-
-The  Files - Python Validation
+Testimonial  Files - Python Validation
 User testing
 
--  []()
+-  [media/workspace-supershop_v1-testimonials](media/workspace-supershop_v1-testimonials.PNG)
 
 
 
 -  []()
+
+
+
+Files - Python Validation
+User testing
+
+-  [media/workspace-supershop_v1-supershop_v1](media/workspace-supershop_v1-reviews.PNG)
+
+
+
+-  []()
+
+
+
+
+
+
+
+Files - Python Validation
+User testing
+
+-  [media/workspace-supershop_v1-supershop_v1](media/workspace-supershop_v1-supershop_v1.PNG)
+
+
+
+-  []()
+

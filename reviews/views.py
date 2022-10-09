@@ -44,7 +44,7 @@ def write_product_review(request):
 
     return render(
         request, 'product-review-form.html', context
-        )
+    )
 
 
 class update_product_review(SuccessMessageMixin, UpdateView):
