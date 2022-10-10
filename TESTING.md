@@ -251,10 +251,9 @@ As a shopper I want to be able  to view an order confirmation after checkout so 
 
 
 
-As a shopper I want to be able  to  receive an email confirmation after checking out so that I can keep the confirmation of what I have purchased for my records.
 
 
--  [Stripe email information](media/stripeemails.png)
+
 
 
 -  []()

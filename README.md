@@ -126,6 +126,14 @@ Future Features
 
 In the future we would like to let each registered user be able to submit only one review.
 
+I discussed incorporating the user story from below with my mentor and it we decided that this could be used for a future feature or I could use the method I had incorporated with the email confirmation for registering an account.  I decided because of time constraints I would do this as a future feature.
+As a shopper I want to be able  to  receive an email confirmation after checking out so that I can keep the confirmation of what I have purchased for my records.
+
+I also showed my mentor the information from stripe that email confirmations for payment receipts are not sent for test transactions.
+
+-  [Stripe email information](media/stripeemails.png)
+
+
 ## User Experience
 
 UI/UX
@@ -188,7 +196,7 @@ As a shopper I want to be able  to feel my personal and payment information is s
 
 As a shopper I want to be able  to view an order confirmation after checkout so that I can verify that I have not made any mistakes.
 
-As a shopper I want to be able  to  receive an email confirmation after checking out so that I can keep the confirmation of what I have purchased for my records.
+
 
 Admin & Store Management 
 
