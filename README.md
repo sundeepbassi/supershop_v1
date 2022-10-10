@@ -356,7 +356,7 @@ With the help of the tutors I was able to set the project to public.
 
 ## User Testing
 
-Both Mike and Shanti tested the site from the user perspective. Their initial reaction was very positive as they liked the minimalistic design elements and the easy to use fctionality.
+Both Mike and Shanti tested the site from the user perspective. Their initial reaction was very positive as they liked the minimalistic design elements and the easy to use functionality.
 
 ## Admin Testing
 
@@ -658,25 +658,7 @@ Then there is a send your testinial button for the user to click once they have 
 
 
 
-## Code Validation
 
-HTML
-
-Beautify
-
-Nu Html Checker
-
-CSS
-
-Jigsaw
-
-Javascript
-
-Jshint
-
-Python
-
-Pep8
 
 ## Technologies Used
 

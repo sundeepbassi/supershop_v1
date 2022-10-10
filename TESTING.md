@@ -290,6 +290,26 @@ Automated Testing
 Code Validation
 The W3C Markup Validator service was used to validate the HTML and CSS code used. The PEP8 Python Validator was used to validate the Pythoncode used. The JSHint JavaScript Validator was used to validate the JavaScript code used.
 
+## Code Validation
+
+HTML
+
+Beautify
+
+Nu Html Checker
+
+CSS
+
+Jigsaw
+
+Javascript
+
+Jshint
+
+Python
+
+Pep8
+
 Results:
 HTML Pages
 
