@@ -199,13 +199,29 @@ As a Site User I can create, read, update and delete reviews so that I can leave
 
 - As a site user I can create, read, update and delete reviews.
 
--  [Create a Review]()
 
--  [Read a Review]()
+The review has been created by the site user.
 
--  [Update a Review]()
+-  [Create a Review](media/createreview.png)
 
--  [Delete a Review]()
+The review can now be read on product review.
+
+-  [Read a Review](media/readreview.png)
+
+- The user can update their review.
+
+-  [Update a Review](media/updatereview.png)
+
+- The user can now read their updated review.
+
+-  [Read the Updated Review](media/readupdate.png)
+
+- The user has the option to delete the review or cancel the deletion.
+
+-  [Delete a Review](media/deletereview.png)
+
+-  [Review has been deleted from Product Reviews](media/deletedreview.png)
+
 
 
 
