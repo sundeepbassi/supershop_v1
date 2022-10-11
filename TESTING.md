@@ -1,6 +1,6 @@
 [Project Readme](README.md)
 
-[See live deployed Pawpals website](https://supershop-2022.herokuapp.com/products/test)
+[See live deployed Pawpals website](https://supershop-2022.herokuapp.com/about/)
 
 
 
