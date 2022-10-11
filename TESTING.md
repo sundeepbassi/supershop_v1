@@ -195,7 +195,17 @@ As a shopper I want to be able  easily see what I have searched for and the numb
 - [Search for treats in search bar](media/treatssearch.png)
 
 
-As a Site User I can create, read, update and delete reviews so that I can leave my feedback about a particular product.
+As a Site User I can create, read, update and delete reviews so that I can leave my feedback about a particular product.(The site user must be registered to use the review function)
+
+- As a site user I can create, read, update and delete reviews.
+
+-  [Create a Review]()
+
+-  [Read a Review]()
+
+-  [Update a Review]()
+
+-  [Delete a Review]()
 
 
 
@@ -230,7 +240,7 @@ As a shopper I want to be able to  easily enter my payment information so that I
 
 
 
--  []()
+
 
 
 As a shopper I want to be able  to feel my personal and payment information is safe and secure so that I can confidently provide the needed information to make a purchase.
@@ -263,7 +273,12 @@ As a shopper I want to be able  to view an order confirmation after checkout so 
 
 #### Admin & Store Management 
 
-As a store owner I want to be able  add a product so that I can add new items to my store,
+As a store owner I want to be able to add a product so that I can add new items to my store.
+
+- As a store owner I can add new products from the admin panel in products.
+
+-  [Add  a Product](media/addprod.png)
+
 
 As a store owner I want to be able Edit/update a product  so that I can change product prices,descriptions,images and other product criteria.
 
@@ -279,7 +294,6 @@ As a store owner I want to be able Delete a product so that I can remove items t
 
 -  [Delete Product Text](media/editprod.png)
 
--  [Edit Product Text](media/editprod.png)
 
 
 
@@ -322,7 +336,9 @@ HTML Pages - HTML Validation
 
 -  [The Website Validator was used to check all of the HTML](https://datayze.com/site-validator?domain=https%3A%2F%2Fsupershop-2022.herokuapp.com%2F&parameters=&exclude=)
 
--  []()
+My mentor informed me that the HTML could also be validated from the view page source of the live site. I copied and pasted the code from there and put it into W3C Markup Validation service.
+
+-  [Pass for page source code](media/sourcecodepass.png)
 
 
 
@@ -332,7 +348,8 @@ HTML Pages - HTML Validation
 
 
 
-CSS stylesheets
+CSS Stylesheets - CSS Validation
+
 
 -  [Base CSS Validation](media/base-css-validation.PNG)
 
@@ -345,13 +362,11 @@ CSS stylesheets
 -  []()
 
 
-CSS Stylesheets - CSS Validation
 
 -  []()
 
 
 
--  []()
 
 
 
@@ -367,34 +382,30 @@ JavaScript Files
 
 JavaScript Files - JS Validation
 
--  []()
 
 
 
 Python Files
 
+I tried to use pep8 online and got these pages below.
+
+-  [Screenshot of pep8 online](media/pep8.png)
+
+-  [Link to Pep8 online](http://pep8online.com/)
+
+
 My personal tutor informed that the best thing to do with the python validation testing was to do it in the terminal for larger files.  He explained that the pep8 install would check all the files. The following files were checked and any errors were corrected.
 
 -  [pep8 1.7.1 pip install pep8](https://pypi.org/project/pep8/)
 
-
-
--  []()
-
-
 -  [media/workspace-supershop_v1](media/workspace-supershop_v1.PNG)
 
-
-
-
 Checkout
-
 
 -  [media/workspace-supershop_v1-checkout](media/workspace-supershop_v1-checkout.PNG)
 
 
 
--  []()
 
 Contact
 

@@ -3,7 +3,7 @@
 ## Introduction
 
 Bubba the Supershop for dog products was inpired by a petblog that was created for a friend Shanti.  Shantis devotion and care for animal welfare and her pet dog amazed me and after doing the petblog we thought about how Shantis experience in purchasing products for her pet dog were the next step in sharing her experince of caring about her pet dog.  Shanti had a wealth of experience in pet care and when we first discussed this e-commerce website Shanti was able to give an extensive list of products that could be considered for selling.
-It was Shanti's experience in owning a dog for the first time that made us realise that there will be people who will be considering the idea of owning a dog for the first or who already have a dog and want to be able to purchase dog products from someone who has good experince in dog ownership.
+It was Shanti's experience in owning a dog for the first time that made us realise that there will be people who will be considering the idea of owning a dog for the first time or who already have a dog and want to be able to purchase dog products from someone who has good experince in dog ownership.
 
 In her own words Shanti said "life is better with a dog"
 
@@ -722,11 +722,11 @@ Your challenge is to walk through these steps we went through in the previous vi
 
 Choose a business idea to do your keyword research for.
 
-Dog products 
+- Dog products 
 
 Your own project idea (possibly for your final project)
 
-The idea was to create an E-Commerce website for dog products.
+- The idea was to create an E-Commerce website for dog products.
 
 Keyword research steps
 
@@ -734,11 +734,11 @@ Brainstorm your general topics
 
 On the 22nd of August I conducted some market research with Shanti who is the inspiration for this E-Commerce website as it was her passion for dogs and animals that was amazing.  Shanti is a lover of animals amd has a pet dog amd I asked her if she was shopping on the internet what products would she like to buy for her pet.  Shanti gave me a very comprehensive list of products that she would look for. We imagined how Shanti would shop on line and what products would appeal to her and how the process of shopping online would make her feel.
 
-Accessories would include glow in the dark collars, rope leads, harnesses, muzels, pet bowls. 
+- Accessories would include glow in the dark collars, rope leads, harnesses, muzels, pet bowls. 
 
-Grooming and bathing accessories would include nail clippers, pet toothpaste and brush, grooming brushes, conditioner, dog shampoo, 
+- Grooming and bathing accessories would include nail clippers, pet toothpaste and brush, grooming brushes, conditioner, dog shampoo, 
 
-clothing raincoats, winter coats, 
+- clothing raincoats, winter coats, 
 
 
 Brain dump possible keywords for each of the general topics
@@ -1075,7 +1075,52 @@ The meta tags were added for meta description and the meta keywords in the base.
 [Meta tags for description  and the keywords ](media/meta-description-keywords-2022-10-04%20(6).png)
 
 
+## Clarification about rel attributes
 
+My mentor asked me to check with tutor support what rel attributes I should use for my external links and they confirmed that rel="noopener" was correct and to ensure that I had target="_blank".
+
+Hi tutors my mentor asked me to double check with my project I have a facebook link and a mail chimp link and need to know what I put in the rel attribute.
+
+When defining the relationship between the current document and a linked document, ensure the following:
+Use “nofollow” for any paid links and distrusted content.
+Use “sponsored” for any sponsored or compensated links.
+Tutoring at Code Institute profile
+One final thing. Please share your code with us. 
+If you are working on Gitpod, please set your workspace to shared, and send us the link to it. If you are working on a course challenge, please send the name of the challenge.
+https://sundeepbass-supershopv1-6tuyxyxoq9v.ws-eu70.gitpod.io/
+Tutoring at Code Institute profile
+
+<a href="https://www.facebook.com/100086389274703/professional_dashboard/insights/?ref=" rel="noopener"><i class="fab fa-facebook-square"></i> Follow us on Facebook!</a>
+that was for the facebook link
+Alan profile
+Hi there, Alan here, how are you today?
+Hi Alan, good to hear from you I am good thanks we have a lot of sunshine here how are you doing mate?
+<form action="https://herokuapp.us9.list-manage.com/subscribe/post?u=20f64aebf95bcacc519638e8a&amp;id=2a9f3b3875&amp;f_id=00d00ae1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" rel="noopener" novalidate>
+mailchimp link
+Alan profile
+Im good thanks for asking :)
+😄
+Alan profile
+ok so its up to you what you put in there - heres some info on norefer and nopen
+What rel=”noreferrer” Does and How to Remove It (searchfacts.com)
+Thanks Alan that is really helpful is it ok to just keep the noopener in the rel attribute for both and do I need a target=blank also
+Alan profile
+target blank will open a new tag / window so given that you are going to an external site, i would thing that that target blanks would be suitable here, we would only use target blank on external sites
+Great I will keep the target blank and keep the rel=noopener.
+Have a great day Alan and thank you for all of your help you are a star mate 🌟
+Alan profile
+You are welcome, and best of luck with your project, hope you have a fab day
+Always good to chat with you one of my favourite tutors
+Thanks you too have a great day
+Alan profile
+:0 awh thanks, its always a pleasure
+👍
+Alan profile
+🙂
+12:11 pm
+Just now.
+
+[Link sent by tutors for rel attributes](https://searchfacts.com/rel-noreferrer-guide/)
 
 
 ## Bug report
