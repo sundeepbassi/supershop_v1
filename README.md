@@ -662,7 +662,61 @@ Then there is a send your testinial button for the user to click once they have 
 
 ## Technologies Used
 
-Manual Testing
+Primary languages used for the project:
+
+- HTML
+
+- CASCADING STYLE SHEETS
+
+- PYTHON
+
+- JAVASCTIPT
+
+The following Frameworks, Libraries, Programs and Additional Languages were used for this project:
+
+GitHub
+
+- I created the repository here with the code institute template.
+
+GitPod
+
+- This is where I wrote the code, committed it from here, and then pushed it to GitHub.
+
+Django
+
+- This framework was installed to create the pages for the site.  I created the apps here and the superuser and ran migrations and created models, forms and views and page templates.
+
+Heroku
+
+- This was used to deploy the site and store the project when pushed.
+
+django-allauth
+
+- This was used to store the project when it was pushed. 
+
+- "Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication."
+
+[Read the Docs](https://readthedocs.org/projects/django-allauth/)
+
+AWS
+
+- This is what I used to store my MEDIA and STATIC files for the deployed site.
+
+Bootstrap
+
+- This was used to create styling to the site.
+
+Balsamique
+
+This was used to create the wireframes during the planning process.
+
+Gimp
+
+Was used to edit images for the project.
+
+
+
+
 
 Sign up
 
@@ -686,15 +740,13 @@ Delete product
 
 Add review/Ratings
 
-Pagination
-
 Contact
 
 ## SEO Reflection, Research and Implementation
 
 Market research
 
-On the 22nd of August I conducted some market research with some friends.  Shanti is a lover of animals amd has a pet dog amd I asked her if she was shopping on the internet what products would she like to buy for her pet.  Shanti gave me a very comprehensive list of products that she would look for. We imagined how Shanti would shop on line and what products would appeal to her and how the process of shopping online would make her feel.
+On the 22nd of August I conducted some market research with some Shanti.  Shanti is a lover of animals amd has a pet dog amd I asked her if she was shopping on the internet what products would she like to buy for her pet.  Shanti gave me a very comprehensive list of products that she would look for. We imagined how Shanti would shop on line and what products would appeal to her and how the process of shopping online would make her feel.
 
 Accessories would include glow in the dark collars, rope leads, harnesses, muzels, pet bowls. 
 
@@ -708,7 +760,7 @@ SEO Reflections
 This reflective process was very important in the research of this project and website as it enabled one to take into consideration the needs of the users and discussing this with Shanti enabled one to clearly understand the needs of a dog owner and what they would would need and expect from an E-Cpmmerce website for dog lovers.  Originally the idea was to include many pet products for various types of pets but it became evident through Shanti's imput of focusing on dog products would be aiming for a specific market.
 SEO Research
 
-Marketing research
+## Marketing research
 
 
 Keyword Research
@@ -996,7 +1048,7 @@ Would your business have a budget to spend on advertising? Or would it need to w
 - As this is a start up E-Commerce site there would not be a budget for advertising therefore it would need to work with free and low cost options to market itself.
 
 
-The article below considered the social customer demographic for for purchasing dog products online.
+The article below considered the social customer demographic for purchasing dog products online.
 
  "In the pet food and supplies segment, social media had the biggest purchase influence on Generation Z and Millennials. In a survey conducted in October 2021 in the United Kingdom, 26 percent of Millennials reported being influenced by social media when purchasing pet food and supplies. In contrast, that figure stood at only two percent for Baby Boomers."
 
@@ -1029,25 +1081,12 @@ Document your process. If you are planning for your final project, keep this doc
 Give yourself around 10 to 15 mins to work on this. By the end of this exercise you should have a list of possible marketing strategies you could use for your chosen business. Remember, if you’re using this exercise to plan for your final project, keep this documentation for your README.
 
 
-Important to do
 
-Web Marketing  Web Marketing  Creating a Facebook Business Page
+## Web Marketing  
 
-Web Marketing  Web Marketing  Newsletter Marketing with Mailchimp
+Creating a Facebook Business Page was shown by the code institute.  The Facebook page is up and running.
 
-
-
-Newsletter
-
-The newsletter was created on mailchimp and the process was shown by the code institute.
-
-
-[MailChimp success message on site for subscribing](media/mailchimpsuccess.png)
-
-[MailChimp success message on site for subscribing](media/emailsenttomailchimp.png)
-
-I have put the rel="noopener" in the code for the social media links for mailchimp as it is an external website and this was suggested to be good practise from code institute.
-
+-  [Pawpals Facebook Page](https://www.facebook.com/profile.php?id=100086389274703)
 
 
 Facebook business page
@@ -1069,10 +1108,22 @@ Facebook business page
 I have put the rel="noopener" in the code for the social media links for facebook as it is an external website and this was suggested to be good practise from code institute.
 
 
+Newsletter
+
+The newsletter was created on mailchimp and the process was shown by the code institute.
+
+
+[MailChimp success message on site for subscribing](media/mailchimpsuccess.png)
+
+[MailChimp success message on site for subscribing](media/emailsenttomailchimp.png)
+
+I have put the rel="noopener" in the code for the social media links for mailchimp as it is an external website and this was suggested to be good practise from code institute.
+
 
 The meta tags were added for meta description and the meta keywords in the base.html file as shown by the code institute.
 
 [Meta tags for description  and the keywords ](media/meta-description-keywords-2022-10-04%20(6).png)
+
 
 
 ## Clarification about rel attributes
@@ -1292,6 +1343,7 @@ Deployment
 [Deployment Issues 4 continued](media/deployissues4.png)
 
 
+My mentor informed me that there was no need to clone or fork the project.  He explained what these did and said that the deployment was the most important thing to do.
 
 Cloning Project with Github
 

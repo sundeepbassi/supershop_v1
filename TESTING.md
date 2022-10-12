@@ -15,7 +15,7 @@ As a shopper I want to view a list of dog products as I want to  select some to 
 
 - The shopper is able to view a list dog products from the drop down menus for Dog accessories, Dog food and Dog clothes from the main nav bar.  The shopper is also able to view all of the products on one page from the All Dog Products drop down link in the main nav bar and click All Products.
 
-= [List of dog products for shopper to view](media/listproducts.png)
+- [List of dog products for shopper to view](media/listproducts.png)
 
 
 As a shopper I want to view product details individually, quickly identify deals, clearance items and special offers. As I want to take advantage of special savings on products I would like to purchase.
@@ -343,8 +343,9 @@ Pep8
 Results:
 HTML Pages
 
+I informed my mentor that my personal tutor had informed me that it was to validate a large batch of files with the website validator tool.  As this was the best practise in industry when working on large batches of files.  I showed the validator results from this website to my mentor and he said this would be good to do the validation like this.
 
-HTML Pages - HTML Validation
+HTML Pages - HTML Validator
 
 -  [HTML VALIDATION](media/HTML-Validation-Proof.PNG)
 
@@ -352,9 +353,13 @@ HTML Pages - HTML Validation
 
 -  [The Website Validator was used to check all of the HTML](https://datayze.com/site-validator?domain=https%3A%2F%2Fsupershop-2022.herokuapp.com%2F&parameters=&exclude=)
 
-My mentor informed me that the HTML could also be validated from the view page source of the live site. I copied and pasted the code from there and put it into W3C Markup Validation service.
+My mentor informed me that the HTML could also be validated from the view page source of the live site. I copied and pasted the code from there and put it into W3C Markup Validation service. I informed my mentor that when I did a html validator test on my base.html it had errors and when I did a test on the view page source from the website that the html passed in the w3c validator.  My mentor explained that the validator passes from the view page source however it will not pass from the base.html site because that file uses jinja which is to do with django and python.  My mentor showed me on the jinja website and also told me to include this in my testing.md.
 
--  [Pass for page source code](media/sourcecodepass.png)
+- [jinja website](https://jinja.palletsprojects.com/en/3.1.x/)
+
+- [Docs Django Project](https://docs.djangoproject.com/en/4.1/topics/templates/)
+
+-  [Pass for view page source code](media/sourcecodepass.png)
 
 
 
@@ -403,7 +408,8 @@ JavaScript Files - JS Validation
 
 Python Files
 
-I tried to use pep8 online and got these pages below.
+I tried to use pep8 online and got these pages below. I informed my mentor and showed him in my mentoring session that pep8 online was not available and we tried a few others.  I explained that my personal tutor had informed me to install pep8 and use it on the terminal to check the python files and screenshots were taken when errors had been amended. My mentor said that this was a good way to do this.
+
 
 -  [Screenshot of pep8 online](media/pep8.png)
 

@@ -426,7 +426,8 @@ Include Meta Description tags in the application HTML
 Include a site title on the parent template
 
 
-                               done
+
+done
 
 
 
@@ -441,9 +442,10 @@ When defining the relationship between the current document and a linked documen
 Use “nofollow” for any paid links and distrusted content.
 Use “sponsored” for any sponsored or compensated links.
 
-                                                  This needs to be done
 
-Check what put there 
+
+This needs to be done
+
 
 
 
@@ -456,8 +458,7 @@ Check what put there
 3.5
 Include a sitemap on your application to allow search engine bot crawling
 
-
-                                                    This needs to be done
+done
 
 
 
@@ -469,7 +470,7 @@ Include a sitemap on your application to allow search engine bot crawling
 3.6
 Include a robots.txt file to control search engine bot crawling
 
-                                             This needs to be done
+done
 
 
 
@@ -483,7 +484,7 @@ Include a robots.txt file to control search engine bot crawling
 3.7
 Include a 404 response page with an appropriate redirect for attempted access to non-existent content
 
-                                                   done
+done
 
 
 
