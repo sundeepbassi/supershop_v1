@@ -1350,6 +1350,51 @@ Cloning Project with Github
 Forking Project Via Github
 
 
+The tutors showed me how to make the apply the public mode.
+
+
+Hi tutors I have been checking the check list for my project 5 and it says to get GitHub project board set to public visibility.I was not sure how to do this
+Tutoring at Code Institute profile
+
+is it my kanban board?
+Ger profile
+Yes, it should be set to public
+Hi ger good to hear from sorry for the hassle how do I set it to public
+https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/changing-project-board-visibility
+Ger profile
+Good to hear from you too! Can you try this?
+ok I will have a look
+Ger profile
+👍
+Hi ger I went to the burger menu and cannot find the settings tab
+
+Ger profile
+
+ok i will give it a go
+
+3:09 pm
+Hi Ger I managed to do that is that correct
+Ger profile
+Perfect! Have a great day Sunny! 👋
+Help Ger understand how they’re doing:
+Tutoring at Code Institute profile
+You rated the conversation 
+Thanks for letting us know
+Ger is a brilliant tutor he sent me the best resources to help me set up a public project Ger is very supportive and helped me feel more confident
+Thankyou Ger You to have a great day and I am very grateful for your very kind support take care buddy
+Ger profile
+👋
+😄
+Your a star Ger
+Ger profile
+No worries Sunny have a great Sunday
+You too buddy
+Your conversation has ended
+
+
+
+
+
 Note.
 
 ## Credits
