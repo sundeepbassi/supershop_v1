@@ -668,14 +668,6 @@ Then there is a send your testinial button for the user to click once they have 
 
 
 
-
-
-
-
-
-
-
-
 ## Technologies Used
 
 Primary languages used for the project:
@@ -729,8 +721,6 @@ This was used to create the wireframes during the planning process.
 Gimp
 
 Was used to edit images for the project.
-
-
 
 
 
@@ -1464,9 +1454,9 @@ To set up the agile development for the kanban board was shown by the code insti
 
 [Google search for break-down-agile-user-stories](https://www.pluralsight.com/guides/break-down-agile-user-stories-into-tasks-and-estimate-level-of-effort)
 
+For my 3 custom models and the contact form I checked the videos below for clarification and guidance.
+
 [Google search for creating contact form](https://www.youtube.com/watch?v=dnhEnF7_RyM)
-
-
 
 [Google search for installing apps ](https://www.nickmccullum.com/how-to-use-django-migrations/)
 
