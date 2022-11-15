@@ -487,17 +487,35 @@ With the e-commerce applications in mind, what kind of features might be include
 
 What tables of data would your database need, and what data might be included in these tables?
 
+The tables of data will be need for the 
 
+- User
+ - Username, email, password.
 
-fsc_users app model structure (UserProfile)
+- Products
+ - Image, name, price, rating, description, category.
 
-fsc_contact app model structure (Contact)
+- Order
+ - Username, full_name, address, total.
 
-fsc_checkout app model structure (Order, OrderLineItem)
+- Orderitem
+ - Order, product, quantity.
 
-fsc_products app model structure (Category, Products, Review, FavouritesList)
+- Product Reviews
+ - Product, author, title, review, approved, created_on.
+
+- Testimonials
+ - Fullname, location, testimonial, display on website, set_on, processed
+
+- Contact
+ - Fullname, email, subject, message, sent_on, responded.
+
 
 Database Schema
+
+The database schema model wams designed with the help of the code institute for the site and I incorporated the testimonials, reviews and contact models.  This shows how the database will be used for the implementation of the functionality for the site.
+
+-  [Database Schema model for Pawpals](media/database.png)
 
 ## Project Design
 
