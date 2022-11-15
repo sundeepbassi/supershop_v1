@@ -2,7 +2,8 @@
 
 ## Introduction
 
-Bubba the Supershop for dog products was inpired by a petblog that was created for a friend Shanti.  Shantis devotion and care for animal welfare and her pet dog amazed me and after doing the petblog we thought about how Shantis experience in purchasing products for her pet dog were the next step in sharing her experince of caring about her pet dog.  Shanti had a wealth of experience in pet care and when we first discussed this e-commerce website Shanti was able to give an extensive list of products that could be considered for selling.
+Bubba the Supershop for dog products was inpired by a petblog that was created for a friend Shanti.  Shantis devotion and care for animal welfare and her pet dog amazed me and after doing the petblog we thought about how Shantis experience in purchasing products for her pet dog were the next step in sharing her experience of caring about her pet dog.  Shanti had a wealth of experience in pet care and when we first discussed this e-commerce website Shanti was able to give an extensive list of products that could be considered for selling.
+
 It was Shanti's experience in owning a dog for the first time that made us realise that there will be people who will be considering the idea of owning a dog for the first time or who already have a dog and want to be able to purchase dog products from someone who has good experince in dog ownership.
 
 In her own words Shanti said "life is better with a dog"
@@ -451,7 +452,7 @@ The mobile wireframe has:
 
 ## Database Models
 
-this video is important for databases E-Commerce Application Types  E-Commerce Application Types  Applying what we know
+Applying what we know about reserarch for Pawpals
 
 Which e-commerce application types apply to this online business?
 
@@ -482,12 +483,9 @@ With the e-commerce applications in mind, what kind of features might be include
 - Testimonials 
 
 
-
-
-
 What tables of data would your database need, and what data might be included in these tables?
 
-The tables of data will be need for the 
+The tables of data that will be needed for Pawpals are: 
 
 - User
  - Username, email, password.

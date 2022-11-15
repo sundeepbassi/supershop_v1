@@ -3,7 +3,9 @@
 [See live deployed Pawpals website](https://supershop-2022.herokuapp.com/about/)
 
 
+My mentor recommended that I submit a lighthouse test for the project to show the accessibility and SEO ratings.
 
+-  [Lighthouse Test ](media/lighttest.png)
 
 Card Testing
 
@@ -282,7 +284,7 @@ As a shopper I want to be able  to view an order confirmation after checkout so 
 
 
 
--  []()
+
 
 
 
