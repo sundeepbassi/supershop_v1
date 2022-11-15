@@ -1,5 +1,7 @@
 # Project Overview
 
+During this project I was unfortunately made homeless and it was the kindness of my family and friends and my Doctor and the student support team at the code institute that gave me the support that I needed to get through.  I learnt alot from this process and I was determined that I would not give up and carry on with the project to the best of my ability.
+
 ## Introduction
 
 Bubba the Supershop for dog products was inpired by a petblog that was created for a friend Shanti.  Shantis devotion and care for animal welfare and her pet dog amazed me and after doing the petblog we thought about how Shantis experience in purchasing products for her pet dog were the next step in sharing her experience of caring about her pet dog.  Shanti had a wealth of experience in pet care and when we first discussed this e-commerce website Shanti was able to give an extensive list of products that could be considered for selling.
