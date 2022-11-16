@@ -45,6 +45,15 @@ We considered the social customer demographic for this E-Commerce site.
 
 Who is the customer?
 
+- The business to customer model was identified as the best for this e-commerce site.
+ 
+ - Dog product customers tend to be impulse buyers.
+
+ - These customers make up their own choices about what to buy for their dogs.
+
+ - They prefer a simple and effective method of payment, so as to buy impulsively.
+
+
 - People who are new to dog owning and this is their first pet.
 
 - Existing dog owners
@@ -78,6 +87,9 @@ What will they buy?
  - Fancy Dress
 
 How will they pay?
+
+- As customers will be buying products the method used will be a single payment system. As the transaction is finished once the customer has made the single payment for the 
+  products.
 
 - They will pay online on the site through Stripe.
 
@@ -130,6 +142,7 @@ Future Features
 In the future we would like to let each registered user be able to submit only one review.
 
 I discussed incorporating the user story from below with my mentor and it we decided that this could be used for a future feature or I could use the method I had incorporated with the email confirmation for registering an account.  I decided because of time constraints I would do this as a future feature.
+
 As a shopper I want to be able  to  receive an email confirmation after checking out so that I can keep the confirmation of what I have purchased for my records.
 
 I also showed my mentor the information from stripe that email confirmations for payment receipts are not sent for test transactions.
@@ -304,7 +317,7 @@ As site users Shanti and Mike wanted be able to do the following:
 
 - With defining the user stories it was essential to consider what functions would be important for this project.
 
-The blog will allow the users to:
+The e-commerce site will allow the users to:
 
 - The user must be able to navigate around the e=commerce site easily easily on each page.
 
@@ -464,7 +477,7 @@ Which e-commerce application types apply to this online business?
 
 - There is a single method of payment.
 
-With the e-commerce applications in mind, what kind of features might be included within the business model?
+With the e-commerce applications in mind, what kind of features might be included within the business website model?
 
 - A contact us form.
 
@@ -513,7 +526,7 @@ The tables of data that will be needed for Pawpals are:
 
 Database Schema
 
-The database schema model wams designed with the help of the code institute for the site and I incorporated the testimonials, reviews and contact models.  This shows how the database will be used for the implementation of the functionality for the site.
+  The database schema shows how the database will be used for the implementation of the functionality for the site.
 
 -  [Database Schema model for Pawpals](media/database.png)
 
@@ -1477,6 +1490,8 @@ For my 3 custom models and the contact form I checked the videos below for clari
 [Google search for clean code](https://garywoodfine.com/what-is-clean-code/)
 
 [Google search for nofollow](https://www.searchenginejournal.com/using-nofollow-sponsored-ugc-links/389902/#close)
+
+The database schema model was designed with the help of the code institute for the site and I incorporated the testimonials, reviews and contact models.
 
 [Google search for ]()
 
