@@ -550,7 +550,7 @@ Colour Scheme
 
 - The delivery-banner colour was set to #7a2424 !important as we felt it contrasted well with the green and blue of the logo background and the Pawapals name.
 
-Colour Contrast Grid
+
 
 Project Features
 
@@ -606,7 +606,7 @@ If the user is logged in they can edit there reviw with the Edit button.  This w
 
 Delete review
 
-f the user is logged in they can delete there review with the Delete button.  This will take them to the Delete form and they can delete their review and either press the delete button to remove the review or press the cancel button if they change their mind.
+If the user is logged in they can delete there review with the Delete button.  This will take them to the Delete form and they can delete their review and either press the delete button to remove the review or press the cancel button if they change their mind.
 
 
 Reviews
@@ -846,6 +846,14 @@ Dog Food would include the following:
 
 Research your brain dump of ideas in Google Search
 
+I did research on the brain dump of idea in a Google search.
+
+[Google search for brain dump of ideas](media/braina.png)
+
+[Google search for brain dump of ideas](media/brainb.png)
+
+
+
 The general topics have been listed below with the highest ranking this also took into consideration what potential customers will be looking for to purchase.
 
 Ensure you have a selection of short and long-tail keywords
@@ -896,9 +904,18 @@ Long-tail Keywords
 
 - What tinned foods do dogs like?
 
-- What are the best bicuits to give you dog?
+[Google search for what tinned foods for dogs?](media/tinned.png)
+
+
+- What are the best biscuits to give you dog?
+
+[Google search for what are the best biscuits for dogs?](media/biscuits.png)
+
 
 - What toys do dogs like to play with?
+
+[Google search for what toys do dogs like to play with?](media/toys2.png)
+
 
 
 
@@ -932,29 +949,6 @@ dog clothes
 
 
 
-
-Tips
-
-
-Document your process.
-If you’re planning for your final project, keep this documentation for your README
-By the end of this exercise you should have between 10 and 20 keywords, which should be a mix of short-tail keywords and long-tail phrases.
-
-Note
-Keyword research is not an exact science. The volume and popularity of keywords constantly shifts. This means that deciding on keywords for a project is just the beginning of a journey, and marketing departments for e-commerce businesses have to continuously analyse and adjust them.
-
-
-
-Content Challenge
- Bookmark this page
-Content Challenge
-In our last video, we talked about what things to consider including in your web page content to ensure it’s deemed a high quality search result.
-
-In this unit we’re going to challenge you to use what you have learned and plan a single web page of your own.
-
-Using the web application idea you chose for the keywords challenge, either:
-Your own project idea (possibly for your final project)
-
 Choose one important page from your chosen application. This might be the home page, a single product or service page or another important page in the application. Choose a page that you hope users would first land on when visiting your website.
 
 - The page chosen is the landing page for customers as this includes the main navigation that can be used to access other areas of the site.
@@ -977,25 +971,25 @@ How can you make the information easy to understand?
 
 How can you demonstrate expertise, authoritativeness and trustworthiness in your content?
 
-- The contect will display a description about each product and it will give valauable information to the user about the product.
+- The content will display a description about each product and it will give valauable information to the user about the product.
+
+- There will also be a review for each product that users have contributed about, which shows that the products have been tested by other users to create trustworthiness.
+
+- User will also have the ability to leave testimonials about the site to show the creditability, expertise and authoritativness of the site.
 
 Would there be other pages within your own site you could link to from your chosen page?
 
-- There will be a link to a blog about pets that will help the user know that this is a genuine site about dogs.
+- There will be a link to a facebook page and newsletter sign up about pets that will help the user know that this is a genuine site about dogs.
 
-- There will be a link to a facebook page and a newsletter.
+- There will be a link to a dog health page for the RSPCA.
 
 Are there opportunities to link back to external websites that already rank highly on Google?
 
+At the moment I want to keep focus on this e-commerce website for the users.
+
 How can you help users discover other relevant parts of your web application?
 
-Tips
-Research other sites that already meet the needs your users have, find examples of how they accomplish that.
-Use the keyword list you created in the Keyword challenge to help prompt further ideas
-Document your process. If you’re planning for your final project, keep this documentation for your README.
-Give yourself around 10 to 15 mins to work on this.
-
-By the end of this exercise you should have a list of things to include on your chosen web page that will be valuable to your user, and therefore improve its search engine ranking. Remember, if you’re using this exercise to plan for your final project, keep this documentation for your README.
+The main nav bar will assist users to look for various products and in the footer we will have relevant information for the user to view.
 
 
 
@@ -1016,17 +1010,10 @@ SEO Keywords
 The above  were changed as a result of doing the keyword research in google and and wordtracker.com. This was also done with the search engine module in the code institute module.
 
 
-The SEO Implementations in HTML and the alt tags still need to be done,
-
-and Other SEO Implementations
-
-and Content is King
 
 Web Marketing
-Marketing Types Challenge
-In our last videos, we explained some of the pros and cons of each marketing type, and we talked about which businesses they suit.
 
-In this unit we’re going to challenge you to use what you have learned and plan which marketing types to use for an ecommerce business.
+Marketing Types Challenge
 
 Using the ecommerce business idea you chose for the keywords and content challenges:
 Your own project idea (possibly for your final project)
@@ -1049,13 +1036,17 @@ Would your users use social media? If yes, which platforms do you think you woul
 
 What do your users need? Could you meet that need with useful content? If yes, how could you best deliver that content to them?
 
+- My users need information about dog products.
+
+- I could meet that need with useful content about the products and a review for each product. I would also find the testimonials useful for delivering that content.
+
 Would your business run sales or offer discounts? How do you think your users would most like to hear about these offers?
 
-- At the moment the business would not run sales and discounts would need to be looked into once we were better establishe.
+- At the moment the business would not run sales and discounts would need to be looked into once we were better established.
 
 What are the goals of your business? Which marketing strategies would offer the best ways to meet those goals?
 
-- The marketing strategies tha were considered for the supper shop were:
+- The marketing strategies that were considered for the Pawpals site were:
 
 - Search Engine Optimization.
 
@@ -1095,11 +1086,6 @@ As Shanti also has an existing blog for pets the supershop for dogs would be con
 Shanti also dog sits and walks dogs for friends and again it was this social aspect of her involvement with dogs and animals that promoted the idea of having the supershop for dogs promoted on the organic social media marketing contents.
 
 Both Shanti and I discussed the idea of email marketing and paid marketing and Shanti felt that she did not want to come across as forceful in selling her products but wanted the customers to trust the website and the products being sold naturally.
-
-
-
-Document your process. If you are planning for your final project, keep this documentation for your README.
-Give yourself around 10 to 15 mins to work on this. By the end of this exercise you should have a list of possible marketing strategies you could use for your chosen business. Remember, if you’re using this exercise to plan for your final project, keep this documentation for your README.
 
 
 
