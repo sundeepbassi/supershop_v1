@@ -8,7 +8,9 @@ Bubba the Supershop for dog products was inpired by a petblog that was created f
 
 It was Shanti's experience in owning a dog for the first time that made us realise that there will be people who will be considering the idea of owning a dog for the first time or who already have a dog and want to be able to purchase dog products from someone who has good experince in dog ownership.
 
-In her own words Shanti said "life is better with a dog"
+In her own words Shanti said 
+
+"life is better with a dog"
 
 [Shanti's Petblog2022 ](https://petstar2022.herokuapp.com/)
 
@@ -17,13 +19,13 @@ In her own words Shanti said "life is better with a dog"
 
 ## Pawpals
 
-During the design and implementation process of this project, Shanti decided that she would like to call the company PawPals a dog's best friend.  The logo of the Paw inspired Moke and Shanti to have an emotional response of how dog's were best friends of humans and the Pawpals would be the best friends for dogs. This process happened during a design meeting with Shanti and Mike in their kitchen and both of them felt very inspired to rename the title of the company with its motto.  They felt the love for dogs gave them an insight into what would be appealing on this website for dog lovers.
+During the design and implementation process of this project, Shanti decided that she would like to call the company PawPals a dog's best friend.  The logo of the Paw inspired Mike and Shanti to have an emotional response of how dog's were best friends of humans and the Pawpals would be the best friends for dogs. This process happened during a design meeting with Shanti and Mike in their kitchen and both of them felt very inspired to rename the title of the company with its motto.  They felt the love for dogs gave them an insight into what would be appealing on this website for dog lovers.
 
 After considering this idea for Pawpals I checked on the internet to see if the name was already in use, and we found that it was being used.
 
 [Search for Pawpals on the web ](https://pawpalsshop.com/)
 
-Shanti and Mike still liked the name pawpals and wanted to keep it whilst developing the site and were happy to reconsider changing it if they wanted to make the site and official company so as not to break any copyright infringements.
+Shanti and Mike still liked the name pawpals and wanted to keep it whilst developing the site and were happy to reconsider changing it if they wanted to make the site an official company so as not to break any copyright infringements.
 
 
 
@@ -88,8 +90,7 @@ What will they buy?
 
 How will they pay?
 
-- As customers will be buying products the method used will be a single payment system. As the transaction is finished once the customer has made the single payment for the 
-  products.
+- As customers they will be buying products and the method used will be a single payment system. As the transaction is finished once the customer has made the single payment for the products.
 
 - They will pay online on the site through Stripe.
 
@@ -97,13 +98,13 @@ How will they pay?
 
 What is being sold? Deliverables
 
-- Dog Products will be sold to customers with product details. As there will be a name for each product, a price of that product, an image of that product, a description of that particular - - product for the customer to see.
+- Dog Products will be sold to customers with product details. As there will be a name for each product, a price of that product, an image of that product, a description of that particular and a product for the customer to see.
 
 How is the payment made?
 
 - The payment will be made as a single payment as the customer is paying for products that are displayed on the website. This will not be a subscription payment site.
 
-With the Code Institute module on E-commerce Applicationn types and the article by BigCommerce that we decided that the business to customer model was right for this company to develop and grow on the web.
+With the Code Institute module on E-commerce Applicationn types and the article by BigCommerce, we decided that the business to customer model was right for this company to develop and grow on the web.
 
 [Google search for Document the e-commerce business model underlying your application
  ](https://www.bigcommerce.co.uk/articles/ecommerce/types-of-business-models/)
@@ -158,6 +159,7 @@ Card Testing
 
 ### User Stories
 
+
 #### Navigation & Viewing
 
 As a shopper I want to view a list of dog products as I want to  select some to purchase.
@@ -183,6 +185,8 @@ As a site user I want to be able to receive an email confirmation after register
 
 As a site user I want to be able to have my own personalised user profile so that I can view my personal order history and order confirmation, and save my payment information.
 
+As a Site User I can make contact with the site on a form so that I can leave questions and queries for the admin to answer.
+
 
 #### Sorting & Searching
 
@@ -195,6 +199,9 @@ As a shopper I want to be able  sort multiple categories of products simultaneou
 As a shopper I want to be able  search for a product by name or description so that I can find a specific product that I would like to buy.
 
 As a shopper I want to be able  easily see what I have searched for and the number of results  so that I can quickly decide whether the product I want is available.
+
+As a Site User I can create, read, update and delete reviews so that I can leave my feedback about a particular product.(The site user must be registered to use the review function)
+
 
 
 

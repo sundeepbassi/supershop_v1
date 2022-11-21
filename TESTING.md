@@ -247,17 +247,16 @@ As a shopper I want to be able to easily select the size and quantity of a produ
 
 As a shopper I want to be able to  see items in my bag I want to buy so that I can identify the total cost of my purchase and all the items I will receive.
 
+-  []()
+
 As a shopper I want to be able  to adjust the quantity of individual items in my bag so that I can easily make changes to my purchase before checkout.
 
-
+-  []()
 
 
 As a shopper I want to be able to  easily enter my payment information so that I can checkout quickly and with no hassles.
 
 -  []()
-
-
-
 
 
 
@@ -275,19 +274,6 @@ As a shopper I want to be able  to view an order confirmation after checkout so 
 -  [Order Information](media/orderinfo.png)
 
 
--  []()
-
-
-
-
-
-
-
-
-
-
-
-
 
 #### Admin & Store Management 
 
@@ -295,7 +281,7 @@ As a store owner I want to be able to add a product so that I can add new items 
 
 - As a store owner I can add new products from the admin panel in products.
 
--  [Add  a Product](media/addprod.png)
+-  [Add a Product](media/addprod.png)
 
 
 As a store owner I want to be able Edit/update a product  so that I can change product prices,descriptions,images and other product criteria.
