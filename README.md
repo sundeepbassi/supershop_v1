@@ -248,7 +248,7 @@ These sites gave me an idea about how the layout could be worked out for Pawpals
 
 - Both Mike and Shanti came from creative backgrounds and wanted the site to be as appealing as possible.
 
-- Shanti is an artist that is a teacher and her knowledge in art and colour matching would help the site to be more attractive.
+- Shanti is an artist and a teacher and her knowledge in art and colour matching would help the site to be more attractive.
 
 - Both Mike and Shanti had a clear vision that the target audience aimed at for this site should be anyone who loves dogs.  
 

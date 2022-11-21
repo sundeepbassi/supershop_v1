@@ -247,26 +247,35 @@ As a shopper I want to be able to easily select the size and quantity of a produ
 
 As a shopper I want to be able to  see items in my bag I want to buy so that I can identify the total cost of my purchase and all the items I will receive.
 
--  []()
+- As a shopper I csn see items in my bag I want to buy so that I can identify the total cost of my purchase and all the items I will receive.
+
+-  [Items in bag and total](media/buyprod.png)
+
+-  [items bought](media/buyprod2.png)
+
 
 As a shopper I want to be able  to adjust the quantity of individual items in my bag so that I can easily make changes to my purchase before checkout.
 
--  []()
+- As a shopper i can adjust the quantity of individual items in my bag so that I ca easily make changes to my purchase before checkout.
+
+-  [I can click the - or + buttons for the quantity of each item](media/quan1.png)
+
+-  [When I click the update button the quantity and price will adjust](media/quan2.png)
+
 
 
 As a shopper I want to be able to  easily enter my payment information so that I can checkout quickly and with no hassles.
 
--  []()
+- As a shopper I am able to easily enter my payment information so that I can checkout quickly and with no hassles.
+
+-  [Payment information](media/payment.png)
 
 
 
 As a shopper I want to be able  to feel my personal and payment information is safe and secure so that I can confidently provide the needed information to make a purchase.
 
--  []()
-
-
-
-
+As a shopper I know that my personal and payment information is safe and secure as the stripe payment will only take genuine cards.
+-  [Card payment](media/cardsafe.png)
 
 
 As a shopper I want to be able  to view an order confirmation after checkout so that I can verify that I have not made any mistakes.
@@ -351,11 +360,6 @@ My mentor informed me that the HTML could also be validated from the view page s
 
 
 
--  []()
-
-
-
-
 
 CSS Stylesheets - CSS Validation
 
@@ -404,7 +408,7 @@ I tried to use pep8 online and got these pages below. I informed my mentor and s
 -  [Link to Pep8 online](http://pep8online.com/)
 
 
-My personal tutor informed that the best thing to do with the python validation testing was to do it in the terminal for larger files.  He explained that the pep8 install would check all the files. The following files were checked and any errors were corrected.
+My personal tutor informed that the best thing to do with the python validation testing was to do it in the terminal for larger files.  He explained that the pep8 install would check all the files. The following files were checked and any errors were corrected. 
 
 -  [pep8 1.7.1 pip install pep8](https://pypi.org/project/pep8/)
 
@@ -422,8 +426,6 @@ Contact
 -  [media/workspace-supershop_v1-contact](media/workspace-supershop_v1-contact.PNG)
 
 
-
--  []()
 
 
 Checkout Files - Python Validation
@@ -443,12 +445,6 @@ Products
 
 
 
--  []()
-
-
-
--  []()
-
 
 Product Files - Python Validation
 Profile
@@ -457,22 +453,12 @@ Profile
 
 
 
--  []()
-
-
-
-
--  []()
-
 
 Bag Files - Python Validation
 Shopping Bag
 
 -  [media/workspace-supershop_v1-bag](media/workspace-supershop_v1-bag.PNG)
 
-
-
--  []()
 
 
 
@@ -485,20 +471,12 @@ User testing
 
 
 
--  []()
-
 
 
 Files - Python Validation
 User testing
 
 -  [media/workspace-supershop_v1-supershop_v1](media/workspace-supershop_v1-reviews.PNG)
-
-
-
--  []()
-
-
 
 
 
@@ -511,5 +489,4 @@ User testing
 
 
 
--  []()
 
