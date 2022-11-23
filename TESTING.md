@@ -372,15 +372,6 @@ CSS Stylesheets - CSS Validation
 
 -  [profiles-css-validation](media/profiles-css-validation.PNG)
 
--  []()
-
-
-
--  []()
-
-
-
-
 
 
 JavaScript Files

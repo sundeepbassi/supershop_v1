@@ -1384,8 +1384,9 @@ No worries Sunny have a great Sunday
 You too buddy
 Your conversation has ended
 
+## Custom 404 error page
 
-
+[Custom 404 error page](media/custompage.png)
 
 
 Note.
@@ -1467,7 +1468,6 @@ The database schema model was designed with the help of the code institute for t
 
 [Google search for ]()
 
-[Google search for ]()
 
 
 
