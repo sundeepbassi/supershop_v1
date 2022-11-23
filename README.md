@@ -1389,6 +1389,118 @@ Your conversation has ended
 [Custom 404 error page](media/custompage.png)
 
 
+## Debug set to False
+
+2
+Alan profile	
+Alan
+Away
+11:23 am in Portlaoise, Ireland
+Alan profile
+Alan
+Away
+Begin a Tutoring Session
+Tutoring at Code Institute profile
+Please confirm that you have prepared for this session as per the steps on this page: https://code-institute-org.github.io/tutoring-info/guidelines/ 
+You should have:
+A clear description of your issue
+A list of the debugging steps and research you have carried so far 
+Failure to answer all of the bots questions will result in this conversation being closed.
+By clicking "I'm Prepared," you agree to these conditions.
+I'm Prepared
+Your tutoring usage time for this week (in minutes): 0
+Tutoring at Code Institute profile
+Please select one of the following which best describes what you are working on.
+Portfolio Project 5 (Ecommerce)
+Tutoring at Code Institute profile
+Please provide us with your Problem Statement. This is a clear description of the problem that you're currently facing.
+At the very least, you need to tell us what should your code be doing, and what is it actually doing?
+If you are getting an error, please send a screenshot.
+If you are working on a particular file, which file is it, and which lines of code?
+Hi tutors I have to set my debug to false as the final thing to do for my project
+Tutoring at Code Institute profile
+What steps have you taken so far to resolve the issue, or to address current gaps in your knowledge?
+Vague answers like "searched on Slack and Google" are not sufficient here. What specific steps have you taken? What code and debugging steps have you tried? What resources have you used (e.g. provide links to StackOverflow questions you have read)?
+
+Tutoring at Code Institute profile
+One final thing. Please share your code with us. 
+If you are working on Gitpod, please set your workspace to shared, and send us the link to it. If you are working on a course challenge, please send the name of the challenge.
+
+Tutoring at Code Institute profile
+Thank you. We will get back to you as soon as possible. You can see how busy tutoring currently is on this page: https://code-institute-org.github.io/tutoring-info/status/
+Note that if you have failed to sufficiently answer any of the above questions, tutors will have to re-ask you for the information, which will use up part of your weekly tutoring time allowance.
+Alan profile
+Hi there, Alan here, how are you today?
+Hi Alan good to hear from you I am good thanks touch wood should be submitting my project today
+Alan profile
+oh well done on reaching the end buddy
+Thank you buddy you and allof the tutor4s have been a great help
+I have to switch debug to False do I put in where it says "True" in the scrrenshot for debug
+My debug was put in my env.file
+Alan profile
+it depends on your set up - for live heroku config vars you make sure you have no debug or dev vars in there
+can you share your workspace
+https://sundeepbass-supershopv1-6tuyxyxoq9v.ws-eu77.gitpod.io/
+
+Alan profile
+ok so this looks for the presence of a DEVELOPMENT var in your env - if it doesnt find it, the debug should be set to flase
+But if you want to be extra careful you can set this to False directly.
+Make sure your config vars doesnt have a DEVELOPMENT value in heroku
+Thanks Alan I was not sure about config vars devolpoment value in heroku
+Ok io meant changing it in settings.py just for the push to live so
+DEBUG = 'DEVELOPMENT' in os.environ
+would be
+DEBUG = False
+Alan profile
+and as i said make sure you dont have DEVELOPMENT in config var
+ok I will check
+Alan profile
+once you have done that then your DEBUG will be False as per requirement for live
+
+there is no development mode in heroku config vars
+I set the debug to false in the env. file
+
+
+Alan profile
+Cool that looks good
+I set the debugt to false in the settings.py is it best to do it like this
+do I need "" marks around the word False
+Once DEVELOPMENT is not in config vars it would be fine the other way but as i said for extra caution set it to False directly
+no
+Alan profile
+then it would be a string
+Thanks Alan for all of your kind support and advise I am very grateful fo all of yoiur support during this course yoiu are a star buddy
+
+I have let it like this now in settings.py
+
+The env.py is like this
+You can leave that as True in the env file
+Alan profile
+you are welcome sunny, hope all goes well with the final submission
+I reset it back to true
+
+Thanks Alan for everything you are brilliant
+ok cool so in regard to your debug all loos ok now
+Alan profile
+You are welocme, hope you have a fabday and good luck with the last project
+Thanks Alan and wish you happiness and joy and please could you let all of the tutors know they have been brilliant and wishing everyone the best
+Alan profile
+will do :)
+😄
+Alan profile
+🙂
+Help Alan understand how they’re doing:
+Tutoring at Code Institute profile
+You rated the conversation 
+Thanks for letting us know
+Alan is excellent he is one of my favourite tutors becausre he is always positive and encouraging, I always learn a lot from Alan. Alan has been brilliant throughout this course.
+you are the best Alan
+🌟
+3m ago. Not seen yet
+
+Write a reply…
+
+
 Note.
 
 ## Credits

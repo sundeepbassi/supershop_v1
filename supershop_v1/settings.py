@@ -29,7 +29,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 # Only run as debug if the environment variable 'DEVELOPMENT' is set
 # within the environment.
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = False
 
 ALLOWED_HOSTS = ['supershop-2022.herokuapp.com', 'localhost']
 
