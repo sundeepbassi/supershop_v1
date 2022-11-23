@@ -326,7 +326,7 @@ As site users Shanti and Mike wanted be able to do the following:
 
 The e-commerce site will allow the users to:
 
-- The user must be able to navigate around the e=commerce site easily easily on each page.
+- The user must be able to navigate around the e=commerce site easily on each page.
 
 - The user will be able to select various products on the site.
 
@@ -345,7 +345,7 @@ The e-commerce site will allow the users to:
 
 The agile methodology used in this project was a kanban board on github.  
 
-Steps taken for the Set up a user story template on github.
+Steps taken for Setting up a user story template on github.
 
 - click on settings in main bar.
 
@@ -548,14 +548,15 @@ I chose the Rubik font.
 
 Logo
 
-- The logo for this site was designed by Mike as they wanted tohave a paw print logo and in Shantis words she wanted to keep things looking simple. 
+- The logo for this site was designed by Mike as they wanted to have a paw print logo and in Shantis words she wanted to keep things looking simple. Gimp was used to help to 
+  photo shot the image.
 
-- The green background clour was included on the logo because it reminded Mike of walking his dog in a grren graassed park.
+- The green background colour was included on the logo because it reminded Mike of walking his dog in a green graassed park.
 
 
 Colour Scheme
 
-- The delivery-banner colour was set to #7a2424 !important as we felt it contrasted well with the green and blue of the logo background and the Pawapals name.
+- The delivery-banner colour was set to #7a2424 important as we felt it contrasted well with the green and blue of the logo background and the Pawpals name.
 
 
 
@@ -577,27 +578,25 @@ The main navbar was set underneath the search bar so that a user could easily fi
 
 - Dog Clothes
 
-- Contact Us 
+- About
 
-- Testimonials
+- Contact 
+
 
 
 
 Featured products
 
+The featured products can be viewed from their individual categories Dog Accessories, Dog Food, Dog Clothes or from the All Dog Products section.
+
 Newsletter
+
+The newsletter sign up is placed at the bottom in the stay in touch section.
 
 Footer and social links
 
-Products Page
+Underneath the stay in touch section is where we have a link to follow us on facebook and we have th testimonials section and a useful information section.
 
-Products view
-
-Products detail
-
-Add product
-
-Edit product
 
 Add review
 
@@ -619,17 +618,7 @@ If the user is logged in they can delete there review with the Delete button.  T
 Reviews
 
 The reviews made for a product can be viewed under that particular product. There is a title for the review, the review comment, the name of the user with the date and time when it was made.
-Checkout
 
-Shopping bag
-
-Order summary
-
-Checkout successful
-
-Profiles page
-
-Profile favourites list order history
 
 About Page
 
@@ -746,35 +735,11 @@ Was used to edit images for the project.
 
 
 
-Sign up
-
-Sign in
-
-Sign out
-
-Checkout
-
-Newsletter
-
-Admin
-
-Product detail
-
-Add product
-
-Edit product
-
-Delete product
-
-Add review/Ratings
-
-Contact
-
 ## SEO Reflection, Research and Implementation
 
 Market research
 
-On the 22nd of August I conducted some market research with some Shanti.  Shanti is a lover of animals amd has a pet dog amd I asked her if she was shopping on the internet what products would she like to buy for her pet.  Shanti gave me a very comprehensive list of products that she would look for. We imagined how Shanti would shop on line and what products would appeal to her and how the process of shopping online would make her feel.
+On the 22nd of August I conducted some market research with Shanti.  Shanti is a lover of animals amd has a pet dog amd I asked her if she was shopping on the internet what products would she like to buy for her pet.  Shanti gave me a very comprehensive list of products that she would look for. We imagined how Shanti would shop on line and what products would appeal to her and how the process of shopping online would make her feel.
 
 Accessories would include glow in the dark collars, rope leads, harnesses, muzels, pet bowls. 
 
@@ -785,7 +750,9 @@ clothing raincoats, winter coats,
 
 SEO Reflections
 
-This reflective process was very important in the research of this project and website as it enabled one to take into consideration the needs of the users and discussing this with Shanti enabled one to clearly understand the needs of a dog owner and what they would would need and expect from an E-Cpmmerce website for dog lovers.  Originally the idea was to include many pet products for various types of pets but it became evident through Shanti's imput of focusing on dog products would be aiming for a specific market.
+This reflective process was very important in the research of this project and website as it enabled one to take into consideration the needs of the users and discussing this with Shanti enabled one to clearly understand the needs of a dog owner and what they would would need and expect from an e-commerce website for dog lovers.  Originally the idea was to include many pet products for various types of pets but it became evident through Shanti's imput of focusing on dog products that we  would be aiming for a specific dog product market.
+
+
 SEO Research
 
 ## Marketing research
@@ -793,12 +760,6 @@ SEO Research
 
 Keyword Research
 
-Keywords Challenge
- Bookmark this page
-Keywords Challenge
-In our last video, we walked through a basic process for keyword research. In this unit we’re going to challenge you to use that same process to plan some possible keywords for a project of your own.
-
-Your challenge is to walk through these steps we went through in the previous video. Come up with a selection of keywords you think would be important to customers for your chosen business.
 
 Choose a business idea to do your keyword research for.
 
@@ -1049,7 +1010,7 @@ What do your users need? Could you meet that need with useful content? If yes, h
 
 Would your business run sales or offer discounts? How do you think your users would most like to hear about these offers?
 
-- At the moment the business would not run sales and discounts would need to be looked into once we were better established.
+- At the moment the business would look into running sales and  discounts and this would need to be looked into once we were better established.
 
 What are the goals of your business? Which marketing strategies would offer the best ways to meet those goals?
 
@@ -1084,16 +1045,28 @@ Research other ecommerce businesses that sell similar products or services to yo
 
 [Google search for dog.com ](https://www.dog.com/)
 
-We considered the content marketing process as quite useful as the website was giving an emotional response to friends that saw the website. Shanti also had very good experience of owning a dog and it was her insight into dog care that was both inspirational and interesting.  Shanti could empathise with fellow dog lovers and knew that good products were important to dog lovers.
+- We considered the content marketing process as quite useful as the website was giving an emotional response to friends that saw the website. Shanti also had very good 
+  experience of owning a dog and it was her insight into dog care that was both inspirational and interesting.  Shanti could empathise with fellow dog lovers and knew that good products were important to dog lovers.
 
-Shanti was interested in the organic social media marketing as she used these platforms to connect with family, friends, colleagues and the community.  These platforms would be useful for Shanti to sell her Dog Products.
+- Shanti was interested in the organic social media marketing as she used these platforms to connect with family, friends, colleagues and the community.  These platforms would 
+  be useful for Shanti to sell her Dog Products.
 
-As Shanti also has an existing blog for pets the supershop for dogs would be considered as an extension of how good quality dog products could be sold to potential customer.
+- As Shanti also has an existing blog for pets the supershop for dogs Pawpals, would be considered as an extension of how good quality dog products could be sold to potential  
+  customers.
 
-Shanti also dog sits and walks dogs for friends and again it was this social aspect of her involvement with dogs and animals that promoted the idea of having the supershop for dogs promoted on the organic social media marketing contents.
+- Shanti also dog sits and walks dogs for friends and again it was this social aspect of her involvement with dogs and animals that promoted the idea of having the supershop 
+  for dogs promoted on the organic social media marketing contents.
 
-Both Shanti and I discussed the idea of email marketing and paid marketing and Shanti felt that she did not want to come across as forceful in selling her products but wanted the customers to trust the website and the products being sold naturally.
+- Both Shanti and I discussed the idea of email marketing and paid marketing and Shanti felt that she did not want to come across as forceful in selling her products but  
+  wanted the customers to trust the website and the products being sold naturally.
 
+Content marketing
+
+The content if this website aims to invoke an emotional response with customers that are passionate about dogs. The content has been created specifiaclly for dog lovers and only products for dogs are being sold on this site.  It was decided that a generic site for a variety of pets may take the focus away from dogs. The idea was for dog lovers to view products that they needed for their dog of dogs. Shanti is a dog lover and she has a dog and she also house sits for other dog owners and walks dogs in her spare time her passion for dogs has enabled her to gain knowledge and understand about the needs of dogs and this has made her an expert in this field. Shanti showed an interest in sharing her love for animals by having a blog post created for her interest where she could share her interest and interact with other animal lovers.
+
+Social Media marketing
+
+Shanti already has a blog post for animal lovers so as to spread her passion about animals and caring for them.  Shanti wants to also promote her e-commerce site and products on social media and specifically Facebook.  Shanti realised that this was a good method to create awareness about animal welfare and also promote her e-commerce site.
 
 
 ## Web Marketing  
@@ -1217,6 +1190,12 @@ The following resources helped us to sort out the bug.
 [Testing for valid credit card numbers](media/valid-credit-card-numbers.PNG)
 
 [Successful Checkout](media/Successful%20Checkout.PNG)
+
+Squashed bugs
+On 16 June 2022 found that shopping bag icon was not working and checked code and found </a> was at the end of code on line 82 of base.html and once this was removedd the icon did work.
+
+
+[Git push Issues](media/gitpushissues.png)
 
 
 ## Security
@@ -1364,7 +1343,7 @@ Cloning Project with Github
 Forking Project Via Github
 
 
-The tutors showed me how to make the apply the public mode.
+The tutors showed me how to the apply the public mode.
 
 
 Hi tutors I have been checking the check list for my project 5 and it says to get GitHub project board set to public visibility.I was not sure how to do this
@@ -1508,98 +1487,6 @@ Technology Acknowledgments
 Table of contents generated with markdown-toc
 
 
-
-SEO Research and Implementation
-
-SEO Research
-
-
-Keyword Research
-Keywords Challenge
-In our last video, we walked through a basic process for keyword research. In this unit we’re going to challenge you to use that same process to plan some possible keywords for a project of your own.
-
-Your challenge is to walk through these steps we went through in the previous video. Come up with a selection of keywords you think would be important to customers for your chosen business.
-
-Choose a business idea to do your keyword research for.
-Your own project idea (possibly for your final project)
-
-
-Keyword research steps
-
-1) Brainstorm your general topics
-Brain dump possible keywords for each of the general topics
-Research your brain dump of ideas in Google Search
-Ensure you have a selection of short and long-tail keywords
-Assess your choices for relevance and authoritativeness, and dig into the data available on keyword volume and competition using wordtracker.com
-Tips
-Document your process.
-If you’re planning for your final project, keep this documentation for your README
-By the end of this exercise you should have between 10 and 20 keywords, which should be a mix of short-tail keywords and long-tail phrases.
-
-Note
-Keyword research is not an exact science. The volume and popularity of keywords constantly shifts. This means that deciding on keywords for a project is just the beginning of a journey, and marketing departments for e-commerce businesses have to continuously analyse and adjust them.
-
-
-SEO Keywords
-
-Web Marketingg
-
-
-Marketing Types Challenge
-In our last videos, we explained some of the pros and cons of each marketing type, and we talked about which businesses they suit.
-
-In this unit we’re going to challenge you to use what you have learned and plan which marketing types to use for an ecommerce business.
-
-Using the ecommerce business idea you chose for the keywords and content challenges:
-Your own project idea (possibly for your final project)
-A pizza restaurant, based in Dublin, that takes online orders for delivery.
-Plan out which marketing types you think would work best for your chosen business. Jot down which ones you think the business would benefit from using, and why.
-
-Questions to ask yourself
-Who are your users?
-Which online platforms would you find lots of your users?
-Would your users use social media? If yes, which platforms do you think you would find them on?
-What do your users need? Could you meet that need with useful content? If yes, how could you best deliver that content to them?
-Would your business run sales or offer discounts? How do you think your users would most like to hear about these offers?
-What are the goals of your business? Which marketing strategies would offer the best ways to meet those goals?
-Would your business have a budget to spend on advertising? Or would it need to work with free or low cost options to market itself?
-Tips
-Research other ecommerce businesses that sell similar products or services to your idea. What marketing practices do they employ? Which ones appear to be working best?
-Document your process. If you are planning for your final project, keep this documentation for your README.
-Give yourself around 10 to 15 mins to work on this. By the end of this exercise you should have a list of possible marketing strategies you could use for your chosen business. Remember, if you’re using this exercise to plan for your final project, keep this documentation for your README.
-
-Content marketing
-
-The content if this website aims to invoke an emotional response with customers that are passionate about dogs. The content has been created specifiaclly for dog lovers and only products for dogs are being sold on this site.  It was decided that a generic site for a variety of pets may take the focus away from dogs. The idea was for dog lovers to view products that they needed for their dog of dogs. Shanti is a dog lover and she has a dog and she also house sits for other dog owners and walks dogs in her spare time her passion for dogs has enabled her to gain knowledge and understand about the needs of dogs and this has made her an expert in this field. Shanti showed an interest in sharing her love for animals by having a blog post created for her interest where she could share her interest and interact with other animal lovers.
-
-Social Media marketing
-
-Shanti already has a blog post for animal lovers so as to spread her passion about animals and caring for them.  Shanti wants to also promote her e-commerce site and products on social media and specifically Facebook.  Shanti realised that this was a good method to create awareness about animal welfare and also promote her e-commerce site.
-
-
-Research on social media dog product purchases.
-
-
-Newsletter
-
-Facebook business page
-
-Bug report
-
-Squashed bugs
-On 16 June 2022 found that shopping bag icon was not working and checked code and found </a> was at the end of code on line 82 of base.html and once this was removedd the icon did work.
-
-Remaining bugs
-
-Resolved Issues
-
-[Git push Issues](media/gitpushissues.png)
-
-
-
-
-Security
-
 Deployment 
 
 [Deployment Issues](media/deployissues1.png)
@@ -1611,27 +1498,9 @@ Deployment
 [Deployment Issues 4 continued](media/deployissues4.png)
 
 
-
-
-Cloning Project with Github
-
-Forking Project Via Github
-
-Deployment via Heroku
-
-Note.
-
 Credits
 
-
-
 The code used in this project is accredited to the Boutique Ado Walkthrough project by the Code insitute.
-
-Media
-
-Product Images
-
-Site-Wide Images
 
 Technology Acknowledgments
 
