@@ -12,7 +12,7 @@ In her own words Shanti said
 
 "life is better with a dog"
 
-[Shanti's Petblog2022 ](https://petstar2022.herokuapp.com/)
+
 
 
 ## Evolving The name of the company to Pawpals 
@@ -1387,6 +1387,889 @@ Your conversation has ended
 ## Custom 404 error page
 
 [Custom 404 error page](media/custompage.png)
+
+
+I had originally submitted my project 5 on the 23rd of November and I had informed student care I would be on a retreat to recover from the stress I had during 2022.  I returned from my retreat on the 18th of January 2023 and it was highlighted in the emails from the code institute that the link to my project was not working and that this was not classed as a fail if done within 48 hours. However as I was on retreat I received this email during the time in my retreat and I did not have access to emails or social media.  I was informed to resubmit the project and the code instiute kindly gave me till the 20th of February to submit my project 5.  
+
+Whilst reworking on the project 5 I was informed by Heroky that my postgres database had been deleted.  
+
+I got in touch with the tutors and they gave me the process to follow to migrate the data to elephant sql.  
+
+One of the tutors Gemma was excellent in showing my how to reinstall my original database and I am forever grateful for her kind dedication, professional skills and the high quality standard of tutoring from Gemma.
+
+The contact below shows how the postgres database was reinstalled safely.
+
+2
+Gemma profile	
+Gemma
+Away
+10:09 pm in Padova, Italy
+Gemma profile
+Gemma
+Away
+Begin a Tutoring Session
+Tutoring at Code Institute profile
+Please confirm that you have prepared for this session as per the steps on this page: https://code-institute-org.github.io/tutoring-info/guidelines/ 
+You should have:
+A clear description of your issue
+A list of the debugging steps and research you have carried so far 
+Failure to answer all of the bots questions will result in this conversation being closed.
+By clicking "I'm Prepared," you agree to these conditions.
+I'm Prepared
+Your tutoring usage time for this week (in minutes): 35
+Tutoring at Code Institute profile
+Please select one of the following which best describes what you are working on.
+Portfolio Project 5 (Ecommerce)
+Tutoring at Code Institute profile
+Please provide us with your Problem Statement. This is a clear description of the problem that you're currently facing.
+At the very least, you need to tell us what should your code be doing, and what is it actually doing?
+If you are getting an error, please send a screenshot.
+If you are working on a particular file, which file is it, and which lines of code?
+Hi Tutors,
+I followed the steps that Jason kindly gave me to put me elephantsql DATABASE_URL into my env.py file and my heroku config vars. Because I submitted my project 5 on the 23rd of November my postgres database was deleted by Heroku. I did a python3 manage.py runserver and I am getting this page without my data that I originally installed. I am also getting an error in my heroku app. I am not sure what I should do any help would be much appreciated.
+Tutoring at Code Institute profile
+What steps have you taken so far to resolve the issue, or to address current gaps in your knowledge?
+Vague answers like "searched on Slack and Google" are not sufficient here. What specific steps have you taken? What code and debugging steps have you tried? What resources have you used (e.g. provide links to StackOverflow questions you have read)?
+I have followed the web inair
+Tutoring at Code Institute profile
+One final thing. Please share your code with us. 
+If you are working on Gitpod, please set your workspace to shared, and send us the link to it. If you are working on a course challenge, please send the name of the challenge.
+https://sundeepbass-supershopv1-6tuyxyxoq9v.ws-eu84.gitpod.io/
+Tutoring at Code Institute profile
+Thank you. We will get back to you as soon as possible. You can see how busy tutoring currently is on this page: https://code-institute-org.github.io/tutoring-info/status/
+Note that if you have failed to sufficiently answer any of the above questions, tutors will have to re-ask you for the information, which will use up part of your weekly tutoring time allowance.
+
+
+
+Gemma profile
+Hi Sunny, Gemma here 👋, hope you're doing well this evening :)
+So when you say the project is submitted, do you have permission to make any alterations currently?
+Hi Gemma, the assessment team sent me an email early Jan stating it was not a fail and I needed to get the link to work for it to be assessed. Because I was in a retreat after submitting my project 5 on the 23rd of Nov I got the email last week and they said I would need to resubmit my project for assessment and they gave me til the 20th of Feb
+Thank you for your kind support I hope you are well too
+My originalproject was working good but heroku deleted my postgres database
+Gemma profile
+Ok, gotcha - that's good to know 👍
+So have you run tail logs to see what's happening in Heroku?
+In the gitpod terminal, connect to heroku:
+heroku login -i
+then once logged in:
+heroku logs --tail -a your_app_name
+🙂
+Thanks Gemma I will give it a go
+Gemma profile
+let me know the response you get - this will give us clues as to what's going on there :)
+Gemma profile
+Any luck there, Sunny? :)
+
+I am not sure if I entered it correctly
+
+I think I forgot to add the dash
+
+still getting that error
+Gemma profile
+Ok, and does your app have those underscores on it in heroku?
+No I dont thoink I put any underscores on it in Heroku
+
+just gave me those errors when I tried to run the app
+Gemma profile
+Ok great, that's exactly what we need to look at 👍
+Thank you Gemma
+Gemma profile
+So that error H14 that we see there, is usually due to dynos not being able to run - did you also set up the EcoDynos on Heroku?
+I followed the weinair from jo c and harry I can send you a screenshot of my dynos
+Gemma profile
+That'd be great, thank you :)
+
+Gemma profile
+Ok, thanks - could you please click on the resources tab?
+
+Gemma profile
+ok, can you try flipping this switch?:
+
+
+do I also press confirm button
+Gemma profile
+let's just do this differently incase, back in the terminal, can you type:
+heroku ps:scale web=1
+
+Gemma profile
+Great - now check your app url and see if it's up and running 👍
+ok in Heroku?
+Gemma profile
+yes, that's right - my side, currently, I can see it up, but it looks like it's still missing the products - we can work on that next 👍
+
+Gemma you saved my life it works
+that is what it originally looked like
+Gemma profile
+brilliant 🎉, but I think we still need to get those products showing - have you tried clicking on the products?
+Thank you Gemma you are a brilliant tutor
+I will give it a go
+Gemma profile
+Thanks, Sunny, much appreciated! 😊
+
+I clicked the products and they are not showing
+Gemma profile
+Ok, so back to the database, then which variables do you have set up in the Heroku app, please?
+ok I ill send a screenshot
+Gemma profile
+👍
+
+Gemma profile
+Ok, can you check for this one, does the url match what you have in Elephant, please?:
+
+
+Gemma profile
+Also, when you first submitted the project, did you definitely have products in the database?
+I added it yesterday when Jason kindly showed me what to do I set up the elephant sql yesterday the one in my env.py is with brackets and the one in heroku is without brackets
+Hi Gemma When I first submitted the project there products with photos an descriptions and prices and my mentor went through it with me to make sure it all worked correctly
+Gemma profile
+Ok, good to know, thanks for confirming, and do you have an admin login so we can test adding a product in the admin? I'm just thinking if you reinstalled the DB but the other one had been deleted, your products might have gone with it and need re-adding
+yes I do have admin, do i go to the address bar at the top and add /admin to open up the admin
+Gemma profile
+That's it 👍
+
+Hi Gemma I tried opening the admin and it did not open
+Gemma profile
+You might want to create a new superuser so that you can login if the old user is not working 🙂
+I remenmber Ed helped me to set up the superuser for it
+ok great do I type in superuser into the gipod terminal
+python3 manage.py createsuperuser
+Then do a hard reload on the deployed site itself
+CTRL-SHIFT-R on a PC, or CMD-SHIFT-R on a Mac
+And use the login credentials in the /admin panel 🙂
+Gemma profile
+(make sure you are still logged into heroku in gitpod too :)
+if not you can heroku login -i again
+ok I will give it a go
+
+Gemma profile
+ok great, and now the new superuser 👍
+I did the heroku login into my gitpod terminal as you kindly showed me
+Gemma profile
+great, so now we need this:
+python3 manage.py createsuperuser
+Then do a hard reload on the deployed site itself
+CTRL-SHIFT-R on a PC, or CMD-SHIFT-R on a Mac
+
+Thanks Gemma it took a bit of time becasue I a;ways write it down i my notebook
+Gemma profile
+no problem at all - written notes are handy!
+So if you can try and login to your admin there, and see if you are able to add a product :)
+ok I will give it a go
+Gemma profile
+fab, let me know how you get on 🙂
+Hi Gemma I tried to do the hard reload onto the deployed site but it will not open the admin panel
+Gemma profile
+it's showing this side, try this url:
+https://supershop-2022.herokuapp.com/admin
+
+Thank you it is working now
+Gemma profile
+brilliant - have you been able to add a product?
+
+Hi Gemma, thank you yes I have been able to add a product image not showing though
+I can try to work on it
+Would it be best to add my procts like this as I did before for my databse
+
+Thank you Gemma I got the image to work this time
+Gemma profile
+Great job :)
+Yes you can either add them manually, or if you have a fixture (a file that has all your products in it, you could upload this using the following command:
+python3 manage.py loaddata myfile.json
+🙂
+Great Gemma I am very grateful for eveerything you have done and really saved this project, Oisin helped me to set up the json file before in my gitpod would reuse that one ?
+
+That was the one that was in my gitpod terminal
+Gemma profile
+Ah brilliant that Oisin got that set up :) yes you can use that one 👍
+Brilliant I will do the command and see if it works
+Gemma profile
+Good luck, Sunny 🤞
+
+Thanks Gemma I got those messages, if you are tired I can carry on working with it on Sunday
+I am aware that you have given me a lot of your kind time to sort it out and you may also need a break, You have really helped me to make a lot of progress
+Please let your managers know from that your dedication and excellent skills as a tutor are truly priceless
+Please let your managers know from me that your dedication and excellent skills as a tutor are truly priceless
+Gemma profile
+No problem, Sunny - I'm still good to help, sorry if there is a delay in between. 🙂
+Ah ok, I can see the issue there - Because you already have users in your db, so you can either delete the items from the sheet that are causing the issue (whole objects, rather than just lines) or delete them from the admin first, then your file should go in :)
+Brilliant Gemma I will give it a go
+Gemma profile
+👍 let me know how you get on 🙂
+
+I got those messges
+I deleted the products and categories I added earlier in my admin
+Gemma profile
+How about the user with the ID of 2 - which user is that?
+Sorry Gemma I had to go to the bathrrom, I will have a look now
+Gemma profile
+No worries :)
+Hi Gemma I remember having set up,an original superuser and Ed kindly helped me to update it as the first one caused issues
+Ok, did you want me to take a look this side?
+Gemma profile
+I could log into your admin and see which data is crossing over?
+Please that would be great
+I went through the profiles files
+do you need my username and password
+Gemma profile
+Ok, great stuff - yes please for the username and pw 👍
+username is sunnylife
+and password is karmarpa888
+Gemma profile
+👍
+Gemma profile
+Do you mind if I give it a try uploading from this side?
+You only seem to have the one user in there which is the superuser, so in theory it should go through ok..
+please do
+Gemma profile
+Just to confirm, it's the new.json, is that correct?
+yes I think that is the one Oisin did
+Gemma profile
+👍
+Gemma sorry I realsied just now looking at my files bar there are two other db.json files and I cannot remember which he used
+I know he had problems trying to upload and he had to do it from his end to get iit to work
+Shall I see if I still have the original chatbox message from him
+Gemma profile
+Ok, that would be great - it doesn't seem to want to go in 🙂
+3
+Oisin profile
+Oisin
+Away
+8:21 pm in Dublin, Ireland
+Oisin profile
+Oisin
+Away
+Begin a Tutoring Session
+Tutoring at Code Institute profile
+Please confirm that you have prepared for this session as per the steps on this page: https://code-institute-org.github.io/tutoring-info/guidelines/
+You should have:
+A clear description of your issue
+A list of the debugging steps and research you have carried so far
+Failure to answer all of the bots questions will result in this conversation being closed.
+By clicking "I'm Prepared," you agree to these conditions.
+I'm Prepared
+Your tutoring usage time for this week (in minutes): 0
+Tutoring at Code Institute profile
+Please provide us with your Problem Statement. This is a clear description of the problem that you're currently facing.
+At the very least, you need to tell us what should your code be doing, and what is it actually doing?
+If you are getting an error, please send a screenshot.
+If you are working on a particular file, which file is it, and which lines of code?
+Hi tutors,
+I am doing the boutique ado Creating a Heroku App and on the top of the video there is this message. Important!
+Error fix
+If you get the error below during the steps to deployment:
+django.db.utils.OperationalError: FATAL: role "somerandomletters" does not exist
+Please run the following command in the terminal to fix it:
+unset PGHOSTADDR
+A note for creating your database if you didn't use fixtures
+When you come to follow this process for your milestone project, you may not have used a fixtures file to populate your database like the instructor did.
+If this is the case, manually re-creating your database when you come to deploy can take a considerable amount of time. Thankfully, there is a short process you can follow to download your local mysql database and then upload it to postgres:
+Make sure your settings.py file is connected to your sqlite3 database
+Use this command to backup your current database and load it into a db.json file:
+./manage.py dumpdata --exclude auth.permission --exclude contenttypes > db.json
+Connect your settings.py file to your postgres database
+Then use this command to load your data from the db.json file into postgres:
+./manage.py loaddata db.json
+Your database DATABASE_URL on supershop-2022 requires maintenance. During this period, your database will become read-only. Once maintenance has completed, your database credentials and hostname will have changed, but we will update your app's config variables accordingly to reflect the new database connection string.
+This automated maintenance is a necessary part of our Hobby tier plans, Dev and Basic. Should you need more control over maintenance windows, a production database (Standard tier or higher) offers more control over database maintenance, as we are able to schedule them in advance and provide better tools for self-served maintenance.
+We expect maintenance to last just a few moments depending on the size of your database. We will notify you when maintenance begins, and again once it's complete.
+Tutoring at Code Institute profile
+What steps have you taken so far to resolve the issue, or to address current gaps in your knowledge?
+Vague answers like "searched on Slack and Google" are not sufficient here. What specific steps have you taken? What code and debugging steps have you tried? What resources have you used (e.g. provide links to StackOverflow questions you have read)?
+I have looked at the steps on dev tips in slack and found it difficult to understand them
+Tutoring at Code Institute profile
+One final thing. Please share your code with us.
+If you are working on Gitpod, please set your workspace to shared, and send us the link to it. If you are working on a course challenge, please send the name of the challenge.
+https://sundeepbass-supershopv1-6tuyxyxoq9v.ws-eu64.gitpod.io/
+Tutoring at Code Institute profile
+Thank you. We will get back to you as soon as possible. You can see how busy tutoring currently is on this page: https://code-institute-org.github.io/tutoring-info/status/
+Note that if you have failed to sufficiently answer any of the above questions, tutors will have to re-ask you for the information, which will use up part of your weekly tutoring time allowance.
+Hi Sunny, John here
+I hope you are well
+Looks like an email from Heroku about database maintenance
+John profile
+There's nothing wrong. Heroku need to run maintenance on their servers from time to time.
+All that will happen is, your database credentials will rotate.
+What this means is that your database will have a new Postgres URI (DATABASE_URL)
+Hi John good to hear from you hope you are well
+Thank you, I am well :)
+Your heroku app config vars will update automatically
+John profile
+You'll simply need to update your local DATABASE_URL with the new Postgres URI
+
+Hi John I added the new link from Heroku
+I added my products manually into my admin django and I tried to follow the dev tips on slack and was getting confused with it
+John profile
+You will fail the project if you push the code to the repo with this line exposed in settings.py
+SORRY jOHN i DID NOT UNDERSTAND DO i UNCOMMENT IT
+sorry my caps lock was on
+would it be best to uncomment lines 133 to 138
+John profile
+That line there is your postgres URI string. It should be hidden, and never pushed to the Repo. But this is covered in the course materials.
+Even there in the PDF that you are walking through, it is using the DATABASE_URL variable
+I remember when I watched the video they told us to comment it out and then they put it back in
+what would the best thing to do
+John profile
+They told you to comment it out for a short while, then they stored the variable in DATABASE_URL and used that instead, so that the variable would not be exposed.
+Do you have an env.py file in your project?
+I have had a look and I can not find one
+John profile
+Alright, so you should probably set that up.
+For setting env vars locally, we recommend setting them like this:
+Create a file named env.py in the root directory of your project. This is the file you will use to define your environment variables.
+If you don't have one already, create a file named .gitignore in the root directory of your project.
+Next we need to stop git from pushing this file to github, and so keep your environment variables secret. To do this, open your .gitignore file add the following text to it: env.py
+At the top of your env.py file, you need to import os so that you can set the environment variables in the operating system. Once you have added the line “import os” underneath you can assign your environment variables using the following syntax:
+os.environ["Variable Name Here"] = "Value of Variable Goes Here"
+Example: os.environ["SECRET_KEY"] = "ohsosecret"
+Then the following code imports this new env.py file where you need to use your environment variables. For example your app.py file for flask project or settings.py file for Django project. Add this under your other imports at the top of the file.
+import os
+if os.path.exists("env.py"):
+import env
+The if statement here is so that the env.py file is only pulled when working on your code in your workspace, not when it is deployed on heroku. For deployment you can set your environment variables in the heroku dashboard in settings > config vars.
+Now that your environment variables have been set in your env.py file, and the file has been imported into your project, you can use them as needed using the following syntax:
+SECRET_KEY = os.environ.get('SECRET_KEY')
+﻿Make sure you save all your files before testing if it works.
+how do i set up the env.py in the root directory
+I have a gitignore file
+sorry john it is confusing
+i created my env.py file there
+I put that info into the env.py file
+John profile
+Okay, follow the steps to declare your variables.
+Hi john i am still confused wit the steps
+John profile
+Hey Sunny, unfortunately you need to follow the steps, step by step. Exactly as they are laid out there.
+Your on the right path, but you need to put in your actual variables.
+In this case DATABASE_URL, and then you need paste the value of the postgres URI where the value of the variable goes
+os.environ["Variable Name Here"] = "Value of Variable Goes Here"
+Example: os.environ["SECRET_KEY"] = "ohsosecret"
+Then the following code imports this new env.py file where you need to use your environment variables. For example your app.py file for flask project or settings.py file for Django project. Add this under your other imports at the top of the file.
+import os
+if os.path.exists("env.py"):
+import env
+The if statement here is so that the env.py file is only pulled when working on your code in your workspace, not when it is deployed on heroku. For deployment you can set your environment variables in the heroku dashboard in settings > config vars.
+Now that your environment variables have been set in your env.py file, and the file has been imported into your project, you can use them as needed using the following syntax:
+SECRET_KEY = os.environ.get('SECRET_KEY')
+﻿Make sure you save all your files before testing if it works.
+I have managed to do that
+The if statement here is so that the env.py file is only pulled when working on your code in your workspace, not when it is deployed on heroku. For deployment you can set your environment variables in the heroku dashboard in settings > config vars.
+Now that your environment variables have been set in your env.py file, and the file has been imported into your project, you can use them as needed using the following syntax:
+SECRET_KEY = os.environ.get('SECRET_KEY')
+﻿Make sure you save all your files before testing if it works.
+This part is meant to be in settings.py
+John profile
+take it out of env.py and place it in settings.py, here's the instruction :)
+
+I added it to settings file
+John profile
+Excellent, now go back to the DATABASES code in your settings.py and make sure it looks like this
+Thanks John I will work on that and will get bgck to you once it is done, I appreciate your kindness and support it takes me time to understand the steps
+John profile
+You're welcome Sunny.
+I'm actually due for my break now, but I'll set this conversation aside and leave notes for my fellow tutors.
+You can simply reply to re-activate it and someone will be with you as soon as available
+Thanks John have a good break 😄
+John profile
+Thanks Sunny 😀
+Hi I have added the new line of coded in my settings,py file from line 138 to line 148 do I take out the oldcode from line 131 to 136
+Ed profile
+Hi Sunny, Ed here 👋
+Hope you're well. Sorry for the delay we've got a few tutors off sick today. How are you getting on with John's suggestion?
+Hi Ed good to hear from you, I am good thank you How are you doing, sorry to hear that some of the tutors are off sicj
+I managed to do that Ed
+Ed profile
+I'm good thanks! Hopefully they will all be on the mend soon - it's the season for getting poorly!
+I know I cannot believe we are in september
+Ed profile
+OK, so you shouldn't need the first DATABASES = .... part
+You can remove lines 131-136
+great
+I managed to do that Ed
+Ed profile
+I'm just trying to load up your workspace, but from John's last message it sounds like you were trying to create an env.py to get your local server up and running. Are you now able to load your app through Gitpod?
+https://sundeepbass-supershopv1-6tuyxyxoq9v.ws-eu64.gitpod.io/
+John helped me to set up the env.py file
+Ed profile
+Awesome, and has that allowed you to load your site?
+I am not sure on how to load it Ed the extra bank holiday has made my brain run slower
+Haha, they'll do that :)
+Just the regular old python3 manage.py runserver should get you going :)
+Ed profile
+Looking at your env.py, there will be a couple more environment variables you need to add. The most obviously missing one is SECRET_KEY
+that was the message I got when I tried to open my server
+Ed profile
+OK, that means you need to apply your migrations. Just follow the advice it gives 👍
+sorry Ed how do i set up a secret key in env.py
+Ed profile
+You already have one written in your settings.py, so you'll need to change that so that it's pointing to os.environ['SECRET_KEY']
+SECRET_KEY = os.getenv('SECRET_KEY', '')
+Then in your env.py:
+os.environ['SECRET_KEY'] = 'my_superseCRETkey1497149014091470'
+or whatever you want it to be :)
+Thanks I will give it a go
+Ed profile
+You don't want to expose your secret key in your settings.py like this. Replace with what I posted above. That means it will get your SECRET_KEY from your environment, which is env.py in this case. In Heroku it will be your Heroku config vars.
+Ed profile
+Have another check of what I put in my last message Sunny:
+one change in settings.py
+one addition in env.py
+thanks ed
+i will have another go
+Ed profile
+👍
+We make a variable in settings.py which points to the environment using the dictionary key 'SECRET_KEY'
+We then make an entry in env.py using that dict key and give it the secret value.
+If you're wanting to make use of these other environment variables in your LOCAL project, then you'll need to do the same thing. See how these three variables are set to the values it finds in your environment:
+That will mean you need dictionary entries, and their values, for STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY AND STRIPE_WH_SECRET too.
+Ed profile
+In settings.py:
+SECRET_KEY = os.getenv('SECRET_KEY', '')
+This means, make a variable called 'SECRET_KEY' and get the value from the environment (env.py). If you can't find 'SECRET_KEY' in the environment, use a blank string.
+In env.py:
+os.environ["SECRET_KEY"] = "some_secret_string"
+This is what the SECRET_KEY variable in settings.py is pointing to. In effect, in settings.py your app will see:
+SECRET_KEY = 'some_secret_string'
+Except 'some_secret_string' is coming from a hidden file that only your app can see. This means noone else in the world can see your secret key.
+The same applies to all secret things you want to do - just stick them in your environment and refer to the value found for that dictionary item.
+Thanks Ed I will give it a go
+Ed profile
+OK fab! I need to head to lunch, Sunny so will pop you back in the queue for the next tutor to pick up with.
+If you can let them know where you get to that would be very helpful. From what I can see your app is working locally, but you will need to understand what role the env.py (environment) is playing so that you can add any necessary keys here, and when you come to deploy your app. In your Heroku app, the 'Heroku config vars' act as your local environment, rather than env.py, so you'll need to make sure all the required keys and values are stored there too 👍
+Thank you Ed for all of your kind support Have a good lunch buddy
+Ed profile
+Great, will do. You too Sunny! 👋
+👍
+
+Hi I followed the steps shown by Ed wanted to check if they are correct
+Oisin profile
+Hi Sunny, Oisin here 👋
+﻿Yep that looks good. Just having a look through the chat now. What was the specific issue that you wanted to address in this conversation?
+Hi oisin good to hear from you hope you are well I am trying start off the deployment process for Heroku and I have been following the devtips sheet from slack and I could not uderstand it and both John and Ed were helping me
+I added my products manually in the Django Admin and we were told to follow a certain format for this
+Oisin profile
+Ok perfect, which part of the deployment process were you having trouble with?
+https://code-institute-room.slack.com/files/UPDFEU62U/F02SZ5T16HG/transferring_database_data_from_sqlite_to_heroku_postgres.pdf?origin_team=T0L30B202&origin_channel=C01C4AU8ULA
+I was working on that sheet and found it difficult to follow
+Important!
+Error fix
+If you get the error below during the steps to deployment:
+django.db.utils.OperationalError: FATAL: role "somerandomletters" does not exist
+Please run the following command in the terminal to fix it:
+unset PGHOSTADDR
+A note for creating your database if you didn't use fixtures
+When you come to follow this process for your milestone project, you may not have used a fixtures file to populate your database like the instructor did.
+If this is the case, manually re-creating your database when you come to deploy can take a considerable amount of time. Thankfully, there is a short process you can follow to download your local mysql database and then upload it to postgres:
+Make sure your settings.py file is connected to your sqlite3 database
+Use this command to backup your current database and load it into a db.json file:
+./manage.py dumpdata --exclude auth.permission --exclude contenttypes > db.json
+Connect your settings.py file to your postgres database
+Then use this command to load your data from the db.json file into postgres:
+./manage.py loaddata db.json
+If you would like more information on this process along with a few handy tips, have a look at this DevTip on Slack.
+That is the informaiton they gave us at the start of the video
+Oisin profile
+Ok, if you run your server in gitpod now, are your products there?
+they are not displaying
+it wont let me log into my admin now
+Oisin profile
+Ok, so your products are stored in the sqlite database. Do you want to transfer them to the heroku postgres database?
+I added my products to django admin manually
+Yes I think I have to transfer to the heroku postgres database
+Oisin profile
+Ok, you will need to comment out the DATABASE_URL variable in your env.py, so that your settings will use the sqlite database which contains your products.
+
+is that what i do
+Oisin profile
+Ok perfect, make sure to save the file, then run your server to confirm that the products are there.
+Hi Oisin the products are there
+Oisin profile
+Ok perfect now we're going to run this command to save your data to a json file:
+﻿Make sure to type the command instead of copy/paste
+python3 manage.py dumpdata --exclude auth.permission --exclude contenttypes > db.json
+i will have a go
+Hi oisin I typed it in like that is tha tok
+Yep that's perfect, you can hit enter
+Oisin profile
+That will create a db.json file containing your data
+it gave me an error
+I think there was a space before the second 'exclude'
+Oisin profile
+You can use the up arrow to go to a previous command and remove the space, then hit enter
+ok
+Make sure to remove the space before the second exclude
+You can use the right and left arrows to move the cursor in the terminal
+Oisin profile
+
+Oisin profile
+Make sure to type the command exactly as it is here:
+﻿
+
+is that correct Oisin
+Oisin profile
+Ok perfect, now you can uncomment the DATABASE_URL in your env.py, then save the file
+I did that
+Oisin profile
+Ok now lets load the data into your postgres database:
+﻿
+python3 manage.py loaddata db.json
+2:25 pm
+Oisin profile
+I'm not sure if the previous commands ran correctly, do you mind if I try running them again?
+Please oisin that will be good
+do you want me to put them in the terminal
+Oisin profile
+I've run them so lets run your server now to confirm if the data has been transferred to your postgres database
+do i do python3 manage.py runserver
+yep exactly 🙂
+Oisin profile
+Looks like the products haven't been transferred, I'm going to try to transfer only data from specific apps ok?
+thanklyou
+Oisin profile
+Ok, looks like that has transferred successfully 🙂
+thankyou Oisin you are a star
+Oisin profile
+Glad to help! 🙂 Now you can continue with the rest of the deployment steps as outlined in the course materials.
+Thank you Oisin I will follow the video now you have been a great help have a great day
+😄
+Oisin profile
+You too! 😄
+Help Oisin understand how they’re doing:
+Tutoring at Code Institute profile
+You rated the conversation
+Thanks for letting us know
+The turors Oisin, Ed and John have all helped me today and made me understand how the env.py file works. They have been very supportive and empowered me to learn a lot with perserverance.
+👍
+😄
+Oisin a big thank you to you and to Ed and John I am very grateful to you all
+You are all brilliant tutors
+18w ago. Seen
+Your conversation has ended
+Send us a message
+I found the messages
+Make sure to type the command instead of copy/paste
+python3 manage.py dumpdata --exclude auth.permission --exclude contenttypes > db.json
+i will have a go
+I found that in the original conversation with oisin I thin he used the db json file
+Gemma profile
+Ok, great, I'll try that one 👍
+Sorry Gemma for all this trouble
+Gemma profile
+No problem at all - I'm thinking we delete the superuser - we can always add another, the second file is also not working - can you try it from your side first incase it's logging me out of the heroku db?
+ok so I create a superuser like before
+Gemma profile
+not yet, if you can:
+heroku login -i
+then load the data with the db that Oisin made you :)
+ok I will give it a go
+Gemma profile
+👍 if that doesn't work, we'll delete the superuser and try again :)
+Do I use the command that Oisin gave me with that file as he asked me to write it in and not copy as sometimes that does not work
+Gemma profile
+no, use the command I gave - Oisin's one will extract a copy of your data, and mine uploads it :)
+python3 manage.py loaddata db.json
+thanks
+I will give it a go
+Gemma profile
+Perfect, let me know how you get on :)
+
+shal we create a new superuser
+Gemma profile
+Not yet, I'll delete your current superuser, then try to upload without that there, then we can create a new superuser 👍
+thankyou
+Gemma profile
+ok, all good to try the upload again - exact same process:
+python3 manage.py loaddata db.json
+
+Gemma profile
+and you were logged into heroku in the terminal?
+yes i did log in I can try it again to make sure
+Gemma profile
+It's worth a shot, It seems like it's connecting to your local db, but it's odd because you have the database url in your env.py - is that the up to date one?
+
+I tried it again
+Gemma profile
+How many products do you have on there?
+Iput the new in yesterday from elephant bsql and the old one i commented out below it
+I caanot remember to be precise I think 12 x 10 for each category 120 products
+I am wondering if it is because debug is set to false
+Gemma profile
+I think I've found the culprit in the file - I'm just copying across in a formatted version so that all the profile and admin log entries can be removed
+Brilliant Gemma
+Gemma profile
+Ok, now try this:
+python3 manage.py loaddata db3.json
+This is for the categories and products only, so then you can create users after - does that sound ok?
+brilliant I will give it a go
+Gemma profile
+🤞
+Sorry do you need me to login again with the login command for heroku in my terminal
+just to be on the safe side, that'd be great
+Gemma profile
+Looks like it's working! :
+
+
+your a star gemma
+Gemma I am crying with Joy you really saved my life and my project
+Gemma profile
+Woohoo, I'm so glad that's working for you, Sunny!
+You can go ahead and create a new superuser now and you should be all set - perhaps create a few reviews with the new users 👍
+Yes I will do this and Gemma your dedication and help has been outstanding
+Thank you
+You can also now delete those old db files that were no longer working to tidy things up:
+
+9:00 pm
+Gemma profile
+It's a pleasure, Sunny! Best of luck with getting that submitted! 😊
+Yes great Idea I am very happy
+Gemma profile
+Are you good to go now, shall I get this closed off for you, as I'm also heading off now too :)
+A big thank you and yes please have a great break and a wonderful weekend
+do I delete the old superuser
+when I create the new one
+You won't need to delete anything, just create a new one 👍
+Gemma profile
+Have a lovely weekend, Sunny! 😊👋
+brilliant take care and hank you for being the best tutor you have truly inspired me to do my best
+thank you
+Gemma profile
+You're most welcome, Thanks again! 😊👋
+😄
+🙏
+Help Gemma understand how they’re doing:
+Tutoring at Code Institute profile
+You rated the conversation 
+Thanks for letting us know
+Gemma is a brilliant, excellent and the best tutor. Gemma has been very dedicated and has empowered me to not give up but to be consistent and to have faith that the process does work. I would like a message sent to the CEO and the higher management of how Gemma has provided a very high standard of quality care in her tutoring skills and this has enabled me to learn a lot from how to find the best solution for my project. Gemma has brilliant skills and is very professional and is very supportive of helping me to help myself to learn for myself and to apply what I have learnt this has been a brilliant tutoring session and I will also inform the student care team and my mentor of Gemma's dedication and delivery of a high standard quality tutoring.
+Bot · 45m ago.
+
+Write a reply…
+
+
+
+2
+Jason profile	
+Jason
+Active
+9:56 pm in Sunderland, UK
+Jason profile
+Jason
+Active
+Begin a Tutoring Session
+Tutoring at Code Institute profile
+Please confirm that you have prepared for this session as per the steps on this page: https://code-institute-org.github.io/tutoring-info/guidelines/ 
+You should have:
+A clear description of your issue
+A list of the debugging steps and research you have carried so far 
+Failure to answer all of the bots questions will result in this conversation being closed.
+By clicking "I'm Prepared," you agree to these conditions.
+I'm Prepared
+Your tutoring usage time for this week (in minutes): 12
+Tutoring at Code Institute profile
+Please select one of the following which best describes what you are working on.
+Portfolio Project 5 (Ecommerce)
+Tutoring at Code Institute profile
+Please provide us with your Problem Statement. This is a clear description of the problem that you're currently facing.
+At the very least, you need to tell us what should your code be doing, and what is it actually doing?
+If you are getting an error, please send a screenshot.
+If you are working on a particular file, which file is it, and which lines of code?
+5:17 pm
+Hi tutors, I am following the instructions from the webinair and from the documentation from matt rudge on reel2reel, they are telling us to click the green gitpod button but I can not find it
+Tutoring at Code Institute profile
+What steps have you taken so far to resolve the issue, or to address current gaps in your knowledge?
+Vague answers like "searched on Slack and Google" are not sufficient here. What specific steps have you taken? What code and debugging steps have you tried? What resources have you used (e.g. provide links to StackOverflow questions you have read)?
+watched video
+Tutoring at Code Institute profile
+One final thing. Please share your code with us. 
+If you are working on Gitpod, please set your workspace to shared, and send us the link to it. If you are working on a course challenge, please send the name of the challenge.
+
+Tutoring at Code Institute profile
+Thank you. We will get back to you as soon as possible. You can see how busy tutoring currently is on this page: https://code-institute-org.github.io/tutoring-info/status/
+Note that if you have failed to sufficiently answer any of the above questions, tutors will have to re-ask you for the information, which will use up part of your weekly tutoring time allowance.
+Jason profile
+Hi Sunny, Jason here. Do you have the Gitpod extension installed in your Browser?
+am not sure jason
+good to hear from you
+To the right of the address bar should be an icon that looks like a jigsaw piece.
+﻿
+﻿
+﻿If you can click that, following by Manage Extensions at the bottom of the window.
+
+Jason profile
+If you have the extension installed, you should see it listed:
+﻿
+﻿
+
+
+sorry jason can not locate the jigsaw icon
+
+Jason profile
+Instead, can you select the 3 dots in the top right of the screen, please?
+﻿
+﻿
+
+thanks I followed that and got this screen
+
+Jason profile
+In which case, you do not have the browser extension installed - It can be found here.
+﻿
+﻿It is worth mentioning that the reel2reel process will not work if you are looking to migrate your Heroku Database, as these were deleted on November 28th, 2022.
+Thank you for letting me know Jason, I submitted my project on the 25th of November and it was not migrated then,. What would the best thing to do ?
+Jason profile
+If you did not migrate your Heroku database before it was removed, you will need to link your project to your Elephant SQL database and complete migrations.
+﻿
+﻿Once this is done you will need to populate your database with any required information (Products etc), in the same way you would have done before you submitted your project.
+﻿
+﻿Unfortunately, there isn't any way to recover any information from the old Heroku database.
+I managed to add the extension Jason thank you
+Thanks Jason, I have set up the elephant sql do I just get the database url from there and add it to my env.py file
+
+Jason profile
+Yeah. You'll need to add it to your env.py file in Gitpod to be able to complete your migrations etc.
+﻿
+﻿You'll also need to remember to change your DATABASE_URL config var in the Heroku Dashboard.
+Thank you you are a star Jason, I think I get it know I replace the old database_url with the one from elephantsql and also and that to the heroku config vars and create a new databse_url in that and to run the migration I have to do them in the terminal but I can not remember the migrations command
+Jason profile
+To create your migration files the command is:
+﻿
+﻿python3 manage.py makemigrations
+﻿
+﻿You shouldn't need to do this though, as you will have done this before you deployed your project.
+﻿
+﻿It's worth double checking by adding the --dry-run flag to the end of the command. This will show you if there are any migrations to be made, but won't actually make any changes. The command in full would be:
+﻿
+﻿python3 manage.py makemigrations --dry-run
+﻿
+﻿Assuming there are no other changes to be made, you can migrate your changes to the database with:
+﻿
+﻿python3 manage.py migrate
+﻿
+﻿Or, if you want to see the changes before they are made:
+﻿
+﻿python3 manage.py migrate --plan
+Jason you are a brilliant I have put the databse_url from elephant sql in my env.py file I think it needs to be in brackets, I have also put it in the Heroku config vars do I need that one in brackets also?
+
+Jason profile
+What do you mean, sorry?
+
+in my env.py file the old datebase_url was in brackets I have commented it out below the datbase url and I noticed the one from elephantsql was not in any brackets " " . I was wondering I should stick to the same rule of keeping thee new database_url code in brackets
+and would I alos have to put the elephantsq;l I copied into the heroku config vars would that also need to be in brackets?
+
+I did the dry run migration and I got that in my terminal
+Can you share your Gitpod workspace, please?
+Jason profile
+To share your Gitpod Workspace:
+Click on "Share" in the left bottom corner of your workspace;
+
+It will update to "Shared by" followed by your username:
+
+Then, copy the workspace url in this chat for us to be able to see your code.
+
+https://sundeepbass-supershopv1-6tuyxyxoq9v.ws-eu84.gitpod.io/
+Jason profile
+I'm not sure what you've changed, but it seems to be working now?
+I realised that I did not save it when I made the changes in the env.py file and after saving it seemed to be ok
+Jason profile
+Ah, cool. You should be able to migrate now.
+brilliant Jason I will give it a go and get back to you
+Jason profile
+You're welcome. Have a good evening! :)
+Help Jason understand how they’re doing:
+Tutoring at Code Institute profile
+You rated the conversation 
+Thanks for letting us know
+Jason is a brilliant tutor and he has really empowered me to finding the best solution for my project. I am very grateful for his very kind support and teaching me to learn for myself and this has boosted my confidence.
+Thank you Jason you have been a great help a I very grateful you too have a good and peaceful evening
+I am very grateful for you very kind support
+👍
+1d ago. Not seen yet
+
+Write a reply…
+
+
+2
+Rebecca profile	
+Rebecca
+Away
+9:57 pm in Dublin, Ireland
+Rebecca profile
+Rebecca
+Away
+Begin a Tutoring Session
+Tutoring at Code Institute profile
+Please confirm that you have prepared for this session as per the steps on this page: https://code-institute-org.github.io/tutoring-info/guidelines/ 
+You should have:
+A clear description of your issue
+A list of the debugging steps and research you have carried so far 
+Failure to answer all of the bots questions will result in this conversation being closed.
+By clicking "I'm Prepared," you agree to these conditions.
+I'm Prepared
+Your tutoring usage time for this week (in minutes): 7
+Tutoring at Code Institute profile
+Please select one of the following which best describes what you are working on.
+Portfolio Project 5 (Ecommerce)
+Tutoring at Code Institute profile
+Please provide us with your Problem Statement. This is a clear description of the problem that you're currently facing.
+At the very least, you need to tell us what should your code be doing, and what is it actually doing?
+If you are getting an error, please send a screenshot.
+If you are working on a particular file, which file is it, and which lines of code?
+Hi tutors,
+I have been trying to do the task that was set for me yesterday to get my link working for my project 5. I have been watching the webinair by jo c and harry to set up the elephant sql for my project. I noticed in my Heroku config vars that there was no DATABASE_URL.
+Would I need to copy the DATABASE_URL from my env.py and put it into my config vars settings to get my database to work for my project.
+Tutoring at Code Institute profile
+What steps have you taken so far to resolve the issue, or to address current gaps in your knowledge?
+Vague answers like "searched on Slack and Google" are not sufficient here. What specific steps have you taken? What code and debugging steps have you tried? What resources have you used (e.g. provide links to StackOverflow questions you have read)?
+I have been watching the weinair by jo c and Harry on musing elephantsql
+Tutoring at Code Institute profile
+One final thing. Please share your code with us. 
+If you are working on Gitpod, please set your workspace to shared, and send us the link to it. If you are working on a course challenge, please send the name of the challenge.
+https://sundeepbass-supershopv1-6tuyxyxoq9v.ws-eu84.gitpod.io/
+Tutoring at Code Institute profile
+Thank you. We will get back to you as soon as possible. You can see how busy tutoring currently is on this page: https://code-institute-org.github.io/tutoring-info/status/
+Note that if you have failed to sufficiently answer any of the above questions, tutors will have to re-ask you for the information, which will use up part of your weekly tutoring time allowance.
+3:42 pm
+
+
+Rebecca profile
+Hi Sunny, Rebecca here 👋 How are you? Is this for a resubmission?
+The DATABASE_URL would no longer exist in your config vars, after the removal of the postrgres database. The DATABASE_URL would be from the ElephantSQL now, so you'd need to copy this from there.
+Hope that helps! 😊
+Hi Rebecca good to hear from you How are You?
+Hi yes this is a resubmission I am not bsure how to do this wit elephantsql
+Rebecca profile
+And you! I'm well, thanks for asking 😊
+Have you created the database in ElephantSQL yet?
+I watched the webinair and was a bit confused, is it best to watch it again and start with setting up elephant sql
+Do I just replace the old databse_url with the new one from elephantsql
+Rebecca profile
+Oh dear! Yes, I'd recommend watching it again, just to help you understand it a bit better. And then use that that follow along to create the database in ElephantSQL.
+When you have that, you will get a new url here
+
+Where you will paste into your env.py DATABASE_URL and in Heroku as well.
+I'm hoping that makes sense 😅 Let me know if you have any further questions 😊
+Reebecca you have been brilliant this has helped me alot I am very grateful for your very kind support, I am ok for you to close this ticket and I will be in touch if I need any further help. Have a great day 👍
+Rebecca profile
+It's no problem at all, Sunny!
+Sure thing, you know where we are if you have any further trouble (but I hope you don't encounter any!) 😊
+Thank you, you too 👋
+Help Rebecca understand how they’re doing:
+Tutoring at Code Institute profile
+You rated the conversation 
+Thanks for letting us know
+Rebecca is a brilliant and excelelnt tutor,
+Thankyou Rebecca for your very kind support and best wishes you are an excellent tutor
+Hi Rebecca I wanted to add in the feedback box that you have really empowered me to find a good solution to resolving my problem and that you helped to boost my confidence. I accidentally pressed the return button before I could add this take care and wishing you success and happiness.
+🌟
+Rebecca profile
+Hi Sunny, no worries at all! Thank you so much for the kind words.
+I wish you the same! All the best with the resubmission 👋
+👍
+
+Write a reply…
+
+
+
+
 
 
 ## Debug set to False
