@@ -2269,7 +2269,85 @@ Write a reply…
 
 
 
+2
+Ger profile	
+Ger
+Away
+9:59 pm in Dublin, Ireland
+Ger profile
+Ger
+Away
+Begin a Tutoring Session
+Tutoring at Code Institute profile
+Please confirm that you have prepared for this session as per the steps on this page: https://code-institute-org.github.io/tutoring-info/guidelines/ 
+You should have:
+A clear description of your issue
+A list of the debugging steps and research you have carried so far 
+Failure to answer all of the bots questions will result in this conversation being closed.
+By clicking "I'm Prepared," you agree to these conditions.
+I'm Prepared
+Your tutoring usage time for this week (in minutes): 0
+Tutoring at Code Institute profile
+Please select one of the following which best describes what you are working on.
+Portfolio Project 5 (Ecommerce)
+Tutoring at Code Institute profile
+Please provide us with your Problem Statement. This is a clear description of the problem that you're currently facing.
+At the very least, you need to tell us what should your code be doing, and what is it actually doing?
+If you are getting an error, please send a screenshot.
+If you are working on a particular file, which file is it, and which lines of code?
+Hi tutors,
+Student care and the assessment team asked me to contact the tutors because I submitted my project 5 on the 23rd of November and I will need to resubmit it because the link to my project did not open. They told me it was not classed as a fail but the assessor needed to have the link working for it to be assessed. After submitting my project on the 23rd I was away on retreat and got the messages from the student care team recently. I have also tried to check on slack. When I type python3 manage.py runserver into my terminal I am getting these error messages and on Heroku I am getting a message that my database has been deleted because the free plans have finished.
+Tutoring at Code Institute profile
+What steps have you taken so far to resolve the issue, or to address current gaps in your knowledge?
+Vague answers like "searched on Slack and Google" are not sufficient here. What specific steps have you taken? What code and debugging steps have you tried? What resources have you used (e.g. provide links to StackOverflow questions you have read)?
 
+Tutoring at Code Institute profile
+One final thing. Please share your code with us. 
+If you are working on Gitpod, please set your workspace to shared, and send us the link to it. If you are working on a course challenge, please send the name of the challenge.
+https://sundeepbass-supershopv1-6tuyxyxoq9v.ws-eu84.gitpod.io/
+Tutoring at Code Institute profile
+Thank you. We will get back to you as soon as possible. You can see how busy tutoring currently is on this page: https://code-institute-org.github.io/tutoring-info/status/
+Note that if you have failed to sufficiently answer any of the above questions, tutors will have to re-ask you for the information, which will use up part of your weekly tutoring time allowance.
+
+Hey Sunny, Ger here how are you?
+Ger profile
+I wonder is this issue due to the fact the the database has changed
+hi Gr Thank you I am good how are you buddy?
+Ger profile
+Have you signed up for the github student pack and done all the eco dynos etc?
+Yes Gir it is due to the changes in the database
+I did sign up for the student pack the eco dyno I do not remember because it was in november
+I remember having to submit my card details to heroku
+Ger profile
+Ok so you will need to do a few things
+sign up to the github student pack
+apply the dynos to the apps
+get a elephantsql database
+replace the postgress database with elephantsql
+10:13 am
+Is there some where I can go to do all of this and heroku said that the database would be deleted after 30 days the postgres one
+Yes, you will need to have this in place. then if the database is still in tact we can try and swap out the data
+Ger profile
+You should of received an email from code institute outlining the steps
+ok I will have a look and try to follow the steps and in my local terminal I am getting those errors when I try to open up the app locally
+Ger profile
+Ok what are the errors?
+
+Ya so your database has been deleted I think, you will need to go and get elephantsql and redo all the data etc
+Ger profile
+There should be an email outling these steps on how to fix this
+Thanks Gir I will look for the email and I will get back to you can you close the ticket as this might take me some time
+Ger profile
+No worries, if you are running into issues, please open a new ticket. Nice chatting with you 👋
+Help Ger understand how they’re doing:
+Tutoring at Code Institute profile
+You rated the conversation 
+Thanks for letting us know
+Gir has been excellent he guided me to find the correct resources to resolve the problem
+Good chatting with you also have a good day
+Your conversation has ended
+
+Send us a message
 
 
 ## Debug set to False

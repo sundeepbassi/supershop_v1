@@ -18,7 +18,7 @@
         <div class="col-sm-10 offset-sm-1">
             <h1>Testimonials</h1>
 
-            {% for current_testimonial in testimonials.all %}
+            {% for current_testimonial in testimonials %}
                 {% if current_testimonial.display_on_website %}
                     <div class="testimonial-box rounded-lg">
                         <div class="testimonial-title">{{ current_testimonial.full_name }} from {{ current_testimonial.location }}</div>
