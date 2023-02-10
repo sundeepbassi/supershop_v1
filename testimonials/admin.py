@@ -10,8 +10,11 @@ class TestimonialAdmin(admin.ModelAdmin):
         'sent_on',
         'processed',
     )
+    # actions = ['display_on_website']
 
-    ordering = ('-sent_on',)
+    def display_on_website(self, _request, queryset):
+        queryset.update(approved=True)
+        ordering = ('-sent_on',)
 
 
 admin.site.register(Testimonial, TestimonialAdmin)
