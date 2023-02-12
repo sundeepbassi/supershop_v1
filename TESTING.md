@@ -223,7 +223,7 @@ As a shopper I want to be able  search for a product by name or description so t
 
 - As a shopper I am able to search for the description of a product.  I type in warm into the search bar and there is a number of products that are displayed for me to select more specifically.
 
-- [Search for the descrion of a product](media/warmsearch.png)
+- [Search for the description of a product](media/warmsearch.png)
 
 - The same test was carried out on the 10th of February 2023 and the result was the same as the original when retested.
 
@@ -266,6 +266,29 @@ The review can now be read on product review.
 -  [Review has been deleted from Product Reviews](media/deletedreview.png)
 
 
+On the 12th of February I went through testing the review process again.
+
+-  [User signed up to site](media/tempmailconfirm.png)
+
+-  [Email Confirmation](media/confirmemail.png)
+
+-  [User adding a review](media/addrev.png)
+
+-  [Admin can approve the review](media/adminaddrev.png)
+
+-  [Users review can be viewed on the site after approval from admin](media/apprrev.png)
+
+-  [When the user is logged in again they can either edit or delete the review](media/adddelrev.png)
+
+-  [User has edited the review review](media/editrev.png)
+
+-  [Admin has approved the edited review](media/adminedit.png)
+
+-  [The edited review can be viewed on the site](media/updatedrev.png)
+
+-  [The review can be deleted on the site by the user](media/delrev.png)
+
+-  [The review has been deleted](media/revdeleted.png)
 
 
 
