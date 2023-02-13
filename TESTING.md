@@ -353,6 +353,16 @@ As a shopper I want to be able to  easily enter my payment information so that I
 
 -  [Payment information](media/payment.png)
 
+The test was repeated below on the 13th of February 2023 I realised I needed to add 12345 in the zip code section for stripe to accept the payment this was shown in thhe stripe documentation.
+
+- [Stripe testing](https://stripe.com/docs/testing)
+
+
+-  [Payment information](media/cardpay.png)
+
+
+
+
 
 
 As a shopper I want to be able  to feel my personal and payment information is safe and secure so that I can confidently provide the needed information to make a purchase.
@@ -361,9 +371,20 @@ As a shopper I know that my personal and payment information is safe and secure 
 -  [Card payment](media/cardsafe.png)
 
 
+
 As a shopper I want to be able  to view an order confirmation after checkout so that I can verify that I have not made any mistakes.
 
 -  [Order Information](media/orderinfo.png)
+
+- The same test was carried out on the 13th of February 2023 and the result was the same as the original when retested.
+
+
+-  [Order Information](media/ordconf.png)
+
+
+
+
+
 
 
 
