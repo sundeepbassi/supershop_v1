@@ -323,6 +323,14 @@ As a shopper I want to be able to  see items in my bag I want to buy so that I c
 
 -  [items bought](media/buyprod2.png)
 
+The test was repeated below on the 13th of February 2023.
+
+-  [Items in bag and total](media/buyprod2a.png)
+
+-  [items bought](media/buyproduct.png)
+
+
+
 
 As a shopper I want to be able  to adjust the quantity of individual items in my bag so that I can easily make changes to my purchase before checkout.
 
