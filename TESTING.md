@@ -334,11 +334,16 @@ The test was repeated below on the 13th of February 2023.
 
 As a shopper I want to be able  to adjust the quantity of individual items in my bag so that I can easily make changes to my purchase before checkout.
 
-- As a shopper i can adjust the quantity of individual items in my bag so that I ca easily make changes to my purchase before checkout.
+- As a shopper i can adjust the quantity of individual items in my bag so that I can easily make changes to my purchase before checkout.
 
 -  [I can click the - or + buttons for the quantity of each item](media/quan1.png)
 
 -  [When I click the update button the quantity and price will adjust](media/quan2.png)
+
+The test was repeated below on the 13th of February 2023.
+
+-  [When I click the update button the quantity and price will adjust](media/quan2a.png)
+
 
 
 
