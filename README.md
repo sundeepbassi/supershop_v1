@@ -2,6 +2,19 @@
 
 During this project I was unfortunately made homeless and it was the kindness of my family and friends and my Doctor and the student support team at the code institute that gave me the support that I needed to get through.  I learnt alot from this process and I was determined that I would not give up and carry on with the project to the best of my ability.
 
+I was informed by student care and assessments team that I would need to resubmit the project as my link was not working due to issues with Heroku deleting databases.
+
+I managed with the kind help of the tutors and especially Gemma to reload my database and reset it with Elephant SQl and Heroku.
+
+I informed my mentor about the above on the 13th of February and we checked my project and he informed me that as long as the code had not been changed the original testing for the HTMl, CSS, Javascript and Python would remain valid.  
+
+I informed my mentor and showed him that I had retested the user stories for the site and this was carried out to ensure that the functionality on the site still worked.
+
+My mentor was happy and we felt it was worth submitting now for assessment.
+
+I also checked with my mentor about the debug=false and he was happy that it was set to false for submitting for assessment.
+
+
 ## Introduction
 
 Bubba the Supershop for dog products was inpired by a petblog that was created for a friend Shanti.  Shantis devotion and care for animal welfare and her pet dog amazed me and after doing the petblog we thought about how Shantis experience in purchasing products for her pet dog were the next step in sharing her experience of caring about her pet dog.  Shanti had a wealth of experience in pet care and when we first discussed this e-commerce website Shanti was able to give an extensive list of products that could be considered for selling.
