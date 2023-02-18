@@ -116,7 +116,7 @@ As a site user I want to be able to  login or logout without any difficulties so
 
 - The site user is successfully logged in.
 
-- [User is successfully loged in](media/succlogin.png)
+- [User is successfully logged in](media/succlogin.png)
 
 
 
@@ -419,6 +419,9 @@ As a store owner I want to be able Delete a product so that I can remove items t
 -  [Delete Product Text](media/editprod.png)
 
 - The same test was carried out on the 10th of February 2023 and the result was the same as the original when retested.
+
+-  [Delete Product Text](media/delprod.png)
+
 
 
 

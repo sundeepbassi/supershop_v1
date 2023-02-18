@@ -6,13 +6,15 @@ I was informed by student care and assessments team that I would need to resubmi
 
 I managed with the kind help of the tutors and especially Gemma to reload my database and reset it with Elephant SQl and Heroku.
 
-I informed my mentor about the above on the 13th of February and we checked my project and he informed me that as long as the code had not been changed the original testing for the HTMl, CSS, Javascript and Python would remain valid.  
+I informed my mentor about the above on the 13th of February 2023 and we checked my project and he informed me that as long as the code had not been changed the original testing for the HTMl, CSS, Javascript and Python would remain valid.  
 
 I informed my mentor and showed him that I had retested the user stories for the site and this was carried out to ensure that the functionality on the site still worked.
 
 My mentor was happy and we felt it was worth submitting now for assessment.
 
 I also checked with my mentor about the debug=false and he was happy that it was set to false for submitting for assessment.
+
+on the 16th of February 2023 I had a meeting with my personal tutor Mike Y and I explained what my mentor had said about not having to do HTML, CSS, Javascript or Python testing throught the validators as the original code had not been changed and had already been validated.  I did say that the code institute tutors had asked me to alter some of my code in testimonials admin.py and models.py which my personal tutor checked and rectified the errors and he said it was good to submit.
 
 
 ## Introduction
