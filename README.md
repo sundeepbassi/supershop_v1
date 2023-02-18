@@ -16,6 +16,9 @@ I also checked with my mentor about the debug=false and he was happy that it was
 
 on the 16th of February 2023 I had a meeting with my personal tutor Mike Y and I explained what my mentor had said about not having to do HTML, CSS, Javascript or Python testing throught the validators as the original code had not been changed and had already been validated.  I did say that the code institute tutors had asked me to alter some of my code in testimonials admin.py and models.py which my personal tutor checked and rectified the errors and he said it was good to submit.
 
+My personal tutor checked the site again and was happy with it.
+
+
 
 ## Introduction
 
